@@ -1,0 +1,115 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3518366, 2018-01-30T13:33:31-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: EgyptienneURW-Lig by URW++
+ * URL: https://www.myfonts.com/fonts/urw/egyptienne/urw-egyptienne-t-light/
+ * Copyright: Copyright 2010 URW++ Design &amp; Development Hamburg
+ * Licensed pageviews: 100,000
+ * 
+ * Webfont: HumstSlab712BTWXX-Roman by Bitstream
+ * URL: https://www.myfonts.com/fonts/bitstream/humanist-slabserif-712/humanist-slabserif-712/
+ * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * Licensed pageviews: 100,000
+ * 
+ * Webfont: HumstSlab712BTWXX-Italic by Bitstream
+ * URL: https://www.myfonts.com/fonts/bitstream/humanist-slabserif-712/italic/
+ * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * Licensed pageviews: 100,000
+ * 
+ * Webfont: HumstSlab712BTWXX-Bold by Bitstream
+ * URL: https://www.myfonts.com/fonts/bitstream/humanist-slabserif-712/bold/
+ * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * Licensed pageviews: 100,000
+ * 
+ * Webfont: FuturaLTPro-BoldOblique by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/futura/pro-bold-oblique/
+ * Copyright: Copyright &#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * Webfont: FuturaLTPro-Bold by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/futura/pro-bold/
+ * Copyright: Copyright &#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3518366
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+/* @import url("/count/35af9e"); */
+
+  
+@font-face {
+  font-family: 'Egyptienne';
+  src: url('../fonts/35AF9E_0_0.eot');
+  src: url('../fonts/35AF9E_0_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/35AF9E_0_0.woff2') format('woff2'),
+    url('../fonts/35AF9E_0_0.woff') format('woff'),
+    url('../fonts/35AF9E_0_0.ttf') format('truetype');
+}
+  
+@font-face {
+  font-family: 'Humanist';
+  src: url('../fonts/35AF9E_1_0.eot');
+  src: url('../fonts/35AF9E_1_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/35AF9E_1_0.woff2') format('woff2'),
+    url('../fonts/35AF9E_1_0.woff') format('woff'),
+    url('../fonts/35AF9E_1_0.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+@font-face {
+  font-family: 'Humanist';
+  src: url('../fonts/35AF9E_2_0.eot');
+  src: url('../fonts/35AF9E_2_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/35AF9E_2_0.woff2') format('woff2'),
+    url('../fonts/35AF9E_2_0.woff') format('woff'),
+    url('../fonts/35AF9E_2_0.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+ 
+@font-face {
+  font-family: 'Humanist';
+  src: url('../fonts/35AF9E_3_0.eot');
+  src: url('../fonts/35AF9E_3_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/35AF9E_3_0.woff2') format('woff2'),
+    url('../fonts/35AF9E_3_0.woff') format('woff'),
+    url('../fonts/35AF9E_3_0.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+ 
+@font-face {
+  font-family: 'Futura Bold';
+  src: url('../fonts/35AF9E_4_0.eot');
+  src: url('../fonts/35AF9E_4_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/35AF9E_4_0.woff2') format('woff2'),
+    url('../fonts/35AF9E_4_0.woff') format('woff'),
+    url('../fonts/35AF9E_4_0.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+ 
+@font-face {
+  font-family: 'Futura Bold';
+  src: url('../fonts/35AF9E_5_0.eot');
+  src: url('../fonts/35AF9E_5_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/35AF9E_5_0.woff2') format('woff2'),
+    url('../fonts/35AF9E_5_0.woff') format('woff'),
+    url('../fonts/35AF9E_5_0.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+ 

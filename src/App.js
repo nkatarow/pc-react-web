@@ -5,9 +5,10 @@ import {
   Switch,
 } from 'react-router-dom';
 
+import Homepage from './containers/Homepage/Homepage';
+
 import UtilityNav from './components/UtilityNav/UtilityNav';
 import PrimaryNav from './components/PrimaryNav/PrimaryNav';
-import Homepage from './containers/Homepage/Homepage';
 
 const App = () => (
   <Router>
@@ -18,7 +19,7 @@ const App = () => (
       </header>
       <Switch>
         <Route exact path="/" component={Homepage} />
-        <Route path="/" component="" />
+        <Route path="/" component={Homepage} />
       </Switch>
     </div>
   </Router>
