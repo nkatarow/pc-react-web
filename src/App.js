@@ -1,29 +1,65 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
   Switch,
 } from 'react-router-dom';
 
-import Homepage from './containers/Homepage/Homepage';
+import Homepage from './components/pages/Homepage';
+import Header from './components/organisms/Header/';
 
-import UtilityNav from './components/UtilityNav/UtilityNav';
-import PrimaryNav from './components/PrimaryNav/PrimaryNav';
+export default class App extends Component {
+  state = {
+    dimensions: {
+      width: window.innerWidth,
+      height: window.innerHeight,
+    },
+    isMobile: true,
+  }
 
-const App = () => (
-  <Router>
-    <div className="App">
-      <header className="App-header">
-        <UtilityNav />
-        <PrimaryNav />
-      </header>
-      <Switch>
-        <Route exact path="/" component={Homepage} />
-        <Route path="/" component={Homepage} />
-      </Switch>
-    </div>
-  </Router>
-);
+  componentDidMount() {
+    this.updateDimensions();
+    window.addEventListener('resize', this.updateDimensions.bind(this));
+  }
 
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateDimensions.bind(this));
+  }
 
-export default App;
+  updateDimensions() {
+    let newDimensions = { ...this.state.dimensions };
+    let newIsMobile = this.state.dimensions.isMobile;
+
+    if (window.innerWidth >= 800 && this.state.isMobile) {
+      newIsMobile = false;
+    } else {
+      newIsMobile = true;
+    }
+
+    newDimensions = {
+      width: window.innerWidth,
+      height: window.innerHeight,
+    };
+
+    this.setState({
+      dimensions: newDimensions,
+      isMobile: newIsMobile,
+    });
+  }
+
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Header isMobile={this.state.isMobile} />
+
+          <Switch>
+            <Route exact path="/" component={Homepage} />
+            <Route path="/" component={Homepage} />
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
+}
+

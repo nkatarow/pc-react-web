@@ -24,6 +24,7 @@ export const EGYPT = '"Egyptienne", serif';
 /* Breakpoints */
 export const BP_LARGE = '50em';
 
+export const MAX_WIDTH = '1180px';
 
 /*
 $bp-small: 24em; // 384px
