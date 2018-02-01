@@ -9,7 +9,7 @@ export const Topbar = styled.div`
   border-bottom: 1px solid ${globals.GRAY_1};
   display: flex;
   flex-direction: row;
-  padding: 2em;
+  padding: 5%;
   
   h2 {
     display: inline-block;

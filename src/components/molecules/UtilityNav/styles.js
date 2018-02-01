@@ -20,7 +20,7 @@ export const Utility = styled.nav`
       margin-bottom: 0.25em;
       letter-spacing: .2em;
       order: 2;
-      padding: 1em 1.25em;
+      padding: 1em 5%;
       text-decoration: none;
       text-transform: uppercase;
     

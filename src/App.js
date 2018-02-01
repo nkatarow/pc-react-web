@@ -7,6 +7,7 @@ import {
 
 import Homepage from './components/pages/Homepage';
 import Header from './components/organisms/Header/';
+import Footer from './components/organisms/Footer/';
 
 export default class App extends Component {
   state = {
@@ -57,6 +58,8 @@ export default class App extends Component {
             <Route exact path="/" component={Homepage} />
             <Route path="/" component={Homepage} />
           </Switch>
+
+          <Footer />
         </div>
       </Router>
     );

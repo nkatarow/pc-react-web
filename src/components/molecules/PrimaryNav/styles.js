@@ -14,7 +14,7 @@ export const Nav = styled.nav`
     font-size: 1.5em;
     letter-spacing: .1em;
     margin-bottom: 0.1em;
-    padding: 1em 1.25em;
+    padding: 1em 5%;
     text-decoration: none;
     text-transform: uppercase;
     transition: color 250ms ease;
