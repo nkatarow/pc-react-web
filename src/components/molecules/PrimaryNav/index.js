@@ -19,7 +19,7 @@ const PrimaryNav = props => (
     }
     <nav>
       <Link to="/health-ems">Health EMS</Link>
-      <Link to="/lifenet-systems">LifeNet System</Link>
+      <Link to="/lifenet-system">LifeNet System</Link>
       <Link to="/code-stat">Code-Stat</Link>
       <Link to="/homesolutions-net">Homesolutions.net</Link>
       <Link to="/professional-services">Professional Services</Link>

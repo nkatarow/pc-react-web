@@ -1,0 +1,29 @@
+@import url(../../_settings/_variables.css);
+.hero .hero-image img {
+  height: auto;
+  width: 100%; }
+
+.hero .hero-copy {
+  padding: 10% 5%;
+  text-align: center; }
+  .hero .hero-copy .hero-title {
+    margin-bottom: 1em; }
+
+.hero p {
+  color: var(--scorpion); }
+
+@media screen and (min-width: 50em) {
+  .hero {
+    position: relative; }
+    .hero .hero-copy {
+      left: 50%;
+      max-width: var(--max-width);
+      position: absolute;
+      text-align: left;
+      top: 0;
+      transform: translateX(-50%);
+      width: 100%; }
+      .hero .hero-copy .hero-title {
+        max-width: 45%; }
+      .hero .hero-copy p {
+        max-width: 30%; } }

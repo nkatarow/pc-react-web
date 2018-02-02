@@ -5,7 +5,12 @@ import {
   Switch,
 } from 'react-router-dom';
 
-import Homepage from './components/templates/Homepage';
+import Homepage from './components/templates/Homepage/';
+import HealthEMS from './components/templates/HealthEMS/';
+import Lifenet from './components/templates/Lifenet/';
+import Codestat from './components/templates/Codestat/';
+import Homesolutions from './components/templates/Homesolutions/';
+
 import Header from './components/organisms/Header/';
 import Footer from './components/organisms/Footer/';
 
@@ -55,8 +60,11 @@ export default class App extends Component {
           <Header isMobile={this.state.isMobile} />
 
           <Switch>
-            <Route exact path="/" component={Homepage} />
-            <Route path="/" component={Homepage} />
+            <Route path="/" exact render={() => (<Homepage isMobile={this.state.isMobile} />)} />
+            <Route path="/health-ems"render={() => (<HealthEMS isMobile={this.state.isMobile} />)} />
+            <Route path="/lifenet-system"render={() => (<Lifenet isMobile={this.state.isMobile} />)} />
+            <Route path="/code-stat"render={() => (<Codestat isMobile={this.state.isMobile} />)} />
+            <Route path="/homesolutions-net"render={() => (<Homesolutions isMobile={this.state.isMobile} />)} />
           </Switch>
 
           <Footer />
@@ -65,4 +73,3 @@ export default class App extends Component {
     );
   }
 }
-
