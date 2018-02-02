@@ -1,8 +1,10 @@
-@import url(../../_settings/_variables.css);
+@import '../../_settings/_variables.css';
+
 .primary {
   background-color: var(--white);
   order: 1;
-  width: 100vw; }
+  width: 100vw;
+}
 
 nav a {
   background-color: var(--gallery);
@@ -15,9 +17,12 @@ nav a {
   padding: 1em 5%;
   text-decoration: none;
   text-transform: uppercase;
-  transition: color 250ms ease; }
-  nav a:last-child {
-    margin-bottom: 0; }
+  transition: color 250ms ease;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
 
 .branding-bar {
   display: flex;
@@ -25,24 +30,43 @@ nav a {
   justify-content: space-between;
   margin: 0 auto;
   max-width: var(--max-width);
-  padding: 3em 0; }
-  .branding-bar a {
-    text-decoration: none; }
-    .branding-bar a h2 {
-      transition: color 250ms ease; }
-    .branding-bar a:hover h2, .branding-bar a:focus h2 {
-      color: var(--selective-yellow); }
+  padding: 3em 0;
+
+  a {
+    text-decoration: none;
+
+    h2 {
+      transition: color 250ms ease;
+    }
+
+    &:hover,
+    &:focus {
+      h2 {
+        color: var(--selective-yellow);
+      }
+    }
+  }
+}
 
 @media screen and (min-width: 50em) {
   .primary {
-    order: 2; }
+    order: 2;
+  }
+
   nav {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    max-width: var(--max-width); }
-    nav a {
+    max-width: var(--max-width);
+
+    a {
       background-color: var(--white);
-      padding: 0 2em 0 0; }
-      nav a:hover, nav a:focus {
-        color: var(--selective-yellow); } }
+      padding: 0 2em 0 0;
+
+      &:hover,
+      &:focus {
+        color: var(--selective-yellow);
+      }
+    }
+  }
+}

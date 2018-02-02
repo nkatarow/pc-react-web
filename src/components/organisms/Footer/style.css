@@ -1,86 +1,71 @@
-
+@import url(../../_settings/_variables.css);
 footer {
   background-color: var(--mine-shaft);
   color: var(--white);
   font-size: 1.3em;
-  padding: 10% 5%;
-}
+  padding: 10% 5%; }
   footer > div {
     display: flex;
-    flex-wrap: wrap;
-  }
-  
+    flex-wrap: wrap; }
   footer a {
     color: var(--white);
     text-decoration: none;
-    transition: color 250ms ease;
-  }  
-    footer a svg .st0 { 
-      fill: var(--white); 
-      transition: fill 250ms ease;
-    }
+    transition: color 250ms ease; }
+    footer a svg .st0 {
+      fill: var(--white);
+      transition: fill 250ms ease; }
+    footer a:hover, footer a:focus {
+      color: var(--selective-yellow); }
+      footer a:hover svg .st0, footer a:focus svg .st0 {
+        fill: var(--selective-yellow); }
 
-    footer a:hover,
-    footer a:focus {
-      color: var(--yellow);
-    }
-      footer a:hover svg .st0,
-      footer a:focus svg .st0 { 
-        fill: var(--yellow); 
-      }
-  
-
-.stryker { width: 50%; }
+.stryker {
+  width: 50%; }
   .stryker small {
     color: var(--gallery);
     display: block;
     font-size: 1em;
-    margin-top: 0.25em;
-  }
-  
-.follow { width: 50%; }
+    margin-top: 0.25em; }
+
+.follow {
+  width: 50%; }
   .follow h2 {
     font-size: 1.3em;
     font-weight: normal;
-    margin: 0 0 0.5em;
-  }
-    
-  .follow a { margin-right: 1em; }
-  
-.legal { 
+    margin: 0 0 0.5em; }
+  .follow a {
+    margin-right: 1em; }
+
+.legal {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 4em;
-  width: 100%; 
-}  
+  width: 100%; }
   .legal a {
     display: inline-block;
-    padding-bottom: 1.5em;
-  }
-    legal a:last-child { padding-bottom: 0; }
-  
+    padding-bottom: 1.5em; }
+    .legal a:last-child {
+      padding-bottom: 0; }
 
 @media screen and (min-width: 50em) {
   footer {
     font-size: 1.6em;
-    padding: 5%;
-  }  
+    padding: 5%; }
     footer > div {
       margin: 0 auto;
-      max-width: var(--max-width);
-    }
-    
-    .stryker, .follow, .legal { width: 33.333333%; }
-    .stryker small { margin-top: 1em; }
-    .follow h2 { margin-bottom: 1em; }
-    
-    .legal {
+      max-width: var(--max-width); }
+  .stryker,
+  .follow,
+  .legal {
+    width: 33.333333%; }
+  .stryker small {
+    margin-top: 1em; }
+  .follow h2 {
+    margin-bottom: 1em; }
+  .legal {
+    display: block;
+    margin-top: 0; }
+    .legal a {
       display: block;
-      margin-top: 0;
-    }  
-      .legal a { 
-        display: block; 
-        padding-bottom: 1em;
-      }
-}
+      padding-bottom: 1em; } }

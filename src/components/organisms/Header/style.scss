@@ -1,17 +1,22 @@
-@import url(../../_settings/_variables.css);
+@import '../../_settings/_variables.css';
+
 header {
-  border-top: 7px solid var(--selective-yellow); }
+  border-top: 7px solid var(--selective-yellow);
+}
 
 .top-bar {
   border-bottom: 1px solid var(--cod-gray);
   display: flex;
   flex-direction: row;
-  padding: 5%; }
-  .top-bar h2 {
+  padding: 5%;
+
+  h2 {
     display: inline-block;
     font-family: var(--futura);
     font-size: 1.7em;
-    margin: 0 0 0 1em; }
+    margin: 0 0 0 1em;
+  }
+}
 
 #nav-container {
   background-color: var(--mine-shaft);
@@ -22,14 +27,21 @@ header {
   overflow: hidden;
   position: absolute;
   top: 66px;
-  transition: height 250ms ease; }
-  #nav-container.open {
-    height: 100vh; }
+  transition: height 250ms ease;
+
+  &.open {
+    height: 100vh;
+  }
+}
 
 @media screen and (min-width: 50em) {
   #nav-container {
     background-color: var(--white);
     position: relative;
-    top: 0; }
-    #nav-container.open {
-      height: auto; } }
+    top: 0;
+
+    &.open {
+      height: auto;
+    }
+  }
+}

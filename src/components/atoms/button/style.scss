@@ -1,4 +1,5 @@
-@import url(../../_settings/_variables.css);
+@import '../../_settings/_variables.css';
+
 .button {
   appearance: none;
   border: 2px solid;
@@ -13,27 +14,41 @@
   position: relative;
   text-transform: uppercase;
   transition: background-color 250ms ease, border-color 250ms ease, color 250ms ease;
-  width: auto; }
+  width: auto;
+}
 
+// Themes
 .default {
   background-color: var(--selective-yellow);
-  border-color: var(--selective-yellow); }
-  .default:hover, .default:focus {
+  border-color: var(--selective-yellow);
+
+  &:hover,
+  &:focus {
     background-color: var(--white);
-    border-color: var(--white); }
-  .default:disabled {
+    border-color: var(--white);
+  }
+
+  &:disabled {
     background-color: var(--silver);
     border-color: var(--silver);
     color: var(--gray);
-    cursor: default; }
+    cursor: default;
+  }
+}
 
 .outlined {
   background-color: transparent;
-  border-color: var(--selective-yellow); }
-  .outlined:hover, .outlined:focus {
-    background-color: var(--selective-yellow); }
-  .outlined:disabled {
+  border-color: var(--selective-yellow);
+
+  &:hover,
+  &:focus {
+    background-color: var(--selective-yellow);
+  }
+
+  &:disabled {
     background-color: var(--silver);
     border-color: var(--gray);
     color: var(--gray);
-    cursor: default; }
+    cursor: default;
+  }
+}
