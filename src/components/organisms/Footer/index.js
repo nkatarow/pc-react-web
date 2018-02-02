@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import StrykerLogo from './stryker-logo.svg';
-
-import Foot from './style';
+import './style.css';
 
 const Footer = () => (
-  <Foot>
+  <footer>
     <div>
       <div className="stryker">
         <Link to="https://www.stryker.com/us/en/index.html" target="_blank">
@@ -99,7 +97,7 @@ const Footer = () => (
         <Link to="#">Privacy Policy</Link>
       </div>
     </div>
-  </Foot>
+  </footer>
 );
 
 export default Footer;

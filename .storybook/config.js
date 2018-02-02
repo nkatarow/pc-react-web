@@ -1,10 +1,16 @@
-import { configure } from '@storybook/react';
-import '../src/_ui/css/base.css'
+import { configure, addDecorator } from '@storybook/react'
+import { withInfo, setDefaults } from '@storybook/addon-info'
 
+import './style.css'
+
+const req = require.context('../src/', true, /stories\.js$/)
 function loadStories() {
-  require('../src/stories/');
-  require('../src/stories/Button');
-  require('../src/stories/Typography');
+  req.keys().forEach(req)
 }
 
-configure(loadStories, module);
+setDefaults({
+  inline: true,
+})
+
+addDecorator((story, context) => withInfo(context.kind)(story)(context))
+configure(loadStories, module)

@@ -1,23 +1,50 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
-import { Btn } from './styles';
+import classNames from 'classnames';
+import styles from './style.css';
 
-export default class Button extends PureComponent {
-  clickHandler = () => {
-    console.log(this.props.action);
-  }
+export const ButtonType = {
+  BUTTON: 'button',
+  RESET: 'reset',
+  SUBMIT: 'submit',
+};
 
-  render() {
-    return (
-      <Btn className={this.props.type} onClick={this.clickHandler}>
-        {this.props.children}
-      </Btn>
-    );
-  }
-}
+export const ButtonTheme = {
+  DEFAULT: 'default',
+  OUTLINED: 'outlined',
+};
+
+const Button = (props) => {
+  const classProps = classNames(
+    styles.button,
+    props.type,
+    props.theme,
+    props.className,
+    { disabled: props.disabled },
+  );
+
+  return (
+    <button type={props.type} className={classProps} onClick={props.onClick} disabled={props.disabled}>
+      {props.children}
+    </button>
+  );
+};
+
+Button.defaultProps = {
+  disabled: false,
+  className: '',
+  onClick: () => {},
+  type: ButtonType.BUTTON,
+  theme: ButtonTheme.DEFAULT,
+};
 
 Button.propTypes = {
-  type: PropTypes.string.isRequired,
-  action: PropTypes.string.isRequired,
+  type: PropTypes.string,
+  className: PropTypes.string,
+  theme: PropTypes.string,
+  onClick: PropTypes.func,
+  disabled: PropTypes.bool,
   children: PropTypes.string.isRequired,
 };
+
+export default Button;

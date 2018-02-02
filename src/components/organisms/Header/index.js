@@ -1,9 +1,9 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import HamburgerMenu from '../../../components/atoms/Hamburger/';
+import HamburgerMenu from '../../../components/atoms/hamburger/';
 import UtilityNav from '../../../components/molecules/UtilityNav/';
 import PrimaryNav from '../../../components/molecules/PrimaryNav/';
-import { Head, Topbar, Navigation } from './styles';
+import './style.css';
 
 export default class Header extends PureComponent {
   state = {
@@ -19,31 +19,31 @@ export default class Header extends PureComponent {
   }
 
   toggleNav = (newState) => {
-    if (newState !== this.state.isOpen) {
+    if (this.props.isMobile && newState !== this.state.isOpen) {
       this.setState({ isOpen: newState });
     }
-
-    return newState;
   };
 
   render() {
+    let navContainerClass = '';
+    if (this.state.isOpen) { navContainerClass = 'open'; }
     return (
-      <Head>
+      <header>
         { this.props.isMobile &&
-          <Topbar>
+          <div className="top-bar">
             <HamburgerMenu
               status={this.state.isOpen}
-              toggle={() => this.toggleNav(!this.state.isOpen)}
+              onClick={() => this.toggleNav(!this.state.isOpen)}
             />
             <h2>Physio-Control Data Solutions</h2>
-          </Topbar>
+          </div>
         }
 
-        <Navigation className={this.state.isOpen && 'open'}>
+        <div id="nav-container" className={navContainerClass}>
           <UtilityNav />
           <PrimaryNav isMobile={this.props.isMobile} />
-        </Navigation>
-      </Head>
+        </div>
+      </header>
     );
   }
 }

@@ -1,0 +1,49 @@
+@import '../../_settings/_variables.css';
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  line-height: 1em;
+  margin: 0;
+}
+
+/* Themes */
+.page-title {
+  font-size: 5em;
+  font-family: var(--egypt);
+}
+
+.hero-title {
+  font-size: 3em;
+  font-family: var(--egypt);
+}
+
+.section-title {
+  font-size: 2.5em;
+  font-family: var(--futura);
+}
+
+.headline {
+  font-size: 2.1em;
+  font-family: var(--futura);
+}
+
+.subhead {
+  font-size: 1.8em;
+  font-family: var(--futura);  
+}
+
+.context-head {
+  border-bottom: 2px solid;
+  display: inline-block;
+  font-size: 1.3em;
+  font-family: var(--futura);
+  text-transform: uppercase;  
+}
+
+@media screen and (min-width: 50em) {
+  .page-title { font-size: 7.8em; }
+  .hero-title { font-size: 5em; }
+  .section-title { font-size: 4em; }
+  .headline { font-size: 2.6em; }
+  .subhead { font-size: 2.1em; }
+}

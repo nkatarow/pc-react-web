@@ -1,0 +1,37 @@
+header { border-top: 7px solid var(--yellow); }
+
+.top-bar {
+  border-bottom: 1px solid var(--cod-gray);
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+}  
+  .top-bar h2 {
+    display: inline-block;
+    font-family: var(--futura);
+    font-size: 1.7em;
+    margin: 0 0 0 1em;
+  }
+
+#nav-container {
+  background-color: var(--mine-shaft);
+  display: flex;
+  flex-direction: column;
+  height: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 66px;
+  transition: height 250ms ease;
+}  
+  #nav-container.open { height: 100vh; }
+
+
+@media screen and (min-width: 50em) {
+  #nav-container {
+    background-color: var(--white);
+    position: relative;
+    top: 0;
+  }
+    #nav-container.open { height: auto; }
+}

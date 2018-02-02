@@ -1,21 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import Header from '../../atoms/Header/';
+import Title from '../../atoms/title/';
 import StrykerLogo from './stryker-logo.svg';
-import { Nav, BrandingBar } from './styles';
+import './style.css';
 
 const PrimaryNav = props => (
-  <Nav>
+  <div className="primary">
     { !props.isMobile &&
-      <BrandingBar>
+      <div className="branding-bar">
         <Link to="/">
-          <Header tag="h2" appearance="h3">Data Solutions</Header>
+          <Title tag="h2" theme="section-title">Data Solutions</Title>
         </Link>
         <Link to="https://www.stryker.com/us/en/index.html" target="_blank">
           <img src={StrykerLogo} alt="Stryker" />
         </Link>
-      </BrandingBar>
+      </div>
     }
     <nav>
       <Link to="/health-ems">Health EMS</Link>
@@ -25,7 +25,7 @@ const PrimaryNav = props => (
       <Link to="/professional-services">Professional Services</Link>
       <Link to="/contact-us">Contact Us</Link>
     </nav>
-  </Nav>
+  </div>
 );
 
 PrimaryNav.propTypes = {

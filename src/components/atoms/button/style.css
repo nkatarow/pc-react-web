@@ -1,0 +1,54 @@
+@import '../../_settings/_variables.css';
+
+.button {
+  appearance: none;
+  border: 2px solid;
+  cursor: pointer;
+  display: block;
+  font-size: 1.4em;
+  font-family: var(--futura);
+  height: auto;
+  outline: 0;
+  letter-spacing: .07em;
+  padding: 1em 3em;
+  position: relative;
+  text-transform: uppercase;
+  transition:
+    background-color 250ms ease,
+    border-color 250ms ease,
+    color 250ms ease;
+  width: auto;
+}
+  
+/* Themes */
+.default { 
+  background-color: var(--yellow); 
+  border-color: var(--yellow);
+}
+  .default:hover,
+  .default:focus {
+    background-color: var(--white);    
+    border-color: var(--white);
+  }
+  .default:disabled {
+    background-color: var(--silver);
+    border-color: var(--silver);
+    color: var(--gray);
+    cursor: default;
+  }
+
+.outlined {
+  background-color: transparent;
+  border-color: var(--yellow);
+}
+  .outlined:hover,
+  .outlined:focus {
+    background-color: var(--yellow);    
+  }
+  .outlined:disabled {
+    border-color: var(--gray);
+    color: var(--gray);
+    background-color: var(--silver);
+    cursor: default;
+  }
+  

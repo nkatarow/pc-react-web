@@ -1,0 +1,39 @@
+@import './_normalize.css';
+@import './_variables.css';
+@import './_fonts.css';
+
+body {
+  color: var(--black);
+  font-family: var(--humanist);
+  font-size: 62.5%;
+}
+
+/* Paragraph Types */
+p { font-size: 1.6em; }
+p.medium { font-size: 1.8em; }
+p.large { font-size: 2em; }
+
+/* Utility Colors */
+.black { color: var(--black); }
+.cod-gray { color: var(--cod-gray); }
+.mine-shaft { color: var(--mine-shaft); }
+.scorpion { color: var(--scorpion); }
+.gray { color: var(--gray); }
+.silver-chalice { color: var(--silver-chalice); }
+.silver { color: var(--silver); }
+.gallery { color: var(--gallery); }
+.white { color: var(--white); }
+
+/* Brand Colors */
+.yellow { color: var(--yellow); }
+.burnt { color: var(--burnt); }
+.purple { color: var(--purple); }
+.blue { color: var(--blue); }
+.green { color: var(--green); }
+
+@media screen and (min-width: 50em) {
+  /* Paragraph Types */
+  p { font-size: 1.8em; }  
+  p.medium { font-size: 2.1em; }
+  p.large { font-size: 2.4em; }
+}

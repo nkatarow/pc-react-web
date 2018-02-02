@@ -5,7 +5,7 @@ import {
   Switch,
 } from 'react-router-dom';
 
-import Homepage from './components/pages/Homepage';
+import Homepage from './components/templates/Homepage';
 import Header from './components/organisms/Header/';
 import Footer from './components/organisms/Footer/';
 

@@ -51,64 +51,64 @@
   
 @font-face {
   font-family: 'Egyptienne';
-  src: url('../fonts/35AF9E_0_0.eot');
-  src: url('../fonts/35AF9E_0_0.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/35AF9E_0_0.woff2') format('woff2'),
-    url('../fonts/35AF9E_0_0.woff') format('woff'),
-    url('../fonts/35AF9E_0_0.ttf') format('truetype');
+  src: url('./fonts/35AF9E_0_0.eot');
+  src: url('./fonts/35AF9E_0_0.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/35AF9E_0_0.woff2') format('woff2'),
+    url('./fonts/35AF9E_0_0.woff') format('woff'),
+    url('./fonts/35AF9E_0_0.ttf') format('truetype');
 }
   
 @font-face {
   font-family: 'Humanist';
-  src: url('../fonts/35AF9E_1_0.eot');
-  src: url('../fonts/35AF9E_1_0.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/35AF9E_1_0.woff2') format('woff2'),
-    url('../fonts/35AF9E_1_0.woff') format('woff'),
-    url('../fonts/35AF9E_1_0.ttf') format('truetype');
+  src: url('./fonts/35AF9E_1_0.eot');
+  src: url('./fonts/35AF9E_1_0.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/35AF9E_1_0.woff2') format('woff2'),
+    url('./fonts/35AF9E_1_0.woff') format('woff'),
+    url('./fonts/35AF9E_1_0.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
  
 @font-face {
   font-family: 'Humanist';
-  src: url('../fonts/35AF9E_2_0.eot');
-  src: url('../fonts/35AF9E_2_0.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/35AF9E_2_0.woff2') format('woff2'),
-    url('../fonts/35AF9E_2_0.woff') format('woff'),
-    url('../fonts/35AF9E_2_0.ttf') format('truetype');
+  src: url('./fonts/35AF9E_2_0.eot');
+  src: url('./fonts/35AF9E_2_0.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/35AF9E_2_0.woff2') format('woff2'),
+    url('./fonts/35AF9E_2_0.woff') format('woff'),
+    url('./fonts/35AF9E_2_0.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
  
 @font-face {
   font-family: 'Humanist';
-  src: url('../fonts/35AF9E_3_0.eot');
-  src: url('../fonts/35AF9E_3_0.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/35AF9E_3_0.woff2') format('woff2'),
-    url('../fonts/35AF9E_3_0.woff') format('woff'),
-    url('../fonts/35AF9E_3_0.ttf') format('truetype');
+  src: url('./fonts/35AF9E_3_0.eot');
+  src: url('./fonts/35AF9E_3_0.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/35AF9E_3_0.woff2') format('woff2'),
+    url('./fonts/35AF9E_3_0.woff') format('woff'),
+    url('./fonts/35AF9E_3_0.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
  
 @font-face {
   font-family: 'Futura Bold';
-  src: url('../fonts/35AF9E_4_0.eot');
-  src: url('../fonts/35AF9E_4_0.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/35AF9E_4_0.woff2') format('woff2'),
-    url('../fonts/35AF9E_4_0.woff') format('woff'),
-    url('../fonts/35AF9E_4_0.ttf') format('truetype');
+  src: url('./fonts/35AF9E_4_0.eot');
+  src: url('./fonts/35AF9E_4_0.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/35AF9E_4_0.woff2') format('woff2'),
+    url('./fonts/35AF9E_4_0.woff') format('woff'),
+    url('./fonts/35AF9E_4_0.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
  
 @font-face {
   font-family: 'Futura Bold';
-  src: url('../fonts/35AF9E_5_0.eot');
-  src: url('../fonts/35AF9E_5_0.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/35AF9E_5_0.woff2') format('woff2'),
-    url('../fonts/35AF9E_5_0.woff') format('woff'),
-    url('../fonts/35AF9E_5_0.ttf') format('truetype');
+  src: url('./fonts/35AF9E_5_0.eot');
+  src: url('./fonts/35AF9E_5_0.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/35AF9E_5_0.woff2') format('woff2'),
+    url('./fonts/35AF9E_5_0.woff') format('woff'),
+    url('./fonts/35AF9E_5_0.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

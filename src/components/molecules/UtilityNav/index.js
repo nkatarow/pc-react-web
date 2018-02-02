@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Utility, LinkLabel } from './styles';
+import './style.css';
 
 const UtilityNav = () => (
-  <Utility>
+  <div className="utility">
     <div>
       <Link to="http://physio-control.com" target="_blank" className="company">
         <svg
@@ -34,7 +34,7 @@ const UtilityNav = () => (
           >
             <polyline className="st0" points="0,0 5.4,5.4 0,10.7 " />
           </svg>
-          Health EMS <LinkLabel>Login</LinkLabel>
+          Health EMS <span className="link-label">Login</span>
         </Link>
         <Link to="http://www.lifenetsystems.com" target="_blank" className="product">
           <svg
@@ -48,11 +48,11 @@ const UtilityNav = () => (
           >
             <polyline className="st0" points="0,0 5.4,5.4 0,10.7 " />
           </svg>
-          LifeNet <LinkLabel>Login</LinkLabel>
+          LifeNet <span className="link-label">Login</span>
         </Link>
       </div>
     </div>
-  </Utility>
+  </div>
 );
 
 export default UtilityNav;
