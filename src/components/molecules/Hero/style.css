@@ -1,7 +1,9 @@
 @import url(../../_settings/_variables.css);
-.hero .hero-image img {
-  height: auto;
-  width: 100%; }
+.hero .hero-image {
+  margin-bottom: -4px; }
+  .hero .hero-image img {
+    height: auto;
+    width: 100%; }
 
 .hero .hero-copy {
   padding: 10% 5%;

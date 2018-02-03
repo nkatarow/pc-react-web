@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.5134b9e4.css",
-  "main.css.map": "static/css/main.5134b9e4.css.map",
-  "main.js": "static/js/main.ed93e541.js",
-  "main.js.map": "static/js/main.ed93e541.js.map",
+  "main.css": "static/css/main.5adb2b64.css",
+  "main.css.map": "static/css/main.5adb2b64.css.map",
+  "main.js": "static/js/main.8d78afe6.js",
+  "main.js.map": "static/js/main.8d78afe6.js.map",
   "static/media/35AF9E_0_0.eot": "static/media/35AF9E_0_0.1884b6b0.eot",
   "static/media/35AF9E_0_0.ttf": "static/media/35AF9E_0_0.e9f61caa.ttf",
   "static/media/35AF9E_0_0.woff": "static/media/35AF9E_0_0.8f8374cc.woff",
@@ -35,6 +35,8 @@
   "static/media/homesolutions-hero-mobile.jpg": "static/media/homesolutions-hero-mobile.248b771e.jpg",
   "static/media/hp-hero-desktop.jpg": "static/media/hp-hero-desktop.4dc20a06.jpg",
   "static/media/hp-hero-mobile.jpg": "static/media/hp-hero-mobile.261b1a6f.jpg",
+  "static/media/hp-intro-bg-desktop.png": "static/media/hp-intro-bg-desktop.2674c61c.png",
+  "static/media/hp-intro-bg-mobile.png": "static/media/hp-intro-bg-mobile.a7f73f3b.png",
   "static/media/lifenet-hero-desktop.jpg": "static/media/lifenet-hero-desktop.6ef0668b.jpg",
   "static/media/lifenet-hero-mobile.jpg": "static/media/lifenet-hero-mobile.2f4e7507.jpg",
   "static/media/stryker-logo.svg": "static/media/stryker-logo.b6e21a2f.svg"

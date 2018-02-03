@@ -25,15 +25,15 @@ p.large { font-size: 2em; }
 .white { color: var(--white); }
 
 /* Brand Colors */
-.yellow { color: var(--yellow); }
-.burnt { color: var(--burnt); }
-.purple { color: var(--purple); }
-.blue { color: var(--blue); }
-.green { color: var(--green); }
+.selective-yellow { color: var(--selective-yellow); }
+.mai-tai { color: var(--mai-tai); }
+.affair { color: var(--affair); }
+.blumine { color: var(--blumine); }
+.faded-jade { color: var(--faded-jade); }
 
 @media screen and (min-width: 50em) {
   /* Paragraph Types */
-  p { font-size: 1.8em; }  
+  p { font-size: 1.8em; }
   p.medium { font-size: 2.1em; }
   p.large { font-size: 2.4em; }
 }
