@@ -1,0 +1,17 @@
+@import url(../../../_settings/_variables.css);
+.half-half {
+  display: flex;
+  flex-direction: column; }
+  .half-half > div:nth-child(2) {
+    margin-top: 4em; }
+
+@media screen and (min-width: 50em) {
+  .half-half {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: var(--max-width); }
+    .half-half > div {
+      width: 45%; }
+      .half-half > div:nth-child(2) {
+        margin-top: 0; } }

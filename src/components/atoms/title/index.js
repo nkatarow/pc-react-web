@@ -37,6 +37,5 @@ Title.propTypes = {
   color: PropTypes.string,
   theme: PropTypes.string,
   tag: PropTypes.string.isRequired,
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
-

@@ -2,8 +2,8 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import Hero from './';
-import mobileHero from '../../templates/Homepage/hp-hero-mobile.jpg';
-import desktopHero from '../../templates/Homepage/hp-hero-desktop.jpg';
+import mobileHero from '../../templates/Homepage/_img/hp-hero-mobile.jpg';
+import desktopHero from '../../templates/Homepage/_img/hp-hero-desktop.jpg';
 
 storiesOf('Hero', module)
   .add('Default', () => (

@@ -26,7 +26,7 @@ module.exports = {
     "jsx-a11y/anchor-is-valid": 0,
     "react/jsx-filename-extension": 0,
     "function-paren-newline": 0,
-    "import/no-extraneous-dependencies": [ 
+    "import/no-extraneous-dependencies": [
       "error", {
         "devDependencies": ["src/stories/*.js"]
       }

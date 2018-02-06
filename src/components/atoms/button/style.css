@@ -13,7 +13,7 @@
   position: relative;
   text-transform: uppercase;
   transition: background-color 250ms ease, border-color 250ms ease, color 250ms ease;
-  width: auto; }
+  width: 100%; }
 
 .default {
   background-color: var(--selective-yellow);
@@ -37,3 +37,7 @@
     border-color: var(--gray);
     color: var(--gray);
     cursor: default; }
+
+@media screen and (min-width: 50em) {
+  .button {
+    width: auto; } }

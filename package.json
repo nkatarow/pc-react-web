@@ -7,6 +7,7 @@
     "@storybook/addon-info": "^3.2.13",
     "@storybook/react": "^3.3.11",
     "classnames": "^2.2.5",
+    "consecutive": "^5.0.4",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.1.2",
     "prop-types": "^15.6.0",

@@ -2,8 +2,8 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 
 import Introduction from './';
-import introMobileImage from '../../templates/Homepage/hp-intro-bg-mobile.png';
-import introDesktopImage from '../../templates/Homepage/hp-intro-bg-desktop.png';
+import introMobileImage from '../../templates/Homepage/_img/hp-intro-bg-mobile.png';
+import introDesktopImage from '../../templates/Homepage/_img/hp-intro-bg-desktop.png';
 
 storiesOf('Introduction', module)
   .add('Default', () => (

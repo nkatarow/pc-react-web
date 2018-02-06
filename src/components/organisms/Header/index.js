@@ -51,4 +51,3 @@ export default class Header extends PureComponent {
 Header.propTypes = {
   isMobile: PropTypes.bool.isRequired,
 };
-
