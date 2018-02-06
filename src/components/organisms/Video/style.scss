@@ -3,25 +3,44 @@
 .video {
   background-color: var(--gallery);
   display: flex;
+  flex-wrap: wrap;
   padding: 10% 5%;
 
   .context-head { margin-bottom: 1em; }
 
   > div {
-    button {
-      height: auto;
-      padding: 0;
-      width: 100%;
+    &.embed {
+      button {
+        opacity: 1;
+        transition: opacity 500ms ease;
+        position: relative;
+        z-index: 2;
 
-      img { width: 100%; }
+        height: auto;
+        padding: 0;
+        width: 100%;
+
+        img { width: 100%; }
+      }
+
+      .react-player {
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        transition: opacity 500ms ease;
+        width: 100%;
+        z-index: 1;
+      }
     }
+
+    &.copy { margin-top: 4em; }
   }
 }
 
 @media screen and (min-width: 50em) {
   .video {
-    flex-wrap: wrap;
-
     > div {
       transition: flex-basis 500ms ease;
       flex-basis: 50%;
@@ -35,26 +54,6 @@
           padding-left 250ms ease,
           margin 250ms ease,
           max-width 250ms ease;
-      }
-
-      &.embed {
-        button {
-          opacity: 1;
-          transition: opacity 500ms ease;
-          position: relative;
-          z-index: 2;
-        }
-
-        .react-player {
-          height: 100%;
-          left: 0;
-          opacity: 0;
-          position: absolute;
-          top: 0;
-          transition: opacity 500ms ease;
-          width: 100%;
-          z-index: 1;
-        }
       }
     }
 

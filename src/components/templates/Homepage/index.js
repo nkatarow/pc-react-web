@@ -10,6 +10,7 @@ import Hero from '../../molecules/Hero/';
 import HalfHalf from '../../molecules/_layouts/HalfHalf';
 import Introduction from '../../molecules/Introduction/';
 import ProductIntro from '../../molecules/ProductIntro/';
+import CTA from '../../molecules/CTA/';
 
 // Organisms
 import Accordion from '../../organisms/Accordion/';
@@ -163,6 +164,8 @@ const Homepage = (props) => {
           <p>Lorem ipsum dolor sit amet consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
         </div>
       </Video>
+
+      <CTA />
     </div>
   );
 };
