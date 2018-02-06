@@ -1,5 +1,5 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { storiesOf } from '@storybook/react'; //eslint-disable-line
 
 import Introduction from './';
 import introMobileImage from '../../templates/Homepage/_img/hp-intro-bg-mobile.png';

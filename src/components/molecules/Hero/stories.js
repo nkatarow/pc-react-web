@@ -1,5 +1,5 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { storiesOf } from '@storybook/react'; //eslint-disable-line
 
 import Hero from './';
 import mobileHero from '../../templates/Homepage/_img/hp-hero-mobile.jpg';

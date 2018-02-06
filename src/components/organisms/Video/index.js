@@ -128,17 +128,13 @@ export default class Video extends PureComponent {
   }
 }
 
-// Video.defaultProps = {
-//   autoplay: false,
-// };
+Video.defaultProps = {
+  children: <div />,
+};
 
 Video.propTypes = {
   url: PropTypes.string.isRequired,
   poster: PropTypes.string.isRequired,
   isMobile: PropTypes.bool.isRequired,
-  children: PropTypes.node.isRequired,
-//   videoTitle: PropTypes.string.isRequired,
-//   height: PropTypes.string.isRequired,
-//   width: PropTypes.string.isRequired,
-//   autoplay: PropTypes.bool,
+  children: PropTypes.node,
 };
