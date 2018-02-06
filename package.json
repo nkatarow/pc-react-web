@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@storybook/addon-actions": "^3.3.11",
-    "@storybook/addon-info": "^3.2.13",
-    "@storybook/react": "^3.3.11",
     "classnames": "^2.2.5",
     "consecutive": "^5.0.4",
     "node-sass-chokidar": "0.0.3",
@@ -13,6 +10,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-player": "^1.1.1",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.14",
     "react-transition-group": "^2.2.1"
@@ -30,7 +28,8 @@
     "build-storybook": "build-storybook -s public"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^3.2.12",
+    "@storybook/addon-actions": "^3.3.11",
+    "@storybook/addon-info": "^3.2.13",
     "@storybook/addon-links": "^3.3.11",
     "@storybook/react": "^3.2.12",
     "babel-core": "^6.26.0",

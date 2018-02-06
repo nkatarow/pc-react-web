@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.aa0d7e77.css",
-  "main.css.map": "static/css/main.aa0d7e77.css.map",
-  "main.js": "static/js/main.c742b2f4.js",
-  "main.js.map": "static/js/main.c742b2f4.js.map",
+  "main.css": "static/css/main.752794e2.css",
+  "main.css.map": "static/css/main.752794e2.css.map",
+  "main.js": "static/js/main.787bdfb3.js",
+  "main.js.map": "static/js/main.787bdfb3.js.map",
   "static/media/35AF9E_0_0.eot": "static/media/35AF9E_0_0.1884b6b0.eot",
   "static/media/35AF9E_0_0.ttf": "static/media/35AF9E_0_0.e9f61caa.ttf",
   "static/media/35AF9E_0_0.woff": "static/media/35AF9E_0_0.8f8374cc.woff",
@@ -48,5 +48,6 @@
   "static/media/lifenet-hero-mobile.jpg": "static/media/lifenet-hero-mobile.2f4e7507.jpg",
   "static/media/lifenet-icon.svg": "static/media/lifenet-icon.3668ea2f.svg",
   "static/media/lifenet.jpg": "static/media/lifenet.8a7daf55.jpg",
-  "static/media/stryker-logo.svg": "static/media/stryker-logo.b6e21a2f.svg"
+  "static/media/stryker-logo.svg": "static/media/stryker-logo.b6e21a2f.svg",
+  "static/media/video-poster.jpg": "static/media/video-poster.e77e119a.jpg"
 }
