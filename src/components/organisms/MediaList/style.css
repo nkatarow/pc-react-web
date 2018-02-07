@@ -1,0 +1,42 @@
+@import url(../../_settings/_variables.css);
+.medialist {
+  padding: 0 5% 5%; }
+  .medialist.default {
+    background-color: var(--white); }
+  .medialist.medialist--gray {
+    background-color: var(--gallery); }
+  .medialist .list-contain {
+    display: flex;
+    flex-direction: column; }
+    .medialist .list-contain > div {
+      text-align: center;
+      margin-bottom: 5%; }
+      .medialist .list-contain > div img {
+        margin-bottom: 1em;
+        max-width: 84px; }
+
+@media screen and (min-width: 50em) {
+  .medialist {
+    padding: 0; }
+    .medialist .list-contain {
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 0 auto;
+      max-width: var(--max-width); }
+      .medialist .list-contain > div {
+        width: 48%; }
+    .medialist.two-col .list-contain > div {
+      width: 33%; }
+    .medialist.two-col.double .list-contain {
+      justify-content: space-between;
+      max-width: 975px; }
+      .medialist.two-col.double .list-contain > div {
+        width: 40%; }
+    .medialist.three-col .list-contain {
+      justify-content: space-between; }
+      .medialist.three-col .list-contain > div {
+        width: 30%; }
+    .medialist.four-col .list-contain > div {
+      width: 23%; } }

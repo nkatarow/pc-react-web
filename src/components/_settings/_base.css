@@ -13,6 +13,13 @@ p { font-size: 1.6em; }
 p.medium { font-size: 1.8em; }
 p.large { font-size: 2em; }
 
+/* Other Elements */
+ul, ol {
+  font-size: 1.6em;
+  padding-left: 1em;
+}
+  ul li { margin-bottom: 0.25em; }
+
 /* Utility Colors */
 .black { color: var(--black); }
 .cod-gray { color: var(--cod-gray); }
@@ -36,4 +43,7 @@ p.large { font-size: 2em; }
   p { font-size: 1.8em; }
   p.medium { font-size: 2.1em; }
   p.large { font-size: 2.4em; }
+
+  /* Other Elements */
+  ul, ol { font-size: 1.8em; }
 }

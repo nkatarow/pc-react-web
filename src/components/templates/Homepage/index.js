@@ -21,7 +21,6 @@ import Video from '../../organisms/Video/';
 
 const Homepage = (props) => {
   // TODO: Abstract this out for use in all templates?
-
   function importAllImages(r) {
     const images = {};
     r.keys().map((item) => {

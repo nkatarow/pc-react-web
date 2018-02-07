@@ -1,0 +1,35 @@
+@import '../../_settings/_variables.css';
+
+blockquote {
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 10% 5%;
+  text-align: center;
+
+  cite {
+    color: var(--selective-yellow);
+    font-style: normal;
+
+    span {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+
+    .subhead { text-transform: uppercase; }
+
+    .second-line {
+      font-size: 1.6em;
+      font-style: italic;
+    }
+  }
+}
+
+@media screen and (min-width: 50em) {
+  blockquote {
+    p {
+      margin: 0 auto 5%;
+      max-width: var(--max-width);
+    }
+  }
+}

@@ -15,7 +15,9 @@ const ProductIntro = (props) => {
   return (
     <section className={containerClass}>
       <div>
-        <Title tag="h2" theme="context-head" color={props.contextColor}>{props.contextHead}</Title>
+        {props.contextHead &&
+          <Title tag="h2" theme="context-head" color={props.contextColor}>{props.contextHead}</Title>
+        }
         <Title tag="h3" theme="section-title">{props.headline}</Title>
         <p>{props.copy}</p>
       </div>
@@ -26,6 +28,7 @@ const ProductIntro = (props) => {
 export default ProductIntro;
 
 ProductIntro.defaultProps = {
+  contextHead: null,
   contextColor: 'black',
   theme: null,
   copy: null,
@@ -33,7 +36,7 @@ ProductIntro.defaultProps = {
 
 ProductIntro.propTypes = {
   theme: PropTypes.string,
-  contextHead: PropTypes.string.isRequired,
+  contextHead: PropTypes.string,
   contextColor: PropTypes.string,
   headline: PropTypes.string.isRequired,
   copy: PropTypes.string,

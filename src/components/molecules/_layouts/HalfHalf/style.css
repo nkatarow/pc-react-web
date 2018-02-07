@@ -1,7 +1,8 @@
 @import url(../../../_settings/_variables.css);
 .half-half {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding: 5%; }
   .half-half > div:nth-child(2) {
     margin-top: 4em; }
 
@@ -9,9 +10,14 @@
   .half-half {
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 auto;
-    max-width: var(--max-width); }
+    margin: 0 auto 10%;
+    max-width: var(--max-width);
+    padding: 0; }
     .half-half > div {
       width: 45%; }
       .half-half > div:nth-child(2) {
-        margin-top: 0; } }
+        margin-top: 0; }
+    .half-half.flip > div {
+      order: 2; }
+      .half-half.flip > div:nth-child(2) {
+        order: 1; } }
