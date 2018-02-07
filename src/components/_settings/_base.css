@@ -40,7 +40,6 @@ ul, ol {
 
 @media screen and (min-width: 50em) {
   /* Paragraph Types */
-  p { font-size: 1.8em; }
   p.medium { font-size: 2.1em; }
   p.large { font-size: 2.4em; }
 

@@ -14,8 +14,7 @@ blockquote {
     blockquote cite .subhead {
       text-transform: uppercase; }
     blockquote cite .second-line {
-      font-size: 1.6em;
-      font-style: italic; }
+      font-size: 1.6em; }
 
 @media screen and (min-width: 50em) {
   blockquote p {
