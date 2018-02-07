@@ -1,8 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// Utilities
+import getComponentImages from '../../_utility/getComponentImages';
+
 // Atoms
 import Title from '../../atoms/title/';
+import Button from '../../atoms/button/';
 import Picture from '../../atoms/picture/';
 
 // Molecules
@@ -11,22 +15,14 @@ import Introduction from '../../molecules/Introduction/';
 import ProductIntro from '../../molecules/ProductIntro/';
 import HalfHalf from '../../molecules/_layouts/HalfHalf/';
 import Blockquote from '../../molecules/Blockquote/';
+import MediaBlock from '../../molecules/MediaBlock/';
+import CTA from '../../molecules/CTA/';
 
 // Organisms
 import MediaList, { MediaListTheme } from '../../organisms/MediaList/';
 
 const HealthEMS = (props) => {
-  // TODO: Abstract this out for use in all templates?
-  function importAllImages(r) {
-    const images = {};
-    r.keys().map((item) => {
-      images[item.replace('./', '')] = r(item);
-      return item;
-    });
-    return images;
-  }
-
-  const images = importAllImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
+  const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
 
   return (
     <div>
@@ -194,6 +190,15 @@ const HealthEMS = (props) => {
         citeSecondLine="Chief Executive Officer"
         citeThirdLine="New Britain EMS"
       />
+
+      <MediaBlock image={images['service-support.svg']}>
+        <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
+        <Title tag="h2" theme="subhead">Make it <em>your</em> ePCR</Title>
+        <p>You need solutions that work right, quickly, and under pressure — just like you do. An expert support team will help you tailor your HealthEMS solution with all the components you need for success. Full training and support will speed implementation to put data and new insights at your fingertips while enabling your organization to continue operations.</p>
+        <Button>About Service Plans</Button>
+      </MediaBlock>
+
+      <CTA />
     </div>
   );
 };

@@ -1,6 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// Utilities
+import getComponentImages from '../../_utility/getComponentImages';
+
 // Atoms
 import Title from '../../atoms/title/';
 import Button from '../../atoms/button/';
@@ -20,17 +23,7 @@ import AccordionItemBody from '../../organisms/Accordion/AccordionItemBody/';
 import Video from '../../organisms/Video/';
 
 const Homepage = (props) => {
-  // TODO: Abstract this out for use in all templates?
-  function importAllImages(r) {
-    const images = {};
-    r.keys().map((item) => {
-      images[item.replace('./', '')] = r(item);
-      return item;
-    });
-    return images;
-  }
-
-  const images = importAllImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
+  const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
 
   return (
     <div>
@@ -57,9 +50,9 @@ const Homepage = (props) => {
         copy="Capture the rich flow of data that starts with a patient event to empower better decisions, faster team mobilization, and improved outcomes. A continuum of data solutions makes it faster and easier to provide better, safer, and more efficient care."
       />
 
-      <Accordion accordion activeItems={[1]}>
+      <Accordion accordion activeItems={[0]}>
 
-        <AccordionItem expanded>
+        <AccordionItem>
           <AccordionItemTitle>
             <img src={images['healthems-icon.svg']} alt="" />
             <div>

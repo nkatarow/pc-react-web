@@ -1,0 +1,23 @@
+.media-block {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10% 5%;
+  margin: 0 auto;
+  max-width: 875px;
+  text-align: center; }
+  .media-block img {
+    margin-bottom: 2em;
+    max-height: 85px; }
+  .media-block .context-head {
+    margin-bottom: 2em; }
+
+@media screen and (min-width: 50em) {
+  .media-block {
+    flex-direction: row;
+    padding: 10% 0;
+    text-align: left; }
+    .media-block > div:first-child {
+      width: 25%; }
+    .media-block > div:nth-child(2) {
+      width: 75%; } }
