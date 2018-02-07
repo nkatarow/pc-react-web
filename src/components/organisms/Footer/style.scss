@@ -35,11 +35,13 @@ footer {
 .stryker {
   width: 50%;
 
+  img { max-width: 108px; }
+
   small {
-    color: var(--gallery);
+    color: var(--gray);
     display: block;
     font-size: 1em;
-    margin-top: 0.25em;
+    margin-top: 1em;
   }
 }
 
@@ -47,30 +49,37 @@ footer {
   width: 50%;
 
   h2 {
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: normal;
-    margin: 0 0 0.5em;
+    margin: 0 0 2em;
   }
 
   a {
-    margin-right: 1em;
+    display: block;
+    margin-bottom: 2em;
+
+    &.icon {
+      display: inline-block;
+      margin-right: 1em;
+    }
   }
 }
 
 .legal {
+  border-top: 1px solid var(--scorpion);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 4em;
+  margin-top: 1em;
+  padding-top: 3em;
   width: 100%;
 
-  a {
-    display: inline-block;
-    padding-bottom: 1.5em;
+  > div { width: 50%; }
 
-    &:last-child {
-      padding-bottom: 0;
-    }
+  a {
+    color: var(--gray);
+    display: block;
+    margin-bottom: 2em;
   }
 }
 
@@ -86,26 +95,21 @@ footer {
   }
 
   .stryker,
-  .follow,
-  .legal {
-    width: 33.333333%;
+  .follow {
+    width: 25%;
   }
 
-  .stryker small {
-    margin-top: 1em;
-  }
-
-  .follow h2 {
-    margin-bottom: 1em;
-  }
+  .stryker img { max-width: 165px; }
 
   .legal {
-    display: block;
-    margin-top: 0;
+    border-top: none;
+    display: flex;
+    padding-top: 0;
+    width: 50%;
 
     a {
       display: block;
-      padding-bottom: 1em;
+      padding-bottom: 0.5em;
     }
   }
 }

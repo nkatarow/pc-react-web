@@ -14,8 +14,11 @@ const Footer = () => (
       </div>
 
       <div className="follow">
+        <Link to="/contact-us">Contact Us</Link>
+        <a href="https://careers.stryker.com/" target="_blank" rel="noreferrer noopener">Careers</a>
+
         <h2>Follow Us:</h2>
-        <Link to="http://www.facebook.com/PhysioControlInc/" target="_blank">
+        <Link to="http://www.facebook.com/PhysioControlInc/" target="_blank" className="icon">
           <svg
             x="0px"
             y="0px"
@@ -30,7 +33,7 @@ const Footer = () => (
             </g>
           </svg>
         </Link>
-        <Link to="https://twitter.com/PhysioControl" target="_blank">
+        <Link to="https://twitter.com/PhysioControl" target="_blank" className="icon">
           <svg
             x="0px"
             y="0px"
@@ -46,7 +49,7 @@ const Footer = () => (
             />
           </svg>
         </Link>
-        <Link to="#" target="_blank">
+        <Link to="https://www.youtube.com/user/PHYSIOControlInc" target="_blank" className="icon">
           <svg
             x="0px"
             y="0px"
@@ -66,7 +69,7 @@ const Footer = () => (
             </g>
           </svg>
         </Link>
-        <Link to="https://www.linkedin.com/company/2528239/" target="_blank">
+        <Link to="https://www.linkedin.com/company/2528239/" target="_blank" className="icon">
           <svg
             x="0px"
             y="0px"
@@ -91,10 +94,19 @@ const Footer = () => (
       </div>
 
       <div className="legal">
-        <Link to="#">WEEE Information</Link>
-        <Link to="#">Compliance</Link>
-        <Link to="#">Terms of Use</Link>
-        <Link to="#">Privacy Policy</Link>
+        <div>
+          <a href="https://www.physio-control.com/privacy.aspx" target="_blank" rel="noreferrer noopener">Privacy</a>
+          <a href="https://www.physio-control.com/Termsofuse.aspx" target="_blank" rel="noreferrer noopener">Terms of Use</a>
+          <a href="https://www.physio-control.com/disclosureandsafety.aspx" target="_blank" rel="noreferrer noopener">Disclosure &amp; Safety Information</a>
+          <a href="https://www.physio-control.com/DeviceRegistration.aspx" target="_blank" rel="noreferrer noopener">Device Registration</a>
+        </div>
+        <div>
+          <a href="https://www.physio-control.com/weee/Recycling/" target="_blank" rel="noreferrer noopener">WEEE Information</a>
+          <a href="https://www.physio-control.com/Compliance/" target="_blank" rel="noreferrer noopener">Compliance</a>
+          <a href="https://www.physio-control.com/Physio85/OneColumnPB.aspx?pageid=2147485986" target="_blank" rel="noreferrer noopener">Recycling Information</a>
+          <a href="https://www.physio-control.com/uploadedFiles/Physio85/Contents/Environmental_Policy/Environmenatl%20Policy%20Statement%202016.pdf" target="_blank" rel="noreferrer noopener">Environmental Policy</a>
+          <a href="https://www.physio-control.com/uploadedFiles/Physio85/Contents/Environmental_Policy/Health-and-Safety-Policy-Statement-2016.pdf" target="_blank" rel="noreferrer noopener">Health &amp; Safety Policy</a>
+        </div>
       </div>
     </div>
   </footer>
