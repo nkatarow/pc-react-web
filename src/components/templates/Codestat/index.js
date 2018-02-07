@@ -13,7 +13,7 @@ import Picture from '../../atoms/picture/';
 import HalfHalf from '../../molecules/_layouts/HalfHalf/';
 import Hero from '../../molecules/Hero/';
 import ProductIntro from '../../molecules/ProductIntro/';
-import MediaBlock from '../../molecules/MediaBlock/';
+import MediaBlock, { MediaBlockSize, MediaBlockTheme } from '../../molecules/MediaBlock/';
 import CTA from '../../molecules/CTA/';
 
 // Organisms
@@ -79,7 +79,7 @@ const Codestat = (props) => {
       <ProductIntro
         contextHead="Product Features"
         headline="CODE-STAT"
-        copy=" Accelerate your QA/QI efforts with insights revealed through comprehensive CODE-STAT analysis. AHA Consensus Statement recommendations on CPR quality suggest maintaining “continuous quality improvement on provider, team, and system levels.” CODE-STAT software gives you quick access to relevant high-quality data—including compression hands-on time, rate, longest pauses, and time elapsed before first shock."
+        copy="Accelerate your QA/QI efforts with insights revealed through comprehensive CODE-STAT analysis. AHA Consensus Statement recommendations on CPR quality suggest maintaining “continuous quality improvement on provider, team, and system levels.” CODE-STAT software gives you quick access to relevant high-quality data—including compression hands-on time, rate, longest pauses, and time elapsed before first shock."
         contextColor="affair"
       />
 
@@ -137,9 +137,18 @@ const Codestat = (props) => {
         </div>
       </HalfHalf>
 
-      <section>
-        <h1>NEW COMPONENT or MODIFY BLOCKQUOTE</h1>
-      </section>
+      <MediaBlock
+        isMobile={props.isMobile}
+        size={MediaBlockSize.LARGE}
+        theme={MediaBlockTheme.IMAGE}
+        image={images['25-percent-compressions.svg']}
+        bgMobile={images['bg-compression-mobile.jpg']}
+        bgDesktop={images['bg-compression-desktop.jpg']}
+      >
+        <Title tag="h2" theme="section-title" color="selective-yellow">Speed Clinically-Significant Improvements</Title>
+        <p className="large">Hands-on compression ratio relates directly to patient outcomes, which is why Redmond Medic One set out to increase this performance metric using CODE-STAT software. In just six months, the team increased its compression ratio from 66% to 83% — a 25% improvement. Research shows clinically significant improvement takes place after the kind of targeted performance reviews you can hold when you learn from every resuscitation with CODE-STAT.</p>
+        <p>Olasveengen footnote lorem ipsum dolor sit amet consequat duis autem.</p>
+      </MediaBlock>
 
       <MediaBlock image={images['service-support.svg']}>
         <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>

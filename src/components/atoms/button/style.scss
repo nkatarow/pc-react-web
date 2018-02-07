@@ -15,41 +15,41 @@
   text-transform: uppercase;
   transition: background-color 250ms ease, border-color 250ms ease, color 250ms ease;
   width: 100%;
-}
 
-// Themes
-.default {
-  background-color: var(--selective-yellow);
-  border-color: var(--selective-yellow);
-
-  &:hover,
-  &:focus {
-    background-color: var(--white);
-    border-color: var(--white);
-  }
-
-  &:disabled {
-    background-color: var(--silver);
-    border-color: var(--silver);
-    color: var(--gray);
-    cursor: default;
-  }
-}
-
-.outlined {
-  background-color: transparent;
-  border-color: var(--selective-yellow);
-
-  &:hover,
-  &:focus {
+  // Themes
+  &.default {
     background-color: var(--selective-yellow);
+    border-color: var(--selective-yellow);
+
+    &:hover,
+    &:focus {
+      background-color: var(--white);
+      border-color: var(--white);
+    }
+
+    &:disabled {
+      background-color: var(--silver);
+      border-color: var(--silver);
+      color: var(--gray);
+      cursor: default;
+    }
   }
 
-  &:disabled {
-    background-color: var(--silver);
-    border-color: var(--gray);
-    color: var(--gray);
-    cursor: default;
+  &.outlined {
+    background-color: transparent;
+    border-color: var(--selective-yellow);
+
+    &:hover,
+    &:focus {
+      background-color: var(--selective-yellow);
+    }
+
+    &:disabled {
+      background-color: var(--silver);
+      border-color: var(--gray);
+      color: var(--gray);
+      cursor: default;
+    }
   }
 }
 
