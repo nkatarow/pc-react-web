@@ -1,22 +1,157 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+// Utilities
+import getComponentImages from '../../_utility/getComponentImages';
+
+// Atoms
+import Title from '../../atoms/title/';
+import Button from '../../atoms/button/';
+import Picture from '../../atoms/picture/';
+
+// Molecules
+import HalfHalf from '../../molecules/_layouts/HalfHalf/';
 import Hero from '../../molecules/Hero/';
-import mobileHero from './codestat-hero-mobile.jpg';
-import desktopHero from './codestat-hero-desktop.jpg';
+import ProductIntro from '../../molecules/ProductIntro/';
+import MediaBlock from '../../molecules/MediaBlock/';
+import CTA from '../../molecules/CTA/';
 
-const Codestat = props => (
-  <div>
-    <Hero
-      isMobile={props.isMobile}
-      mobileHero={mobileHero}
-      desktopHero={desktopHero}
-      headline="Insights to Improve Performance and Patient Outcomes"
-      copy="Turn your passion for saving lives into targeted improvements — CODE-STAT Data Review Software lets you easily understand team performance immediately after response."
-    />
-  </div>
-);
+// Organisms
+import MediaList, { MediaListTheme } from '../../organisms/MediaList/';
 
+const Codestat = (props) => {
+  const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
+
+  return (
+    <div>
+      <Hero
+        isMobile={props.isMobile}
+        mobileHero={images['codestat-hero-mobile.jpg']}
+        desktopHero={images['codestat-hero-desktop.jpg']}
+        headline="Insights to Improve Performance and Patient Outcomes"
+        copy="Turn your passion for saving lives into targeted improvements — CODE-STAT Data Review Software lets you easily understand team performance immediately after response."
+      />
+
+      <Picture src={images['codestat-landscape.jpg']} alt="Alt Text" />
+
+      <ProductIntro
+        contextHead="Product Highlights"
+        headline="Better data means better CPR"
+        copy="CODE-STAT software makes it easy to see and correlate key CPR performance metrics while the incident is still fresh. Spot at a glance where you need to improve — or gain confidence in your team’s operations and skills. Measure, review, report, and repeat."
+        theme="gray"
+        contextColor="affair"
+      />
+
+      <MediaList
+        isMobile={props.isMobile}
+        theme={MediaListTheme.GRAY}
+      >
+        <div>
+          <Picture src={images['icon-bettercare.svg']} alt="" />
+          <Title tag="h3" theme="subhead">
+              Deliver Better Care
+          </Title>
+          <p>Respond more effectively for better outcomes with easier access to complete event data.</p>
+        </div>
+        <div>
+          <Picture src={images['icon-trainefficiently.svg']} alt="" />
+          <Title tag="h3" theme="subhead">
+              Train More Efficiently
+          </Title>
+          <p>Focus training and performance management where it’s needed most.</p>
+        </div>
+        <div>
+          <Picture src={images['icon-fastereasier.svg']} alt="" />
+          <Title tag="h3" theme="subhead">
+              Make Improvement Faster and Easier
+          </Title>
+          <p>Simplify the collection, analysis, and sharing of data that can power performance reviews and enhancement.</p>
+        </div>
+        <div>
+          <Picture src={images['icon-data.svg']} alt="" />
+          <Title tag="h3" theme="subhead">
+              Save Time on Data Collection and Reporting
+          </Title>
+          <p>Collect information automatically and customize required reports and documentation.</p>
+        </div>
+      </MediaList>
+
+      <ProductIntro
+        contextHead="Product Features"
+        headline="CODE-STAT"
+        copy=" Accelerate your QA/QI efforts with insights revealed through comprehensive CODE-STAT analysis. AHA Consensus Statement recommendations on CPR quality suggest maintaining “continuous quality improvement on provider, team, and system levels.” CODE-STAT software gives you quick access to relevant high-quality data—including compression hands-on time, rate, longest pauses, and time elapsed before first shock."
+        contextColor="affair"
+      />
+
+      <HalfHalf>
+        <div>
+          <Picture src={images['resuscitation.jpg']} />
+        </div>
+        <div>
+          <p className="medium">See Resuscitation Performance at a Glance</p>
+          <ul>
+            <li>Display CPR metrics visually, according to your targets, for intuitive insight. Dive into moment-by-moment details of an entire event on a graphic, continuous time scale.</li>
+            <li>Review interval statistics for the entire resuscitation, broken down by time interval.</li>
+          </ul>
+        </div>
+      </HalfHalf>
+
+      <HalfHalf layout="flip">
+        <div>
+          <Picture src={images['custom-analytics.jpg']} />
+        </div>
+        <div>
+          <p className="medium">Create Custom Analytics and Reporting According to Your Needs</p>
+          <ul>
+            <li>Customize display of the statistics and details you need most, including CPR performance, ECG and EtCO2 waveforms, and CO2 trend data.</li>
+            <li>Annotate the stories of each resuscitation event to add context or focus attention on achievements or areas needing improvement.</li>
+            <li>Create individual or summary reports.</li>
+          </ul>
+        </div>
+      </HalfHalf>
+
+      <HalfHalf>
+        <div>
+          <Picture src={images['streamline-reporting.jpg']} />
+        </div>
+        <div>
+          <p className="medium">Streamline Reporting</p>
+          <ul>
+            <li>Easily create summary, detail, or custom reports for performance reviews, training plans, or documentation.</li>
+            <li>Provide feedback to caregivers in a simple, intuitive format.</li>
+            <li>Track performance improvement and trends over time.</li>
+          </ul>
+        </div>
+      </HalfHalf>
+
+      <HalfHalf layout="flip">
+        <div>
+          <Picture src={images['data-handling.jpg']} />
+        </div>
+        <div>
+          <p className="medium">Reduce Data Handling Effort</p>
+          <ul>
+            <li>Simplify data collection and management, thanks to full integration with all LIFEPAK monitor/defibrillators.</li>
+            <li>No time or staff for review? Receive expert summaries and targeted recommendations on request with Physio-Control’s new CODE-STAT Data Review Service.</li>
+          </ul>
+        </div>
+      </HalfHalf>
+
+      <section>
+        <h1>NEW COMPONENT or MODIFY BLOCKQUOTE</h1>
+      </section>
+
+      <MediaBlock image={images['service-support.svg']}>
+        <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
+        <Title tag="h2" theme="subhead">Complete Service by Stryker SmartDesk</Title>
+        <p>Supported by the Stryker SmartDesk, LIFENET will integrate seamlessly with even the most complex hospital or EMS system.</p>
+        <Button>About Service Plans</Button>
+      </MediaBlock>
+
+      <CTA />
+    </div>
+  );
+};
 export default Codestat;
 
 Codestat.propTypes = {
