@@ -43,6 +43,11 @@ nav a {
     max-width: var(--max-width); }
     nav a {
       background-color: var(--white);
-      padding: 0 2em 0 0; }
+      border-bottom: 5px solid var(--white);
+      margin: 0 2em 0 0;
+      padding: 0 0 1em 0;
+      transition: color 250ms ease, border-color 250ms ease; }
+      nav a.active {
+        border-color: var(--selective-yellow); }
       nav a:hover, nav a:focus {
         color: var(--selective-yellow); } }

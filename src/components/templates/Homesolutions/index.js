@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 // Atoms
 import Title from '../../atoms/title/';
@@ -21,13 +20,14 @@ import CTA from '../../molecules/CTA/';
 // Organisms
 import MediaList, { MediaListTheme } from '../../organisms/MediaList/';
 
-const Homesolutions = (props) => {
+const Homesolutions = () => {
   const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
+  const isMobile = false;
 
   return (
     <div>
       <Hero
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         mobileHero={images['homesolutions-hero-mobile.jpg']}
         desktopHero={images['homesolutions-hero-desktop.jpg']}
         headline="Powerful. Flexible. Accurate."
@@ -35,7 +35,7 @@ const Homesolutions = (props) => {
       />
 
       <Introduction
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         headline="Experience data-driven healthcare."
         copy="From admissions to scheduling, coding, orders, visit reconciliation, eligibility, billing, AR, HR and payroll preparation processes, HomeSolutions.NET can improve revenue cycle management performance and overall efficiency."
         smallCopy="With the web-based HomeSolutions.NET Manager, agencies can effectively manage workflow by moving away from paper-driven processes. For field staff, homecare agencies can choose between Scannable Forms, Telephony or Mobile Device-based point-of-care methods, from nursing and therapy to paraprofessional disciplines."
@@ -50,7 +50,7 @@ const Homesolutions = (props) => {
       />
 
       <MediaList
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         theme={MediaListTheme.GRAY}
       >
         <div>
@@ -136,7 +136,7 @@ const Homesolutions = (props) => {
       </HalfHalf>
 
       <Blockquote
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         mobileBackground={images['quote-bg-mobile.jpg']}
         desktopBackground={images['quote-bg-desktop.jpg']}
         quote="HomeSolutions.NET has been such a time saver for our company, decreasing administrative hours spent doing data entry and manual tracking. We can buzz through payroll, billing, and OASIS quicker than ever and I am impressed with all the reports and dashboards!"
@@ -157,7 +157,3 @@ const Homesolutions = (props) => {
   );
 };
 export default Homesolutions;
-
-Homesolutions.propTypes = {
-  isMobile: PropTypes.bool.isRequired,
-};

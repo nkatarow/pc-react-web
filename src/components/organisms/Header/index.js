@@ -1,11 +1,15 @@
 import React, { PureComponent } from 'react';
+import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
+
 import HamburgerMenu from '../../../components/atoms/hamburger/';
+
 import UtilityNav from '../../../components/molecules/UtilityNav/';
 import PrimaryNav from '../../../components/molecules/PrimaryNav/';
+
 import './style.css';
 
-export default class Header extends PureComponent {
+class Header extends PureComponent {
   state = {
     isOpen: false,
   }
@@ -26,7 +30,9 @@ export default class Header extends PureComponent {
 
   render() {
     let navContainerClass = '';
+
     if (this.state.isOpen) { navContainerClass = 'open'; }
+
     return (
       <header>
         { this.props.isMobile &&
@@ -47,6 +53,8 @@ export default class Header extends PureComponent {
     );
   }
 }
+
+export default withRouter(Header);
 
 Header.propTypes = {
   isMobile: PropTypes.bool.isRequired,

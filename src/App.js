@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route,
   Switch,
 } from 'react-router-dom';
@@ -55,21 +55,21 @@ export default class App extends Component {
 
   render() {
     return (
-      <Router>
+      <BrowserRouter>
         <div className="App">
           <Header isMobile={this.state.isMobile} />
 
           <Switch>
-            <Route path="/" exact render={() => (<Homepage isMobile={this.state.isMobile} />)} />
-            <Route path="/health-ems"render={() => (<HealthEMS isMobile={this.state.isMobile} />)} />
-            <Route path="/lifenet-system"render={() => (<Lifenet isMobile={this.state.isMobile} />)} />
-            <Route path="/code-stat"render={() => (<Codestat isMobile={this.state.isMobile} />)} />
-            <Route path="/homesolutions-net"render={() => (<Homesolutions isMobile={this.state.isMobile} />)} />
+            <Route path="/" exact component={Homepage} />
+            <Route path="/health-ems" component={HealthEMS} />
+            <Route path="/lifenet-system" component={Lifenet} />
+            <Route path="/code-stat" component={Codestat} />
+            <Route path="/homesolutions-net" component={Homesolutions} />
           </Switch>
 
           <Footer />
         </div>
-      </Router>
+      </BrowserRouter>
     );
   }
 }

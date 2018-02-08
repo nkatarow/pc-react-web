@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 // Utilities
 import getComponentImages from '../../_utility/getComponentImages';
@@ -21,13 +20,14 @@ import CTA from '../../molecules/CTA/';
 // Organisms
 import MediaList, { MediaListTheme } from '../../organisms/MediaList/';
 
-const HealthEMS = (props) => {
+const HealthEMS = () => {
   const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
+  const isMobile = false;
 
   return (
     <div>
       <Hero
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         mobileHero={images['healthems-hero-mobile.jpg']}
         desktopHero={images['healthems-hero-desktop.jpg']}
         headline="Quickly access the information to optimize performance."
@@ -35,7 +35,7 @@ const HealthEMS = (props) => {
       />
 
       <Introduction
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         headline="Easy. Empowering. Accurate."
         copy="Your dynamic work environment demands speed and flexibility, and the HealthEMS electronic patient care record (ePCR) provides both."
         smallCopy="Make operations and documentation easier and more efficient with this patient-based, protocol-driven ePCR that helps you easily receive, share, and find actionable data. This flexible solution can be customized to match your needs, from smooth CAD integration to accurate billing and reporting."
@@ -52,7 +52,7 @@ const HealthEMS = (props) => {
       />
 
       <MediaList
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         theme={MediaListTheme.GRAY}
       >
         <div>
@@ -182,7 +182,7 @@ const HealthEMS = (props) => {
       </HalfHalf>
 
       <Blockquote
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         mobileBackground={images['quote-bg-mobile.jpg']}
         desktopBackground={images['quote-bg-desktop.jpg']}
         quote="HealthEMS supports how we function, how we work. With MobileTouch and HealthEMS Manager we can easily enter the pertinent data we need to justify the treatment provided and get quick QI information on our calls."
@@ -204,7 +204,3 @@ const HealthEMS = (props) => {
 };
 
 export default HealthEMS;
-
-HealthEMS.propTypes = {
-  isMobile: PropTypes.bool.isRequired,
-};

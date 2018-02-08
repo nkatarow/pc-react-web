@@ -49,9 +49,7 @@ nav a {
 }
 
 @media screen and (min-width: 50em) {
-  .primary {
-    order: 2;
-  }
+  .primary { order: 2; }
 
   nav {
     display: flex;
@@ -61,7 +59,12 @@ nav a {
 
     a {
       background-color: var(--white);
-      padding: 0 2em 0 0;
+      border-bottom: 5px solid var(--white);
+      margin: 0 2em 0 0;
+      padding: 0 0 1em 0;
+      transition: color 250ms ease, border-color 250ms ease;
+
+      &.active { border-color: var(--selective-yellow); }
 
       &:hover,
       &:focus {

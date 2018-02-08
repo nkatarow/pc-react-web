@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 // Utilities
 import getComponentImages from '../../_utility/getComponentImages';
@@ -22,13 +21,14 @@ import AccordionItemTitle from '../../organisms/Accordion/AccordionItemTitle/';
 import AccordionItemBody from '../../organisms/Accordion/AccordionItemBody/';
 import Video from '../../organisms/Video/';
 
-const Homepage = (props) => {
+const Homepage = () => {
   const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
+  const isMobile = false;
 
   return (
     <div>
       <Hero
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         mobileHero={images['hp-hero-mobile.jpg']}
         desktopHero={images['hp-hero-desktop.jpg']}
         headline="Quickly access the information to optimize performance."
@@ -36,7 +36,7 @@ const Homepage = (props) => {
       />
 
       <Introduction
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         introMobileImage={images['hp-intro-bg-mobile.png']}
         introDesktopImage={images['hp-intro-bg-desktop.png']}
         headline="Integrated data solutions so you can deliver better care"
@@ -146,7 +146,7 @@ const Homepage = (props) => {
       </Accordion>
 
       <Video
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         url="https://vimeo.com/253985701"
         poster={images['video-poster.jpg']}
       >
@@ -163,7 +163,3 @@ const Homepage = (props) => {
 };
 
 export default Homepage;
-
-Homepage.propTypes = {
-  isMobile: PropTypes.bool.isRequired,
-};

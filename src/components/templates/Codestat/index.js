@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 // Utilities
 import getComponentImages from '../../_utility/getComponentImages';
@@ -19,13 +18,14 @@ import CTA from '../../molecules/CTA/';
 // Organisms
 import MediaList, { MediaListTheme } from '../../organisms/MediaList/';
 
-const Codestat = (props) => {
+const Codestat = () => {
   const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
+  const isMobile = false;
 
   return (
     <div>
       <Hero
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         mobileHero={images['codestat-hero-mobile.jpg']}
         desktopHero={images['codestat-hero-desktop.jpg']}
         headline="Insights to Improve Performance and Patient Outcomes"
@@ -43,7 +43,7 @@ const Codestat = (props) => {
       />
 
       <MediaList
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         theme={MediaListTheme.GRAY}
       >
         <div>
@@ -138,7 +138,7 @@ const Codestat = (props) => {
       </HalfHalf>
 
       <MediaBlock
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         size={MediaBlockSize.LARGE}
         theme={MediaBlockTheme.IMAGE}
         image={images['25-percent-compressions.svg']}
@@ -161,8 +161,5 @@ const Codestat = (props) => {
     </div>
   );
 };
-export default Codestat;
 
-Codestat.propTypes = {
-  isMobile: PropTypes.bool.isRequired,
-};
+export default Codestat;

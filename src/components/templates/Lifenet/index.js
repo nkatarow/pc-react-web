@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 // Utilities
 import getComponentImages from '../../_utility/getComponentImages';
@@ -21,13 +20,14 @@ import CTA from '../../molecules/CTA/';
 // Organisms
 import MediaList, { MediaListTheme } from '../../organisms/MediaList/';
 
-const Lifenet = (props) => {
+const Lifenet = () => {
   const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
+  const isMobile = false;
 
   return (
     <div>
       <Hero
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         mobileHero={images['lifenet-hero-mobile.jpg']}
         desktopHero={images['lifenet-hero-desktop.jpg']}
         headline="Smoother communication. Faster care. Stronger teamwork."
@@ -35,7 +35,7 @@ const Lifenet = (props) => {
       />
 
       <Introduction
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         headline="Take action with your data."
         copy="The LIFENET System manages and delivers patient and device data whenever and wherever it’s needed. Hospitals get advance notice of incoming critical patients. Care team members are activated in seconds to ensure patients receive timely care. Device readiness is tracked and managed effortlessly."
       />
@@ -152,7 +152,7 @@ const Lifenet = (props) => {
       </HalfHalf>
 
       <Blockquote
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         mobileBackground={images['quote-bg-mobile.jpg']}
         desktopBackground={images['quote-bg-desktop.jpg']}
         quote="LIFENET is the backbone for navigation and early activation of all our time-critical medical patients. It creates great outcomes."
@@ -169,7 +169,7 @@ const Lifenet = (props) => {
       />
 
       <MediaList
-        isMobile={props.isMobile}
+        isMobile={isMobile}
         theme={MediaListTheme.GRAY}
       >
         <div>
@@ -235,7 +235,3 @@ const Lifenet = (props) => {
   );
 };
 export default Lifenet;
-
-Lifenet.propTypes = {
-  isMobile: PropTypes.bool.isRequired,
-};
