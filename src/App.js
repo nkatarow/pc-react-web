@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 
+// Routes
+import Routes from './routes';
+
+// Redux
 import * as actionTypes from './store/actions';
 
 // Organisms
 import Header from './components/organisms/Header/';
 import Footer from './components/organisms/Footer/';
-
-// Templates
-import Homepage from './components/templates/Homepage/';
-import HealthEMS from './components/templates/HealthEMS/';
-import Lifenet from './components/templates/Lifenet/';
-import Codestat from './components/templates/Codestat/';
-import Homesolutions from './components/templates/Homesolutions/';
 
 class App extends Component {
   componentDidMount() {
@@ -45,15 +42,7 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Header isMobile={this.props.isMobile} />
-
-          <Switch>
-            <Route path="/" exact component={Homepage} />
-            <Route path="/health-ems" component={HealthEMS} />
-            <Route path="/lifenet-system" component={Lifenet} />
-            <Route path="/code-stat" component={Codestat} />
-            <Route path="/homesolutions-net" component={Homesolutions} />
-          </Switch>
-
+          <Routes />
           <Footer />
         </div>
       </BrowserRouter>

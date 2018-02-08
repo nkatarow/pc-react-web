@@ -38,6 +38,23 @@ ul, ol {
 .blumine { color: var(--blumine); }
 .faded-jade { color: var(--faded-jade); }
 
+/* Page Transitions */
+.fade-enter {
+  opacity: 0.01;
+}
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+
+.fade-exit {
+  opacity: 1;
+}
+  .fade-exit.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 400ms ease-in;
+  }
+
 @media screen and (min-width: 50em) {
   /* Paragraph Types */
   p.medium { font-size: 2.1em; }
