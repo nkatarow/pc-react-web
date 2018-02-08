@@ -60,6 +60,7 @@ nav a {
     a {
       background-color: var(--white);
       border-bottom: 5px solid var(--white);
+      display: inline-block;
       margin: 0 2em 0 0;
       padding: 0 0 1em 0;
       transition: color 250ms ease, border-color 250ms ease;

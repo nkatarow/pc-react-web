@@ -1,28 +1,22 @@
 import React, { Component } from 'react';
-import {
-  BrowserRouter,
-  Route,
-  Switch,
-} from 'react-router-dom';
+import PropTypes from 'prop-types';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { connect } from 'react-redux';
 
+import * as actionTypes from './store/actions';
+
+// Organisms
+import Header from './components/organisms/Header/';
+import Footer from './components/organisms/Footer/';
+
+// Templates
 import Homepage from './components/templates/Homepage/';
 import HealthEMS from './components/templates/HealthEMS/';
 import Lifenet from './components/templates/Lifenet/';
 import Codestat from './components/templates/Codestat/';
 import Homesolutions from './components/templates/Homesolutions/';
 
-import Header from './components/organisms/Header/';
-import Footer from './components/organisms/Footer/';
-
-export default class App extends Component {
-  state = {
-    dimensions: {
-      width: window.innerWidth,
-      height: window.innerHeight,
-    },
-    isMobile: true,
-  }
-
+class App extends Component {
   componentDidMount() {
     this.updateDimensions();
     window.addEventListener('resize', this.updateDimensions.bind(this));
@@ -33,31 +27,24 @@ export default class App extends Component {
   }
 
   updateDimensions() {
-    let newDimensions = { ...this.state.dimensions };
-    let newIsMobile = this.state.dimensions.isMobile;
+    // const newWidth = window.innerWidth;
+    // const newHeight = window.innerHeight;
+    let newIsMobile = this.props.isMobile;
 
-    if (window.innerWidth >= 800 && this.state.isMobile) {
+    if (window.innerWidth >= 800 && this.props.isMobile) {
       newIsMobile = false;
     } else {
       newIsMobile = true;
     }
-
-    newDimensions = {
-      width: window.innerWidth,
-      height: window.innerHeight,
-    };
-
-    this.setState({
-      dimensions: newDimensions,
-      isMobile: newIsMobile,
-    });
+    // this.props.updateDimensions(newWidth, newHeight);
+    this.props.updateIsMobile(newIsMobile);
   }
 
   render() {
     return (
       <BrowserRouter>
         <div className="App">
-          <Header isMobile={this.state.isMobile} />
+          <Header isMobile={this.props.isMobile} />
 
           <Switch>
             <Route path="/" exact component={Homepage} />
@@ -73,3 +60,20 @@ export default class App extends Component {
     );
   }
 }
+
+const mapStateToProps = state => ({
+  isMobile: state.mobilestate.isMobile,
+});
+
+const mapDispatchToProps = dispatch => ({
+  updateIsMobile: newIsMobile => dispatch({ type: actionTypes.UPDATE_IS_MOBILE, isMobile: newIsMobile }),
+  // updateDimensions: (newWidth, newHeight) => dispatch({ type: actionTypes.UPDATE_DIMENSIONS, width: newWidth, height: newHeight }),
+});
+
+App.propTypes = {
+  isMobile: PropTypes.bool.isRequired,
+  updateIsMobile: PropTypes.func.isRequired,
+  // updateDimensions: PropTypes.func.isRequired,
+};
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
