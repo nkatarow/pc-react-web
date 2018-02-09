@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { BrowserRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 
+import store from './store/store';
 // Routes
 import Routes from './routes';
 
@@ -20,7 +21,6 @@ class App extends Component {
 
     this.listener = debounce(this.resizeHandler.bind(this), debounceTime);
     window.addEventListener('resize', this.listener);
-
     this.resizeHandler();
   }
 
@@ -36,11 +36,13 @@ class App extends Component {
 
     if (window.outerWidth >= 1080) {
       newMobileNav = false;
-    } else if (window.innerWidth >= 800) {
       newIsMobile = false;
+    } else if (window.innerWidth >= 800) {
       newMobileNav = true;
+      newIsMobile = false;
     } else {
       newIsMobile = true;
+      newMobileNav = true;
     }
 
     if (newIsMobile !== this.props.isMobile) {
@@ -55,6 +57,8 @@ class App extends Component {
   }
 
   render() {
+    console.log(store.getState());
+
     return (
       <BrowserRouter>
         <div className="App">

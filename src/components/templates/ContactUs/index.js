@@ -5,6 +5,7 @@ import React, { PureComponent } from 'react';
 export default class ContactUs extends PureComponent {
   componentDidMount() {
     document.title = 'Contact Us | Physio-Control';
+    window.scrollTo(0, 0);
   }
 
   render() {

@@ -27,6 +27,7 @@ import Video from '../../organisms/Video/';
 class Homepage extends PureComponent {
   componentDidMount() {
     document.title = 'Physio-Control Data Solutions';
+    window.scrollTo(0, 0);
   }
 
   render() {
@@ -123,7 +124,9 @@ class Homepage extends PureComponent {
                 <div>
                   <Title tag="p" theme="headline">The insights you need to improve performance and patient outcomes.</Title>
                   <p>Identify and quickly make targeted improvements when you can easily understand team performance immediately after a response. CODE-STAT software gives you precision access to relevant, detailed CPR and resuscitation performance data to help you monitor and improve response. Customized reports deliver actionable information back to your teams for improvement.</p>
-                  <Button>More about Code-Stat System</Button>
+                  <Button>
+                    <Link to="/code-stat">More about Code-Stat System</Link>
+                  </Button>
                 </div>
                 <div>
                   <img src={images['codestat.jpg']} alt="" />
@@ -146,7 +149,9 @@ class Homepage extends PureComponent {
                 <div>
                   <Title tag="p" theme="headline">Streamline the operational intricacies of delivering home healthcare.</Title>
                   <p>Improve the clinical, operational, financial, and regulatory performance of your home health organization. This cloud-based, agency management EMR solution provides comprehensive tools for mobile point-of-care documentation, revenue cycle management, and data dashboards for enhancing workflows and quality assurance. Move beyond error-prone paperwork to enhance processes for scheduling, coding, eligibility, visit reconciliation, and more.</p>
-                  <Button>More about Homesolutions.net</Button>
+                  <Button>
+                    <Link to="/homesolutions-net">More about Homesolutions.net</Link>
+                  </Button>
                 </div>
                 <div>
                   <img src={images['homesolutions.jpg']} alt="" />

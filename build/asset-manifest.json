@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.0c774839.css",
   "main.css.map": "static/css/main.0c774839.css.map",
-  "main.js": "static/js/main.7d4ef9bc.js",
-  "main.js.map": "static/js/main.7d4ef9bc.js.map",
+  "main.js": "static/js/main.c038c16f.js",
+  "main.js.map": "static/js/main.c038c16f.js.map",
   "static/media/25-percent-compressions.svg": "static/media/25-percent-compressions.de64844f.svg",
   "static/media/35AF9E_0_0.eot": "static/media/35AF9E_0_0.1884b6b0.eot",
   "static/media/35AF9E_0_0.ttf": "static/media/35AF9E_0_0.e9f61caa.ttf",
@@ -91,5 +91,5 @@
   "static/media/stemi-stroke.jpg": "static/media/stemi-stroke.79398a10.jpg",
   "static/media/streamline-reporting.jpg": "static/media/streamline-reporting.f89bfc6d.jpg",
   "static/media/stryker-logo.svg": "static/media/stryker-logo.b6e21a2f.svg",
-  "static/media/video-poster.jpg": "static/media/video-poster.e77e119a.jpg"
+  "static/media/video-poster.jpg": "static/media/video-poster.af0ad0cc.jpg"
 }

@@ -25,6 +25,7 @@ import MediaList, { MediaListTheme } from '../../organisms/MediaList/';
 class Lifenet extends PureComponent {
   componentDidMount() {
     document.title = 'LIFENET System | Physio-Control';
+    window.scrollTo(0, 0);
   }
 
   render() {

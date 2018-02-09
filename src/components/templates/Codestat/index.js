@@ -23,6 +23,7 @@ import MediaList, { MediaListTheme } from '../../organisms/MediaList/';
 class Codestat extends PureComponent {
   componentDidMount() {
     document.title = 'CodeStat | Physio-Control';
+    window.scrollTo(0, 0);
   }
 
   render() {

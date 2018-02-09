@@ -5,6 +5,7 @@ import React, { PureComponent } from 'react';
 export default class ProfessionalServices extends PureComponent {
   componentDidMount() {
     document.title = 'Professional Services | Physio-Control';
+    window.scrollTo(0, 0);
   }
 
   render() {

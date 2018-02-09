@@ -25,6 +25,7 @@ import MediaList, { MediaListTheme } from '../../organisms/MediaList/';
 class HealthEMS extends PureComponent {
   componentDidMount() {
     document.title = 'Health EMS | Physio-Control';
+    window.scrollTo(0, 0);
   }
 
   render() {
