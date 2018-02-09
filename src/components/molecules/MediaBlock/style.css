@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 50em) {
   .media-block {
-    padding: 10% 0;
+    padding: 10% 5%;
     text-align: left; }
     .media-block > div {
       flex-direction: row; }
@@ -38,3 +38,7 @@
         width: 25%; }
       .media-block.large > div > div:nth-child(2) {
         width: 65%; } }
+
+@media screen and (min-width: 1080px) {
+  .media-block {
+    padding: 10% 0; } }
