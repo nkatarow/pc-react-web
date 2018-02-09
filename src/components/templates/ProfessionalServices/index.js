@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 // import PropTypes from 'prop-types';
 
 
-const ProfessionalServices = () => (
-  <div>ProfessionalServices</div>
-);
+export default class ProfessionalServices extends PureComponent {
+  componentDidMount() {
+    document.title = 'Professional Services | Physio-Control';
+  }
 
-// ProfessionalServices.propTypes = {
+  render() {
+    return (
+      <h1>Professional Services</h1>
+    );
+  }
+}
+
+// ContactUs.propTypes = {
 //
 // };
-
-export default ProfessionalServices;

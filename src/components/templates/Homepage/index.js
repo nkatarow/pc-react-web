@@ -24,6 +24,10 @@ import AccordionItemBody from '../../organisms/Accordion/AccordionItemBody/';
 import Video from '../../organisms/Video/';
 
 class Homepage extends PureComponent {
+  componentDidMount() {
+    document.title = 'Physio-Control Data Solutions';
+  }
+
   render() {
     const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
 

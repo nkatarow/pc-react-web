@@ -23,6 +23,10 @@ import CTA from '../../molecules/CTA/';
 import MediaList, { MediaListTheme } from '../../organisms/MediaList/';
 
 class Homesolutions extends PureComponent {
+  componentDidMount() {
+    document.title = 'HomeSolutions.net | Physio-Control';
+  }
+
   render() {
     const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
 

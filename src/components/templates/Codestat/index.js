@@ -21,6 +21,10 @@ import CTA from '../../molecules/CTA/';
 import MediaList, { MediaListTheme } from '../../organisms/MediaList/';
 
 class Codestat extends PureComponent {
+  componentDidMount() {
+    document.title = 'CodeStat | Physio-Control';
+  }
+
   render() {
     const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
     return (
