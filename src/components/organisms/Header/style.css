@@ -22,7 +22,8 @@ header {
   overflow: hidden;
   position: absolute;
   top: 66px;
-  transition: height 250ms ease; }
+  transition: height 250ms ease;
+  z-index: 10; }
   #nav-container.open {
     height: 100vh; }
 

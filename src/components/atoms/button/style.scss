@@ -21,6 +21,11 @@
     background-color: var(--selective-yellow);
     border-color: var(--selective-yellow);
 
+    a {
+      color: var(--black);
+      text-decoration: none;
+    }
+
     &:hover,
     &:focus {
       background-color: var(--white);
@@ -38,6 +43,11 @@
   &.outlined {
     background-color: transparent;
     border-color: var(--selective-yellow);
+
+    a {
+      color: var(--black);
+      text-decoration: none;
+    }
 
     &:hover,
     &:focus {

@@ -24,7 +24,12 @@ const Button = (props) => {
   );
 
   return (
-    <button type={props.type} className={classProps} onClick={props.onClick} disabled={props.disabled}>
+    <button
+      type={props.type}
+      className={classProps}
+      onClick={props.onClick}
+      disabled={props.disabled}
+    >
       {props.children}
     </button>
   );
@@ -44,7 +49,7 @@ Button.propTypes = {
   theme: PropTypes.string,
   onClick: PropTypes.func,
   disabled: PropTypes.bool,
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default Button;

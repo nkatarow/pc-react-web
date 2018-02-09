@@ -17,6 +17,9 @@
   .button.default {
     background-color: var(--selective-yellow);
     border-color: var(--selective-yellow); }
+    .button.default a {
+      color: var(--black);
+      text-decoration: none; }
     .button.default:hover, .button.default:focus {
       background-color: var(--white);
       border-color: var(--white); }
@@ -28,6 +31,9 @@
   .button.outlined {
     background-color: transparent;
     border-color: var(--selective-yellow); }
+    .button.outlined a {
+      color: var(--black);
+      text-decoration: none; }
     .button.outlined:hover, .button.outlined:focus {
       background-color: var(--selective-yellow); }
     .button.outlined:disabled {

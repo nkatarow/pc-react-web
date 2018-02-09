@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 // Utilities
 import getComponentImages from '../../_utility/getComponentImages';
@@ -72,7 +73,9 @@ class Homepage extends PureComponent {
                 <div>
                   <Title tag="p" theme="subhead">Easy, customizable documentation with advanced reporting to improve patient care and service delivery.</Title>
                   <p>HealthEMS is a patient-based, protocol-driven electronic patient care record (ePCR) system that makes documentation and critical operational processes as effortless as possible. This suite of flexible software tools provides all the documentation required for improved patient care, accurate billing, and advanced reporting. Quickly configure it to match your organizational needs. One connected system makes it easier to receive, share, and find actionable information that can make a difference inpatient outcomes, regulatory compliance, and operational and financial performance.</p>
-                  <Button>More about HealthEMS</Button>
+                  <Button>
+                    <Link to="/health-ems">More about HealthEMS</Link>
+                  </Button>
                 </div>
                 <div>
                   <img src={images['healthems.jpg']} alt="" />
@@ -95,7 +98,9 @@ class Homepage extends PureComponent {
                 <div>
                   <Title tag="p" theme="headline">Smoother communication. Faster care. Stronger teams.</Title>
                   <p>The LIFENET® System is a comprehensive cloud-based platform that provides the information and tools that EMS and hospital teams need to work together seamlessly, minimize time to treatment, and improve outcomes. Access and share the critical patient data that can help you reduce time to treatment for STEMI patients, stroke patients, and other emergencies. Quickly and easily obtain consultations from remote clinicians and activate care teams across your organization. Rapidly distribute post-event review insights and manage your LIFEPAK device fleet wide with innovative tools that help save time and empower improvement.</p>
-                  <Button>More about LifeNET System</Button>
+                  <Button>
+                    <Link to="/lifenet-system">More about LifeNET System</Link>
+                  </Button>
                 </div>
                 <div>
                   <img src={images['lifenet.jpg']} alt="" />
