@@ -24,7 +24,7 @@
     top: 0;
     transition: opacity 500ms ease;
     width: 100%;
-    z-index: 1; }
+    z-index: -1; }
   .video > div.copy {
     margin-top: 4em; }
 

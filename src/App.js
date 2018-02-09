@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import debounce from 'lodash/debounce';
 import PropTypes from 'prop-types';
 import { BrowserRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
@@ -15,26 +16,30 @@ import Footer from './components/organisms/Footer/';
 
 class App extends Component {
   componentDidMount() {
-    this.updateDimensions();
-    window.addEventListener('resize', this.updateDimensions.bind(this));
+    const debounceTime = 500;
+
+    this.listener = debounce(this.resizeHandler.bind(this), debounceTime);
+    window.addEventListener('resize', this.listener);
+
+    this.resizeHandler();
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.updateDimensions.bind(this));
+    window.removeEventListener('resize', this.listener);
   }
 
-  updateDimensions() {
-    // const newWidth = window.innerWidth;
-    // const newHeight = window.innerHeight;
+  resizeHandler() {
     let newIsMobile = this.props.isMobile;
 
-    if (window.innerWidth >= 800 && this.props.isMobile) {
+    if (window.innerWidth >= 800) {
       newIsMobile = false;
     } else {
       newIsMobile = true;
     }
-    // this.props.updateDimensions(newWidth, newHeight);
-    this.props.updateIsMobile(newIsMobile);
+
+    if (newIsMobile !== this.props.isMobile) {
+      this.props.updateIsMobile(newIsMobile);
+    }
   }
 
   render() {

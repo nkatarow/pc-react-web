@@ -15,17 +15,15 @@ class Header extends PureComponent {
   }
 
   componentWillReceiveProps(newProps) {
-    if (newProps.isMobile !== this.props.isMobile) {
-      this.toggleNav(true);
-    } else {
+    if ((newProps.isMobile) && (newProps.isMobile !== this.props.isMobile)) {
       this.toggleNav(false);
+    } else if ((!newProps.isMobile) && (newProps.isMobile !== this.props.isMobile)) {
+      this.toggleNav(true);
     }
   }
 
   toggleNav = (newState) => {
-    if (this.props.isMobile && newState !== this.state.isOpen) {
-      this.setState({ isOpen: newState });
-    }
+    this.setState({ isOpen: newState });
   };
 
   render() {
