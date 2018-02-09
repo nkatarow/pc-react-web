@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 import Title from '../../atoms/title/';
 import './style.css';
 
 const Hero = (props) => {
   let heroImage = '';
 
-  if (props.isMobile) {
+  if (props.screenWidth <= 940) {
     heroImage = props.mobileHero;
   } else {
     heroImage = props.desktopHero;
@@ -27,7 +28,9 @@ const Hero = (props) => {
   );
 };
 
-export default Hero;
+const mapStateToProps = state => ({
+  screenWidth: state.screensize.dimensions.width,
+});
 
 Hero.defaultProps = {
   headline: 'Headline copy goes here',
@@ -35,9 +38,11 @@ Hero.defaultProps = {
 };
 
 Hero.propTypes = {
-  isMobile: PropTypes.bool.isRequired,
+  screenWidth: PropTypes.number.isRequired,
   mobileHero: PropTypes.string.isRequired,
   desktopHero: PropTypes.string.isRequired,
   headline: PropTypes.string,
   copy: PropTypes.string,
 };
+
+export default connect(mapStateToProps)(Hero);

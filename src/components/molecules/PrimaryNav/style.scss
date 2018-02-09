@@ -48,29 +48,47 @@ nav a {
   }
 }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 1080px) {
   .primary { order: 2; }
+
+  .branding-bar { padding: 3em 2.5%; }
 
   nav {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
     max-width: var(--max-width);
+    padding: 0 2.5%;
+    width: 95%;
 
     a {
       background-color: var(--white);
       border-bottom: 5px solid var(--white);
       display: inline-block;
-      margin: 0 2em 0 0;
-      padding: 0 0 1em 0;
+      margin: 0 1.5em 0 0;
+      padding: 0 0 1em;
       transition: color 250ms ease, border-color 250ms ease;
 
+      &:last-child { margin-right: 0; }
       &.active { border-color: var(--selective-yellow); }
 
       &:hover,
       &:focus {
         color: var(--selective-yellow);
       }
+    }
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .branding-bar { padding: 3em 0; }
+
+  nav {
+    padding: 0;
+    width: 100%;
+
+    a {
+      margin-right: 2em;
     }
   }
 }

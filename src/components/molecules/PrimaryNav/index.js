@@ -7,7 +7,7 @@ import './style.css';
 
 const PrimaryNav = props => (
   <div className="primary">
-    { !props.isMobile &&
+    { !props.mobileNav &&
       <div className="branding-bar">
         <NavLink exact to="/">
           <Title tag="h2" theme="section-title">Data Solutions</Title>
@@ -28,7 +28,7 @@ const PrimaryNav = props => (
   </div>
 );
 PrimaryNav.propTypes = {
-  isMobile: PropTypes.bool.isRequired,
+  mobileNav: PropTypes.bool.isRequired,
 };
 
 export default PrimaryNav;

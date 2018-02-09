@@ -3,7 +3,7 @@
 .hero {
   .hero-image {
     margin-bottom: -4px;
-    
+
     img {
       height: auto;
       width: 100%;
@@ -22,21 +22,28 @@
   }
 }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 940px) {
   .hero {
     position: relative;
 
     .hero-copy {
       left: 50%;
       max-width: var(--max-width);
+      padding: 0;
       position: absolute;
       text-align: left;
-      top: 0;
-      transform: translateX(-50%);
-      width: 100%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: 90%;
 
       .hero-title { max-width: 45%; }
       p { max-width: 30%; }
     }
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .hero {
+    .hero-copy { width: 100%; }
   }
 }

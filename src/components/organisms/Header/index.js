@@ -15,9 +15,9 @@ class Header extends PureComponent {
   }
 
   componentWillReceiveProps(newProps) {
-    if ((newProps.isMobile) && (newProps.isMobile !== this.props.isMobile)) {
+    if ((newProps.mobileNav) && (newProps.mobileNav !== this.props.mobileNav)) {
       this.toggleNav(false);
-    } else if ((!newProps.isMobile) && (newProps.isMobile !== this.props.isMobile)) {
+    } else if ((!newProps.mobileNav) && (newProps.mobileNav !== this.props.mobileNav)) {
       this.toggleNav(true);
     }
   }
@@ -33,7 +33,7 @@ class Header extends PureComponent {
 
     return (
       <header>
-        { this.props.isMobile &&
+        { this.props.mobileNav &&
           <div className="top-bar">
             <HamburgerMenu
               status={this.state.isOpen}
@@ -45,7 +45,7 @@ class Header extends PureComponent {
 
         <div id="nav-container" className={navContainerClass}>
           <UtilityNav />
-          <PrimaryNav isMobile={this.props.isMobile} />
+          <PrimaryNav mobileNav={this.props.mobileNav} />
         </div>
       </header>
     );
@@ -55,5 +55,5 @@ class Header extends PureComponent {
 export default withRouter(Header);
 
 Header.propTypes = {
-  isMobile: PropTypes.bool.isRequired,
+  mobileNav: PropTypes.bool.isRequired,
 };

@@ -2,6 +2,7 @@ import * as actionTypes from '../actions';
 
 const initialState = {
   isMobile: true,
+  mobileNav: true,
 };
 
 const reducer = (state = initialState, action) => {
@@ -10,6 +11,12 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         isMobile: action.isMobile,
+      };
+
+    case actionTypes.UPDATE_MOBILE_NAV:
+      return {
+        ...state,
+        mobileNav: action.mobileNav,
       };
 
     default:

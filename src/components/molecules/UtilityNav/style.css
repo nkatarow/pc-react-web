@@ -28,7 +28,7 @@
       .utility a.product svg .st0 {
         fill: var(--selective-yellow); }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 1080px) {
   .link-label {
     display: none; }
   .utility {
@@ -40,7 +40,8 @@
       margin: 0 auto;
       max-width: var(--max-width);
       order: 1;
-      padding: 1em 0; }
+      padding: 1em 2.5%;
+      width: 95%; }
       .utility > div > div {
         align-items: center;
         display: flex;
@@ -79,3 +80,8 @@
           fill: var(--black); }
         .utility a.product:hover, .utility a.product:focus {
           color: var(--selective-yellow); } }
+
+@media screen and (min-width: 1250px) {
+  .utility > .div {
+    padding: 1em 0;
+    width: 100%; } }

@@ -33,7 +33,7 @@
   .introduction p {
     color: var(--white); }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 940px) {
   .introduction .copy {
     margin: 0 auto;
     max-width: 800px; }

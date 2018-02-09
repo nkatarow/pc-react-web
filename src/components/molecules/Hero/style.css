@@ -14,18 +14,23 @@
 .hero p {
   color: var(--scorpion); }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 940px) {
   .hero {
     position: relative; }
     .hero .hero-copy {
       left: 50%;
       max-width: var(--max-width);
+      padding: 0;
       position: absolute;
       text-align: left;
-      top: 0;
-      transform: translateX(-50%);
-      width: 100%; }
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: 90%; }
       .hero .hero-copy .hero-title {
         max-width: 45%; }
       .hero .hero-copy p {
         max-width: 30%; } }
+
+@media screen and (min-width: 1250px) {
+  .hero .hero-copy {
+    width: 100%; } }
