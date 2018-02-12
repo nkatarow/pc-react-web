@@ -1,27 +1,42 @@
 import React, { PureComponent } from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+
+// Utilities
+import getComponentImages from '../../_utility/getComponentImages';
 
 // Atoms
 import Title from '../../atoms/title/';
 import Button from '../../atoms/button/';
 
 // Molecules
+import Hero from '../../molecules/Hero';
 import { Input, Textarea, Select } from '../../molecules/_forms/';
 
 import './style.css';
 
-export default class ContactUs extends PureComponent {
+class ContactUs extends PureComponent {
   componentDidMount() {
     document.title = 'Contact Us | Physio-Control';
     window.scrollTo(0, 0);
   }
 
   render() {
+    const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
+
     return (
       <section className="contact-form">
+        <Hero
+          isMobile={this.props.isMobile}
+          headlineColor="white"
+          mobileHero={images['bg-hero-mobile.jpg']}
+          desktopHero={images['bg-hero-desktop.jpg']}
+          headline="Ready to learn more? Let’s schedule a demo."
+        />
 
         <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
           <Title tag="h2" theme="headline">Please tell us a little about yourself</Title>
+
           <input type="hidden" name="oid" value="00Dj0000000Hq9N" />
           <input type="hidden" name="retURL" value="http://" />
 
@@ -340,6 +355,12 @@ export default class ContactUs extends PureComponent {
   }
 }
 
-// ContactUs.propTypes = {
-//
-// };
+const mapStateToProps = state => ({
+  isMobile: state.mobilestate.isMobile,
+});
+
+ContactUs.propTypes = {
+  isMobile: PropTypes.bool.isRequired,
+};
+
+export default connect(mapStateToProps)(ContactUs);

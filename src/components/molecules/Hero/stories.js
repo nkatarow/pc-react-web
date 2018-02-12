@@ -1,11 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react'; //eslint-disable-line
+import { Provider } from '../../../../.storybook/Provider';
 
 import Hero from './';
 import mobileHero from '../../templates/Homepage/_img/hp-hero-mobile.jpg';
 import desktopHero from '../../templates/Homepage/_img/hp-hero-desktop.jpg';
 
 storiesOf('Hero', module)
+  .addDecorator(story => <Provider story={story()} />)
   .add('Default', () => (
     <Hero
       isMobile={false}

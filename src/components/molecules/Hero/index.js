@@ -19,7 +19,7 @@ const Hero = (props) => {
         <img src={heroImage} alt="" />
       </div>
       <div className="hero-copy">
-        <Title tag="h2" theme="hero-title">
+        <Title tag="h2" theme="hero-title" color={props.headlineColor}>
           {props.headline}
         </Title>
         <p>{props.copy}</p>
@@ -34,7 +34,8 @@ const mapStateToProps = state => ({
 
 Hero.defaultProps = {
   headline: 'Headline copy goes here',
-  copy: 'Supporting copy for the hero headline goes here. It shouldn\'t be more than a paragraph long.',
+  headlineColor: 'black',
+  copy: null,
 };
 
 Hero.propTypes = {
@@ -42,6 +43,7 @@ Hero.propTypes = {
   mobileHero: PropTypes.string.isRequired,
   desktopHero: PropTypes.string.isRequired,
   headline: PropTypes.string,
+  headlineColor: PropTypes.string,
   copy: PropTypes.string,
 };
 

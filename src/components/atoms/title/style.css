@@ -15,7 +15,8 @@ h6 {
 
 .hero-title {
   font-family: var(--egypt);
-  font-size: 3em; }
+  font-size: 3em;
+  margin-bottom: 0; }
 
 .section-title {
   font-family: var(--futura);
