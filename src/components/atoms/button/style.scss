@@ -1,6 +1,7 @@
 @import '../../_settings/_variables.css';
 
-.button {
+.button,
+.submit {
   appearance: none;
   border: 2px solid;
   cursor: pointer;
@@ -65,5 +66,8 @@
 
 
 @media screen and (min-width: 50em) {
-  .button { width: auto; }
+  .button,
+  .submit {
+    width: auto;
+  }
 }

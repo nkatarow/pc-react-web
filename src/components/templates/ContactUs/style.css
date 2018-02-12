@@ -1,0 +1,18 @@
+@import url(../../_settings/_variables.css);
+.contact-form form {
+  background-color: var(--gallery);
+  padding: 5%;
+  width: 90%; }
+
+@media screen and (min-width: 50em) {
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    form h2 {
+      margin-bottom: 1em;
+      width: 100%; }
+    form label[for='first_name'], form label[for='last_name'], form label[for='company'], form label[for='zip'], form label[for='phone'], form label[for='country_code'] {
+      width: 32%; }
+    form label[for='email'], form label[for='00Nj0000002taVP'] {
+      width: 49%; } }

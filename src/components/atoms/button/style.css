@@ -1,5 +1,6 @@
 @import url(../../_settings/_variables.css);
-.button {
+.button,
+.submit {
   appearance: none;
   border: 2px solid;
   cursor: pointer;
@@ -14,34 +15,45 @@
   text-transform: uppercase;
   transition: background-color 250ms ease, border-color 250ms ease, color 250ms ease;
   width: 100%; }
-  .button.default {
+  .button.default,
+  .submit.default {
     background-color: var(--selective-yellow);
     border-color: var(--selective-yellow); }
-    .button.default a {
+    .button.default a,
+    .submit.default a {
       color: var(--black);
       text-decoration: none; }
-    .button.default:hover, .button.default:focus {
+    .button.default:hover, .button.default:focus,
+    .submit.default:hover,
+    .submit.default:focus {
       background-color: var(--white);
       border-color: var(--white); }
-    .button.default:disabled {
+    .button.default:disabled,
+    .submit.default:disabled {
       background-color: var(--silver);
       border-color: var(--silver);
       color: var(--gray);
       cursor: default; }
-  .button.outlined {
+  .button.outlined,
+  .submit.outlined {
     background-color: transparent;
     border-color: var(--selective-yellow); }
-    .button.outlined a {
+    .button.outlined a,
+    .submit.outlined a {
       color: var(--black);
       text-decoration: none; }
-    .button.outlined:hover, .button.outlined:focus {
+    .button.outlined:hover, .button.outlined:focus,
+    .submit.outlined:hover,
+    .submit.outlined:focus {
       background-color: var(--selective-yellow); }
-    .button.outlined:disabled {
+    .button.outlined:disabled,
+    .submit.outlined:disabled {
       background-color: var(--silver);
       border-color: var(--gray);
       color: var(--gray);
       cursor: default; }
 
 @media screen and (min-width: 50em) {
-  .button {
+  .button,
+  .submit {
     width: auto; } }
