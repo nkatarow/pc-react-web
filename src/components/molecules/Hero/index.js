@@ -22,7 +22,7 @@ const Hero = (props) => {
         <Title tag="h2" theme="hero-title" color={props.headlineColor}>
           {props.headline}
         </Title>
-        <p>{props.copy}</p>
+        <p className="medium">{props.copy}</p>
       </div>
     </section>
   );

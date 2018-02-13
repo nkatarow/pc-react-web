@@ -1,23 +1,28 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react'; //eslint-disable-line
-import { Provider } from '../../../../.storybook/Provider';
+import { Provider } from 'react-redux';
+import store from '../../../store/store';
 
 import Hero from './';
 import mobileHero from '../../templates/Homepage/_img/hp-hero-mobile.jpg';
 import desktopHero from '../../templates/Homepage/_img/hp-hero-desktop.jpg';
 
+const story = storyFn => (
+  <Provider store={store}>
+    {storyFn()}
+  </Provider>
+);
+
 storiesOf('Hero', module)
-  .addDecorator(story => <Provider story={story()} />)
+  .addDecorator(story)
   .add('Default', () => (
     <Hero
-      isMobile={false}
       mobileHero={mobileHero}
       desktopHero={desktopHero}
     />
   ))
   .add('Custom Copy', () => (
     <Hero
-      isMobile={false}
       mobileHero={mobileHero}
       desktopHero={desktopHero}
       headline="Quickly access the information to optimize performance."
