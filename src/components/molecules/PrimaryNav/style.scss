@@ -12,7 +12,7 @@ nav a {
   display: block;
   font-family: var(--futura);
   font-size: 1.5em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   margin-bottom: 1px;
   padding: 1em 5%;
   text-decoration: none;
@@ -65,7 +65,8 @@ nav a {
       background-color: var(--white);
       border-bottom: 5px solid var(--white);
       display: inline-block;
-      margin: 0 1.5em 0 0;
+      font-size: 1.4em;
+      margin: 0 1.75em 0 0;
       padding: 0 0 1em;
       transition: color 250ms ease, border-color 250ms ease;
 
@@ -88,7 +89,7 @@ nav a {
     width: 100%;
 
     a {
-      margin-right: 2em;
+      margin-right: 3em;
     }
   }
 }

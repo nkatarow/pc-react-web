@@ -20,6 +20,8 @@
     padding: 1em 5%;
     text-decoration: none;
     text-transform: uppercase; }
+    .utility a .link-label {
+      margin-left: 0.5em; }
     .utility a svg {
       margin-right: 1em; }
       .utility a svg .st0 {

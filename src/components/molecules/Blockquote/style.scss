@@ -1,22 +1,22 @@
 @import '../../_settings/_variables.css';
 
 blockquote {
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   margin: 0;
   padding: 10% 5%;
   text-align: center;
 
   cite {
     color: var(--selective-yellow);
+    display: block;
     font-style: normal;
+    margin-top: 5%;
 
     span {
       display: block;
       margin-bottom: 0.5em;
     }
-
-    .subhead { text-transform: uppercase; }
 
     .second-line { font-size: 1.6em; }
   }

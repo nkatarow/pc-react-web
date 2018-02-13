@@ -23,7 +23,7 @@ const Blockquote = (props) => {
 
     if (props.citeFirstLine) {
       firstLine = (
-        <Title tag="span" theme="subhead" color="selective-yellow">{props.citeFirstLine}</Title>
+        <Title tag="span" theme="subhead" color="selective-yellow" caps>{props.citeFirstLine}</Title>
       );
     }
 

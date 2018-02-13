@@ -26,16 +26,24 @@ h6 {
 .section-title {
   font-family: var(--futura);
   font-size: 2.5em;
+  line-height: 1.2em;
 }
 
 .headline {
   font-family: var(--futura);
   font-size: 2.1em;
+  line-height: 1.2em;
 }
 
 .subhead {
   font-family: var(--futura);
-  font-size: 1.8em;
+  font-size: 1.5em;
+  line-height: 1.2em;
+
+  &.caps {
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
 }
 
 .context-head {
@@ -44,6 +52,7 @@ h6 {
   font-family: var(--futura);
   font-size: 1.3em;
   letter-spacing: 0.15em;
+  padding-bottom: 0.5em;
   text-transform: uppercase;
 }
 
@@ -53,7 +62,7 @@ h6 {
   }
 
   .hero-title {
-    font-size: 5em;
+    font-size: 4.49em;
   }
 
   .section-title {
@@ -65,6 +74,6 @@ h6 {
   }
 
   .subhead {
-    font-size: 2.1em;
+    font-size: 1.8em;
   }
 }

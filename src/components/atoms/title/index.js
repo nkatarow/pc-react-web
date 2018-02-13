@@ -13,8 +13,15 @@ export const TitleThemes = {
 };
 
 const Title = (props) => {
+  let caps = '';
+
+  if (props.caps) {
+    caps = 'caps';
+  }
+
   const classProps = classNames(
     props.tag,
+    caps,
     props.theme,
     props.color,
   );
@@ -29,6 +36,7 @@ const Title = (props) => {
 export default Title;
 
 Title.defaultProps = {
+  caps: false,
   color: 'black',
   theme: TitleThemes.SECTION_TITLE,
 };
@@ -36,6 +44,7 @@ Title.defaultProps = {
 Title.propTypes = {
   color: PropTypes.string,
   theme: PropTypes.string,
+  caps: PropTypes.bool,
   tag: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
 };

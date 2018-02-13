@@ -1,18 +1,18 @@
 @import url(../../_settings/_variables.css);
 blockquote {
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   margin: 0;
   padding: 10% 5%;
   text-align: center; }
   blockquote cite {
     color: var(--selective-yellow);
-    font-style: normal; }
+    display: block;
+    font-style: normal;
+    margin-top: 5%; }
     blockquote cite span {
       display: block;
       margin-bottom: 0.5em; }
-    blockquote cite .subhead {
-      text-transform: uppercase; }
     blockquote cite .second-line {
       font-size: 1.6em; }
 

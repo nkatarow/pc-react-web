@@ -20,15 +20,21 @@ h6 {
 
 .section-title {
   font-family: var(--futura);
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  line-height: 1.2em; }
 
 .headline {
   font-family: var(--futura);
-  font-size: 2.1em; }
+  font-size: 2.1em;
+  line-height: 1.2em; }
 
 .subhead {
   font-family: var(--futura);
-  font-size: 1.8em; }
+  font-size: 1.5em;
+  line-height: 1.2em; }
+  .subhead.caps {
+    letter-spacing: 0.15em;
+    text-transform: uppercase; }
 
 .context-head {
   border-bottom: 2px solid;
@@ -36,16 +42,17 @@ h6 {
   font-family: var(--futura);
   font-size: 1.3em;
   letter-spacing: 0.15em;
+  padding-bottom: 0.5em;
   text-transform: uppercase; }
 
 @media screen and (min-width: 50em) {
   .page-title {
     font-size: 7.8em; }
   .hero-title {
-    font-size: 5em; }
+    font-size: 4.49em; }
   .section-title {
     font-size: 4em; }
   .headline {
     font-size: 2.6em; }
   .subhead {
-    font-size: 2.1em; } }
+    font-size: 1.8em; } }
