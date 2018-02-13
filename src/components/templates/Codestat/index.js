@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
+import './style.css';
+
 // Utilities
 import getComponentImages from '../../_utility/getComponentImages';
 
@@ -30,7 +32,7 @@ class Codestat extends PureComponent {
   render() {
     const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
     return (
-      <div>
+      <div className="codestat-page">
         <Hero
           isMobile={this.props.isMobile}
           mobileHero={images['codestat-hero-mobile.jpg']}
@@ -95,7 +97,7 @@ class Codestat extends PureComponent {
             <Picture src={images['resuscitation.jpg']} />
           </div>
           <div>
-            <p className="medium">See Resuscitation Performance at a Glance</p>
+            <Title tag="h3" theme="subhead">See Resuscitation Performance at a Glance</Title>
             <ul>
               <li>Display CPR metrics visually, according to your targets, for intuitive insight. Dive into moment-by-moment details of an entire event on a graphic, continuous time scale.</li>
               <li>Review interval statistics for the entire resuscitation, broken down by time interval.</li>
@@ -108,7 +110,7 @@ class Codestat extends PureComponent {
             <Picture src={images['custom-analytics.jpg']} />
           </div>
           <div>
-            <p className="medium">Create Custom Analytics and Reporting According to Your Needs</p>
+            <Title tag="h3" theme="subhead">Create Custom Analytics and Reporting According to Your Needs</Title>
             <ul>
               <li>Customize display of the statistics and details you need most, including CPR performance, ECG and EtCO2 waveforms, and CO2 trend data.</li>
               <li>Annotate the stories of each resuscitation event to add context or focus attention on achievements or areas needing improvement.</li>
@@ -122,7 +124,7 @@ class Codestat extends PureComponent {
             <Picture src={images['streamline-reporting.jpg']} />
           </div>
           <div>
-            <p className="medium">Streamline Reporting</p>
+            <Title tag="h3" theme="subhead">Streamline Reporting</Title>
             <ul>
               <li>Easily create summary, detail, or custom reports for performance reviews, training plans, or documentation.</li>
               <li>Provide feedback to caregivers in a simple, intuitive format.</li>
@@ -136,7 +138,7 @@ class Codestat extends PureComponent {
             <Picture src={images['data-handling.jpg']} />
           </div>
           <div>
-            <p className="medium">Reduce Data Handling Effort</p>
+            <Title tag="h3" theme="subhead">Reduce Data Handling Effort</Title>
             <ul>
               <li>Simplify data collection and management, thanks to full integration with all LIFEPAK monitor/defibrillators.</li>
               <li>No time or staff for review? Receive expert summaries and targeted recommendations on request with Physio-Control’s new CODE-STAT Data Review Service.</li>

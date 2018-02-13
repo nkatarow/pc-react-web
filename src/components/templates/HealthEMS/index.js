@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
+import './style.css';
+
 // Utilities
 import getComponentImages from '../../_utility/getComponentImages';
 
@@ -33,7 +35,7 @@ class HealthEMS extends PureComponent {
     const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
 
     return (
-      <div>
+      <div className="healthems-page">
         <Hero
           isMobile={this.props.isMobile}
           mobileHero={images['healthems-hero-mobile.jpg']}
