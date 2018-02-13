@@ -45,7 +45,10 @@ class Header extends PureComponent {
 
         <div id="nav-container" className={navContainerClass}>
           <UtilityNav />
-          <PrimaryNav mobileNav={this.props.mobileNav} />
+          <PrimaryNav
+            toggleNav={this.toggleNav}
+            mobileNav={this.props.mobileNav}
+          />
         </div>
       </header>
     );

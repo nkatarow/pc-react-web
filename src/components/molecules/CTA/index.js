@@ -35,7 +35,7 @@ export default CTA;
 CTA.defaultProps = {
   headline: 'Take the next step',
   linkText: 'Schedule a demo',
-  linkUrl: '/',
+  linkUrl: '/contact-us',
 };
 
 CTA.propTypes = {

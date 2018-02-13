@@ -52,16 +52,8 @@ class Lifenet extends PureComponent {
             <Picture src={images['stemi-stroke.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">MobileTouch</Title>
-            <p className="medium">Quality documentation with less effort</p>
-            <p>Save time and prevent errors when you can record easily and in a flow that makes sense with your protocols. The MobileTouch electronic patient care report (ePCR) application works securely on today’s popular tablets—online or offline. Its quick, touch-based operation facilitates quick, immediate documentation, right at the point of care.</p>
-            <ul>
-              <li>Dynamic, protocol-driven flow</li>
-              <li>Data capture from multiple sources, from monitors to scanned driver’s licenses</li>
-              <li>Auto-filling of critical fields, from CAD and monitors to patient history and IDs</li>
-              <li>Assessments, vitals, and interventions, all in one place</li>
-              <li>Close-call rules with conditional validations</li>
-            </ul>
+            <Title tag="h3" theme="subhead">Minimize Time to Treatment for STEMI and Stroke</Title>
+            <p>Faster response times lead to better outcomes. Give hospital critical care teams a head start on reducing time to treatment for all emergencies through comprehensive patient data delivery from EMS. Hospitals know exactly what to expect before patients reach their doors, which means care teams can be assembled faster and briefed in advance.</p>
           </div>
         </HalfHalf>
 
@@ -70,17 +62,8 @@ class Lifenet extends PureComponent {
             <Picture src={images['decisions-collaboration.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">HealthEMS Manager</Title>
-            <p className="medium">Better visibility for managing your operations</p>
-            <p>Empower great teams to excel even more when you can easily assess performance and plan targeted enhancements. HealthEMS Manager is the ePCR command center for agency administrators. Personalized dashboards provide real-time metrics to support performance management and training, workflow optimization, and quality assurance / quality improvement (QA/QI) activities.</p>
-            <ul>
-              <li>Greater configurability than any other ePCR</li>
-              <li>Secure, automatic alerting for custom-set events</li>
-              <li>Standard and tailored reports</li>
-              <li>A proprietary algorithm that analyzes patient reports to ensure accurate billing and CMS compliance</li>
-              <li>Real-time CAD, patient, incident, monitor / ECG, and billing data in one record set</li>
-              <li>Flexible, role-based security</li>
-            </ul>
+            <Title tag="h3" theme="subhead">Enable Quicker Decisions and Team Collaboration</Title>
+            <p>No matter where a physician might be located, their advice is only a click away with LIFENET Consult. This smartphone application allows clinicians to quickly perform remote consultations and decision support, while securely messaging the team coordinator.</p>
           </div>
         </HalfHalf>
 
@@ -89,16 +72,8 @@ class Lifenet extends PureComponent {
             <Picture src={images['improvement.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">MobileTouch</Title>
-            <p className="medium">Quality documentation with less effort</p>
-            <p>Save time and prevent errors when you can record easily and in a flow that makes sense with your protocols. The MobileTouch electronic patient care report (ePCR) application works securely on today’s popular tablets—online or offline. Its quick, touch-based operation facilitates quick, immediate documentation, right at the point of care.</p>
-            <ul>
-              <li>Dynamic, protocol-driven flow</li>
-              <li>Data capture from multiple sources, from monitors to scanned driver’s licenses</li>
-              <li>Auto-filling of critical fields, from CAD and monitors to patient history and IDs</li>
-              <li>Assessments, vitals, and interventions, all in one place</li>
-              <li>Close-call rules with conditional validations</li>
-            </ul>
+            <Title tag="h3" theme="subhead">Quickly Mobilize Data for Reporting and Quality Improvement</Title>
+            <p>In addition to capturing minute-by-minute transmission/reception history, LIFENET facilitates the immediate transfer of data to CODE-STAT™ Data Review Software and ePCR solutions for efficient post-event QA/QI.</p>
           </div>
         </HalfHalf>
 
@@ -107,17 +82,8 @@ class Lifenet extends PureComponent {
             <Picture src={images['manage-equipment.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">HealthEMS Manager</Title>
-            <p className="medium">Better visibility for managing your operations</p>
-            <p>Empower great teams to excel even more when you can easily assess performance and plan targeted enhancements. HealthEMS Manager is the ePCR command center for agency administrators. Personalized dashboards provide real-time metrics to support performance management and training, workflow optimization, and quality assurance / quality improvement (QA/QI) activities.</p>
-            <ul>
-              <li>Greater configurability than any other ePCR</li>
-              <li>Secure, automatic alerting for custom-set events</li>
-              <li>Standard and tailored reports</li>
-              <li>A proprietary algorithm that analyzes patient reports to ensure accurate billing and CMS compliance</li>
-              <li>Real-time CAD, patient, incident, monitor / ECG, and billing data in one record set</li>
-              <li>Flexible, role-based security</li>
-            </ul>
+            <Title tag="h3" theme="subhead">Easily Manage Equipment</Title>
+            <p>LIFENET Asset allows you to manage an entire fleet of devices from one place. This web-based tool allows you to track equipment readiness, manage setup options, update software and receive notifications about potential device issues. Asset is highly configurable with automated alerting capabilities.</p>
           </div>
         </HalfHalf>
 
@@ -126,16 +92,8 @@ class Lifenet extends PureComponent {
             <Picture src={images['patient-privacy.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">MobileTouch</Title>
-            <p className="medium">Quality documentation with less effort</p>
-            <p>Save time and prevent errors when you can record easily and in a flow that makes sense with your protocols. The MobileTouch electronic patient care report (ePCR) application works securely on today’s popular tablets—online or offline. Its quick, touch-based operation facilitates quick, immediate documentation, right at the point of care.</p>
-            <ul>
-              <li>Dynamic, protocol-driven flow</li>
-              <li>Data capture from multiple sources, from monitors to scanned driver’s licenses</li>
-              <li>Auto-filling of critical fields, from CAD and monitors to patient history and IDs</li>
-              <li>Assessments, vitals, and interventions, all in one place</li>
-              <li>Close-call rules with conditional validations</li>
-            </ul>
+            <Title tag="h3" theme="subhead">Protect Patient Privacy</Title>
+            <p>LIFENET offers multiple security shields and audits to help hospitals and EMS teams protect patient health information and avoid HIPAA exposure.</p>
           </div>
         </HalfHalf>
 
@@ -144,17 +102,8 @@ class Lifenet extends PureComponent {
             <Picture src={images['proven-system.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">HealthEMS Manager</Title>
-            <p className="medium">Better visibility for managing your operations</p>
-            <p>Empower great teams to excel even more when you can easily assess performance and plan targeted enhancements. HealthEMS Manager is the ePCR command center for agency administrators. Personalized dashboards provide real-time metrics to support performance management and training, workflow optimization, and quality assurance / quality improvement (QA/QI) activities.</p>
-            <ul>
-              <li>Greater configurability than any other ePCR</li>
-              <li>Secure, automatic alerting for custom-set events</li>
-              <li>Standard and tailored reports</li>
-              <li>A proprietary algorithm that analyzes patient reports to ensure accurate billing and CMS compliance</li>
-              <li>Real-time CAD, patient, incident, monitor / ECG, and billing data in one record set</li>
-              <li>Flexible, role-based security</li>
-            </ul>
+            <Title tag="h3" theme="subhead">Trust a Proven System</Title>
+            <p>LIFENET is backed by a leader in emergency medicine and resuscitation, providing the most comprehensive toolset for team coordination, alerting, data transmission, and device fleet management for multiple devices.</p>
           </div>
         </HalfHalf>
 
