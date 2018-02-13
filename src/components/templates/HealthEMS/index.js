@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 // Utilities
 import getComponentImages from '../../_utility/getComponentImages';
@@ -202,7 +203,9 @@ class HealthEMS extends PureComponent {
           <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
           <Title tag="h2" theme="subhead">Make it <em>your</em> ePCR</Title>
           <p>You need solutions that work right, quickly, and under pressure — just like you do. An expert support team will help you tailor your HealthEMS solution with all the components you need for success. Full training and support will speed implementation to put data and new insights at your fingertips while enabling your organization to continue operations.</p>
-          <Button>About Service Plans</Button>
+          <Button>
+            <Link to="/professional-services">About Service Plans</Link>
+          </Button>
         </MediaBlock>
 
         <CTA />

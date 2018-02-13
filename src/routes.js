@@ -10,6 +10,7 @@ import Codestat from './components/templates/Codestat/';
 import Homesolutions from './components/templates/Homesolutions/';
 import ProfessionalServices from './components/templates/ProfessionalServices/';
 import ContactUs from './components/templates/ContactUs/';
+import ErrorPage from './components/templates/ErrorPage/';
 
 const Routes = withRouter(({ location }) => (
   <TransitionGroup>
@@ -22,6 +23,7 @@ const Routes = withRouter(({ location }) => (
         <Route path="/homesolutions-net" component={Homesolutions} />
         <Route path="/professional-services" component={ProfessionalServices} />
         <Route path="/contact-us" component={ContactUs} />
+        <Route component={ErrorPage} />
       </Switch>
     </CSSTransition>
   </TransitionGroup>

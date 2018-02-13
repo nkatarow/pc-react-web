@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 // Utilities
 import getComponentImages from '../../_utility/getComponentImages';
@@ -160,7 +161,9 @@ class Codestat extends PureComponent {
           <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
           <Title tag="h2" theme="subhead">Complete Service by Stryker SmartDesk</Title>
           <p>Start gaining insight immediately with smooth, easy CODE-STAT implementation. An expert Physio-Control team guides you with tutorials, traning, and assistance through our Smart Desk support.</p>
-          <Button>About Service Plans</Button>
+          <Button>
+            <Link to="/professional-services">About Service Plans</Link>
+          </Button>
         </MediaBlock>
 
         <CTA />
