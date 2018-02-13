@@ -22,7 +22,9 @@ const Hero = (props) => {
         <Title tag="h2" theme="hero-title" color={props.headlineColor}>
           {props.headline}
         </Title>
-        <p className="medium">{props.copy}</p>
+        {props.copy &&
+          <p className="medium">{props.copy}</p>
+        }
       </div>
     </section>
   );

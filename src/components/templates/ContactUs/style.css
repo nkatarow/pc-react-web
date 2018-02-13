@@ -1,18 +1,32 @@
 @import url(../../_settings/_variables.css);
+.contact-form .hero {
+  position: relative; }
+  .contact-form .hero .hero-copy {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); }
+  .contact-form .hero .hero-title {
+    margin-bottom: 0; }
+
 .contact-form form {
   background-color: var(--gallery);
   padding: 5%;
   width: 90%; }
+  .contact-form form h2 {
+    margin-bottom: 1em;
+    width: 100%; }
 
 @media screen and (min-width: 50em) {
-  form {
+  .contact-form .hero .hero-copy {
+    left: 50%;
+    margin: 0 auto;
+    max-width: var(--max-width);
+    transform: translateX(-50%) translateY(-50%); }
+  .contact-form form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; }
-    form h2 {
-      margin-bottom: 1em;
-      width: 100%; }
-    form label[for='first_name'], form label[for='last_name'], form label[for='company'], form label[for='zip'], form label[for='phone'], form label[for='country_code'] {
-      width: 32%; }
-    form label[for='email'], form label[for='00Nj0000002taVP'] {
-      width: 49%; } }
+  .contact-form label[for='first_name'], .contact-form label[for='last_name'], .contact-form label[for='company'], .contact-form label[for='zip'], .contact-form label[for='phone'], .contact-form label[for='country_code'] {
+    width: 32%; }
+  .contact-form label[for='email'], .contact-form label[for='00Nj0000002taVP'] {
+    width: 49%; } }
