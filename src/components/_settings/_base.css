@@ -9,7 +9,9 @@ body {
 }
 
 /* Paragraph Types */
-p { font-size: 1.6em; }
+p {
+  font-size: 1.6em;
+}
 p.medium { font-size: 1.8em; }
 p.large { font-size: 2em; }
 
@@ -18,7 +20,7 @@ ul, ol {
   font-size: 1.6em;
   padding-left: 1em;
 }
-  ul li { margin-bottom: 0.25em; }
+  ul li { margin-bottom: 0.5em; }
 
 /* Utility Colors */
 .black { color: var(--black); }

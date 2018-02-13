@@ -58,7 +58,7 @@ class Homepage extends PureComponent {
           copy="Capture the rich flow of data that starts with a patient event to empower better decisions, faster team mobilization, and improved outcomes. A continuum of data solutions makes it faster and easier to provide better, safer, and more efficient care."
         />
 
-        <Accordion accordion activeItems={[0]}>
+        <Accordion accordion>
 
           <AccordionItem>
             <AccordionItemTitle>
@@ -139,7 +139,7 @@ class Homepage extends PureComponent {
             <AccordionItemTitle>
               <img src={images['homesolutions-icon.svg']} alt="" />
               <div>
-                <Title tag="h3" theme="subhead">Homesolutions.net</Title>
+                <Title tag="h3" theme="subhead">HomeSolutions.Net</Title>
                 <p>Comprehensive Home Healthcare Management System</p>
               </div>
             </AccordionItemTitle>

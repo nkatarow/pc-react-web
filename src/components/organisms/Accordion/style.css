@@ -43,6 +43,8 @@
     padding: 0; }
   .accordion .accordion-body img {
     width: 100%; }
+  .accordion .accordion-body button {
+    margin-top: 4em; }
 
 .accordion .accordion-body--hidden {
   max-height: 0; }
