@@ -28,7 +28,7 @@
       width: 90%; }
       .hero .hero-copy p,
       .hero .hero-copy .hero-title {
-        max-width: 45%; } }
+        max-width: 50%; } }
 
 @media screen and (min-width: 1250px) {
   .hero .hero-copy {

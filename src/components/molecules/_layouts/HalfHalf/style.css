@@ -13,6 +13,10 @@
     margin: 5%;
     max-width: var(--max-width);
     padding: 0; }
+    .half-half:first-of-type {
+      padding-top: 5%; }
+    .half-half:last-of-type {
+      padding-bottom: 5%; }
     .half-half > div {
       width: 45%; }
       .half-half > div:nth-child(2) {
