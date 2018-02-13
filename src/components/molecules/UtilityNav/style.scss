@@ -15,8 +15,9 @@
   }
 
   a {
+    align-items: center;
     color: var(--gray);
-    display: block;
+    display: flex;
     font-family: var(--futura);
     font-size: 1.5em;
     letter-spacing: 0.2em;
