@@ -26,8 +26,8 @@
     .button.default:hover, .button.default:focus,
     .submit.default:hover,
     .submit.default:focus {
-      background-color: var(--white);
-      border-color: var(--white); }
+      background-color: var(--school-bus-yellow);
+      border-color: var(--school-bus-yellow); }
     .button.default:disabled,
     .submit.default:disabled {
       background-color: var(--silver);
@@ -45,7 +45,7 @@
     .button.outlined:hover, .button.outlined:focus,
     .submit.outlined:hover,
     .submit.outlined:focus {
-      background-color: var(--selective-yellow); }
+      border-color: var(--school-bus-yellow); }
     .button.outlined:disabled,
     .submit.outlined:disabled {
       background-color: var(--silver);

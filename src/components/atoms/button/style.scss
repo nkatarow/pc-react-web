@@ -29,8 +29,8 @@
 
     &:hover,
     &:focus {
-      background-color: var(--white);
-      border-color: var(--white);
+      background-color: var(--school-bus-yellow);
+      border-color: var(--school-bus-yellow);
     }
 
     &:disabled {
@@ -52,7 +52,7 @@
 
     &:hover,
     &:focus {
-      background-color: var(--selective-yellow);
+      border-color: var(--school-bus-yellow);
     }
 
     &:disabled {

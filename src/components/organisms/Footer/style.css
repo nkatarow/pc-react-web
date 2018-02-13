@@ -69,8 +69,13 @@ footer {
     width: 25%; }
   .stryker img {
     max-width: 165px; }
+  .follow {
+    margin-top: 1em; }
+    .follow a {
+      display: block;
+      padding-bottom: 0.5em; }
   .legal {
-    border-top: none;
+    border-top: 0;
     display: flex;
     padding-top: 0;
     width: 50%; }

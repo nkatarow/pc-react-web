@@ -36,8 +36,10 @@
       transform: translateX(-50%) translateY(-50%);
       width: 90%;
 
-      .hero-title { max-width: 45%; }
-      p { max-width: 30%; }
+      p,
+      .hero-title {
+        max-width: 45%;
+      }
     }
   }
 }

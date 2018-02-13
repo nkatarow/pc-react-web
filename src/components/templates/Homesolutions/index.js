@@ -63,14 +63,14 @@ class Homesolutions extends PureComponent {
           <div>
             <Picture src={images['icon-touchscreen.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Easy-to-use Touch-screenInterface
+              Easy-to-use Touch-screen Interface
             </Title>
             <p>MobileTouch is the revolutionary Point-of-Care application that works online or offline on today’s popular tablets. This easy-to-use tool facilitates quick, timely documentation at the point-of-care, improving accuracy and patient care.</p>
           </div>
           <div>
             <Picture src={images['icon-dashboard.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Dashboard-DrivenWorkflow
+              Dashboard-Driven<br />Workflow
             </Title>
             <p>HomeSolutions Manager is the industry-leading data management solution for Home Health and Hospice. The configurable, dashboard-driven approach supports optimized workflow, Quality Assurance and Continuous Quality Improvement.</p>
           </div>
@@ -88,7 +88,7 @@ class Homesolutions extends PureComponent {
             <Picture src={images['mobiletouch.jpg']} />
           </div>
           <div>
-            <Title tag="h2" theme="subhead">MobileTouch <sup>&trade;</sup></Title>
+            <Title tag="h2" theme="subhead">MobileTouch<sup>&trade;</sup></Title>
             <p>HomeSolutions MobileTOUCH is a finger-friendly point-of-care solution that combines the power and secure accessibility of cloud computing with the ease of use of a web browser. HomeSolutions MobileTOUCH is more than an “app,” and is designed to work on a wide variety of platforms including Android™, IOS™ and Windows® devices. HomeSolutions MobileTOUCH enables service documentation at the point-of-care without the heavy synchronization or persistent connection challenges typical of traditional point-of-care approaches.</p>
             <ul>
               <li>HTML5 Browser-based, iPad™-Optimized</li>

@@ -26,10 +26,9 @@
       top: 50%;
       transform: translateX(-50%) translateY(-50%);
       width: 90%; }
+      .hero .hero-copy p,
       .hero .hero-copy .hero-title {
-        max-width: 45%; }
-      .hero .hero-copy p {
-        max-width: 30%; } }
+        max-width: 45%; } }
 
 @media screen and (min-width: 1250px) {
   .hero .hero-copy {

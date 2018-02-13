@@ -82,6 +82,6 @@
           color: var(--selective-yellow); } }
 
 @media screen and (min-width: 1250px) {
-  .utility > .div {
+  .utility > div {
     padding: 1em 0;
     width: 100%; } }
