@@ -1,4 +1,3 @@
-@import url(../../_settings/_variables.css);
 .primary {
   background-color: var(--white);
   order: 1;

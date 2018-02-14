@@ -1,4 +1,3 @@
-@import url(../../_settings/_variables.css);
 .video {
   background-color: var(--gallery);
   display: flex;

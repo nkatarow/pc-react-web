@@ -1,4 +1,3 @@
-@import url(../../_settings/_variables.css);
 .introduction {
   background: linear-gradient(to bottom, var(--cod-gray) 0%, var(--black) 100%);
   position: relative;

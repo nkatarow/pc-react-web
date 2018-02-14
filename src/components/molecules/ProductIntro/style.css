@@ -1,9 +1,8 @@
-@import url(../../_settings/_variables.css);
 .product-intro {
   padding: 10% 5%;
   text-align: center; }
   .product-intro p {
-    margin-top: 2em; }
+    margin: 2em 0 0; }
   .product-intro .context-head {
     margin-bottom: 2em; }
   .product-intro.product-intro--gray {
