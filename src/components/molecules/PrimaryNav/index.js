@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, NavLink } from 'react-router-dom';
 import Title from '../../atoms/title/';
-import StrykerLogo from './stryker-logo.svg';
+import StrykerLogo from './_img/stryker-logo.svg';
 import './style.css';
 
 const PrimaryNav = (props) => {

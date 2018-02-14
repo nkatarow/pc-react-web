@@ -1,8 +1,0 @@
-@import '../src/components/_settings/_base.css';
-
-body {
-  padding: 1em;
-  background-color: rgba(0, 0, 0, 0.03);
-  background-size: 20px 20px;
-  box-sizing: border-box;
-}

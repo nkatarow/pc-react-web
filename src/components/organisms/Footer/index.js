@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import StrykerLogo from './stryker-logo.svg';
+import StrykerLogo from './_img/stryker-logo.svg';
 import './style.css';
 
 const Footer = () => (
