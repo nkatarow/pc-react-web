@@ -34,6 +34,7 @@ ul, ol {
 .white { color: var(--white); }
 
 /* Brand Colors */
+.school-bus-yellow { color: var(--school-bus-yellow); }
 .selective-yellow { color: var(--selective-yellow); }
 .mai-tai { color: var(--mai-tai); }
 .affair { color: var(--affair); }
