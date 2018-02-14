@@ -1,0 +1,71 @@
+.button,
+.submit {
+  appearance: none;
+  border: 2px solid;
+  cursor: pointer;
+  display: block;
+  font-family: var(--futura);
+  font-size: 1.4em;
+  height: auto;
+  letter-spacing: 0.07em;
+  outline: 0;
+  padding: 1em 3em;
+  position: relative;
+  text-transform: uppercase;
+  transition: background-color 250ms ease, border-color 250ms ease, color 250ms ease;
+  width: 100%;
+
+  // Themes
+  &.default {
+    background-color: var(--selective-yellow);
+    border-color: var(--selective-yellow);
+
+    a {
+      color: var(--black);
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: var(--school-bus-yellow);
+      border-color: var(--school-bus-yellow);
+    }
+
+    &:disabled {
+      background-color: var(--silver);
+      border-color: var(--silver);
+      color: var(--gray);
+      cursor: default;
+    }
+  }
+
+  &.outlined {
+    background-color: transparent;
+    border-color: var(--selective-yellow);
+
+    a {
+      color: var(--black);
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:focus {
+      border-color: var(--school-bus-yellow);
+    }
+
+    &:disabled {
+      background-color: var(--silver);
+      border-color: var(--gray);
+      color: var(--gray);
+      cursor: default;
+    }
+  }
+}
+
+
+@media screen and (min-width: 50em) {
+  .button,
+  .submit {
+    width: auto;
+  }
+}

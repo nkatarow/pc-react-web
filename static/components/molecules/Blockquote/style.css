@@ -1,0 +1,21 @@
+blockquote {
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 10% 5%;
+  text-align: center; }
+  blockquote cite {
+    color: var(--selective-yellow);
+    display: block;
+    font-style: normal;
+    margin-top: 5%; }
+    blockquote cite span {
+      display: block;
+      margin-bottom: 0.5em; }
+    blockquote cite .second-line {
+      font-size: 1.6em; }
+
+@media screen and (min-width: 50em) {
+  blockquote p {
+    margin: 0 auto 5%;
+    max-width: var(--max-width); } }

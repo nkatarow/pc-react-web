@@ -1,0 +1,103 @@
+label {
+  display: block;
+  width: 100%;
+
+  input {
+    box-sizing: border-box;
+    color: var(--gray);
+
+    &[type='text'] {
+      background-image: none;
+      border: 0;
+      font-family: var(--humanist);
+      font-size: 1.8em;
+      margin-bottom: 1em;
+      padding: 0.75em;
+      width: 100%;
+    }
+
+    &:placeholder {
+      color: var(--gray);
+      font-family: var(--humanist);
+    }
+
+    &:active,
+    &:focus {
+      outline-color: var(--selective-yellow);
+    }
+  }
+
+  textarea {
+    background-image: none;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--humanist);
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    padding: 0.75em;
+    width: 100%;
+
+    &:placeholder {
+      color: var(--gray);
+      font-family: var(--humanist);
+    }
+
+    &:active,
+    &:focus {
+      outline-color: var(--selective-yellow);
+    }
+  }
+
+  select {
+    appearance: none;
+    background-color: var(--white);
+    border: 0;
+    border-radius: 0;
+    color: var(--gray);
+    font-family: var(--humanist);
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    padding: 0.75em;
+    width: 100%;
+
+    &:active,
+    &:focus {
+      outline-color: var(--selective-yellow);
+    }
+
+    option {
+      color: var(--gray);
+      padding: 0.75em;
+    }
+  }
+
+  &.select {
+    position: relative;
+
+    &::after {
+      background-color: var(--selective-yellow);
+      background-image: url('./_img/chevron-down.svg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 50%;
+      bottom: 2.5em;
+      content: ' ';
+      display: block;
+      height: 33px;
+      position: absolute;
+      right: 0.75em;
+      width: 33px;
+    }
+  }
+}
+
+// For styleguide
+.bg-gallery { background-color: var(--gallery); }
+
+@media screen and (min-width: 50em) {
+  input,
+  textarea,
+  select {
+    font-size: 2.1em;
+  }
+}

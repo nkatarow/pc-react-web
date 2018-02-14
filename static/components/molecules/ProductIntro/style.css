@@ -1,0 +1,14 @@
+.product-intro {
+  padding: 10% 5%;
+  text-align: center; }
+  .product-intro p {
+    margin: 2em 0 0; }
+  .product-intro .context-head {
+    margin-bottom: 2em; }
+  .product-intro.product-intro--gray {
+    background-color: var(--gallery); }
+
+@media screen and (min-width: 50em) {
+  .product-intro > div {
+    margin: 0 auto;
+    max-width: 850px; } }

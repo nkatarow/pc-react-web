@@ -1,0 +1,83 @@
+footer {
+  background-color: var(--mine-shaft);
+  color: var(--white);
+  font-size: 1.3em;
+  padding: 10% 5%; }
+  footer > div {
+    display: flex;
+    flex-wrap: wrap; }
+  footer a {
+    color: var(--white);
+    text-decoration: none;
+    transition: color 250ms ease; }
+    footer a svg .st0 {
+      fill: var(--white);
+      transition: fill 250ms ease; }
+    footer a:hover, footer a:focus {
+      color: var(--selective-yellow); }
+      footer a:hover svg .st0, footer a:focus svg .st0 {
+        fill: var(--selective-yellow); }
+
+.stryker {
+  width: 50%; }
+  .stryker img {
+    max-width: 108px; }
+  .stryker small {
+    color: var(--gray);
+    display: block;
+    font-size: 1em;
+    margin-top: 1em; }
+
+.follow {
+  width: 50%; }
+  .follow h2 {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0 0 2em; }
+  .follow a {
+    display: block;
+    margin-bottom: 2em; }
+    .follow a.icon {
+      display: inline-block;
+      margin-right: 1em; }
+
+.legal {
+  border-top: 1px solid var(--scorpion);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 1em;
+  padding-top: 3em;
+  width: 100%; }
+  .legal > div {
+    width: 50%; }
+  .legal a {
+    color: var(--gray);
+    display: block;
+    margin-bottom: 2em; }
+
+@media screen and (min-width: 50em) {
+  footer {
+    font-size: 1.6em;
+    padding: 5%; }
+    footer > div {
+      margin: 0 auto;
+      max-width: var(--max-width); }
+  .stryker,
+  .follow {
+    width: 25%; }
+  .stryker img {
+    max-width: 165px; }
+  .follow {
+    margin-top: 1em; }
+    .follow a {
+      display: block;
+      padding-bottom: 0.5em; }
+  .legal {
+    border-top: 0;
+    display: flex;
+    padding-top: 0;
+    width: 50%; }
+    .legal a {
+      display: block;
+      padding-bottom: 0.5em; } }

@@ -1,0 +1,49 @@
+.hero {
+  .hero-image {
+    margin-bottom: -4px;
+
+    img {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  .hero-copy {
+    padding: 10% 5%;
+    text-align: center;
+
+    .hero-title { margin-bottom: 1em; }
+  }
+
+  p {
+    color: var(--scorpion);
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .hero {
+    position: relative;
+
+    .hero-copy {
+      left: 50%;
+      max-width: var(--max-width);
+      padding: 0;
+      position: absolute;
+      text-align: left;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: 90%;
+
+      p,
+      .hero-title {
+        max-width: 45%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .hero {
+    .hero-copy { width: 100%; }
+  }
+}

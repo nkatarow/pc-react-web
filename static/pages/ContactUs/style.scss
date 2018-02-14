@@ -1,0 +1,59 @@
+.contact-form {
+  .hero {
+    position: relative;
+
+    .hero-copy {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .hero-title { margin-bottom: 0; }
+  }
+
+  form {
+    background-color: var(--gallery);
+    padding: 5%;
+    width: 90%;
+
+    h2 {
+      margin-bottom: 1em;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .contact-form {
+    .hero {
+      .hero-copy {
+        left: 50%;
+        margin: 0 auto;
+        max-width: var(--max-width);
+        transform: translateX(-50%) translateY(-50%);
+      }
+    }
+
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    label {
+      &[for='first_name'],
+      &[for='last_name'],
+      &[for='company'],
+      &[for='zip'],
+      &[for='phone'],
+      &[for='country_code'] {
+        width: 32%;
+      }
+
+      &[for='email'],
+      &[for='00Nj0000002taVP'] {
+        width: 49%;
+      }
+    }
+  }
+}

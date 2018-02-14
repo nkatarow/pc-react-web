@@ -5,6 +5,7 @@ module.exports = {
   ignore: [
     '**/atoms/hamburger/*.js',
     '**/atoms/picture/*.js',
+    '**/atoms/forms/*.js',
     '**/molecules/_layouts/HalfHalf/*.js',
     '**/molecules/PrimaryNav/*.js',
     '**/molecules/UtilityNav/*.js',
@@ -12,5 +13,7 @@ module.exports = {
     '**/organisms/Header/*.js',
     '**/organisms/Footer/*.js',
   ],
+  assetsDir: './src/',
+  styleguideDir: './static/',
   components: './src/components/**/**/*.js',
 };

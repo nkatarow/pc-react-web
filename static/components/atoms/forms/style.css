@@ -1,0 +1,73 @@
+label {
+  display: block;
+  width: 100%; }
+  label input {
+    box-sizing: border-box;
+    color: var(--gray); }
+    label input[type='text'] {
+      background-image: none;
+      border: 0;
+      font-family: var(--humanist);
+      font-size: 1.8em;
+      margin-bottom: 1em;
+      padding: 0.75em;
+      width: 100%; }
+    label input:placeholder {
+      color: var(--gray);
+      font-family: var(--humanist); }
+    label input:active, label input:focus {
+      outline-color: var(--selective-yellow); }
+  label textarea {
+    background-image: none;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--humanist);
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    padding: 0.75em;
+    width: 100%; }
+    label textarea:placeholder {
+      color: var(--gray);
+      font-family: var(--humanist); }
+    label textarea:active, label textarea:focus {
+      outline-color: var(--selective-yellow); }
+  label select {
+    appearance: none;
+    background-color: var(--white);
+    border: 0;
+    border-radius: 0;
+    color: var(--gray);
+    font-family: var(--humanist);
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    padding: 0.75em;
+    width: 100%; }
+    label select:active, label select:focus {
+      outline-color: var(--selective-yellow); }
+    label select option {
+      color: var(--gray);
+      padding: 0.75em; }
+  label.select {
+    position: relative; }
+    label.select::after {
+      background-color: var(--selective-yellow);
+      background-image: url("./_img/chevron-down.svg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 50%;
+      bottom: 2.5em;
+      content: ' ';
+      display: block;
+      height: 33px;
+      position: absolute;
+      right: 0.75em;
+      width: 33px; }
+
+.bg-gallery {
+  background-color: var(--gallery); }
+
+@media screen and (min-width: 50em) {
+  input,
+  textarea,
+  select {
+    font-size: 2.1em; } }

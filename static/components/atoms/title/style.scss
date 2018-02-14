@@ -1,0 +1,77 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  line-height: 1em;
+  margin: 0;
+}
+
+// Themes
+.page-title {
+  font-family: var(--egypt);
+  font-size: 5em;
+}
+
+.hero-title {
+  font-family: var(--egypt);
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.section-title {
+  font-family: var(--futura);
+  font-size: 2.5em;
+  line-height: 1.2em;
+}
+
+.headline {
+  font-family: var(--futura);
+  font-size: 2.1em;
+  line-height: 1.2em;
+}
+
+.subhead {
+  font-family: var(--futura);
+  font-size: 1.5em;
+  line-height: 1.2em;
+
+  &.caps {
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+  }
+}
+
+.context-head {
+  border-bottom: 2px solid;
+  display: inline-block;
+  font-family: var(--futura);
+  font-size: 1.3em;
+  letter-spacing: 0.15em;
+  padding-bottom: 0.5em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 50em) {
+  .page-title {
+    font-size: 7.8em;
+  }
+
+  .hero-title {
+    font-size: 4.49em;
+  }
+
+  .section-title {
+    font-size: 4em;
+  }
+
+  .headline {
+    font-size: 2.6em;
+  }
+
+  .subhead {
+    font-size: 1.8em;
+  }
+}

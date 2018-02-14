@@ -1,0 +1,34 @@
+.hero .hero-image {
+  margin-bottom: -4px; }
+  .hero .hero-image img {
+    height: auto;
+    width: 100%; }
+
+.hero .hero-copy {
+  padding: 10% 5%;
+  text-align: center; }
+  .hero .hero-copy .hero-title {
+    margin-bottom: 1em; }
+
+.hero p {
+  color: var(--scorpion); }
+
+@media screen and (min-width: 940px) {
+  .hero {
+    position: relative; }
+    .hero .hero-copy {
+      left: 50%;
+      max-width: var(--max-width);
+      padding: 0;
+      position: absolute;
+      text-align: left;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: 90%; }
+      .hero .hero-copy p,
+      .hero .hero-copy .hero-title {
+        max-width: 45%; } }
+
+@media screen and (min-width: 1250px) {
+  .hero .hero-copy {
+    width: 100%; } }

@@ -1,0 +1,137 @@
+.utility {
+  order: 2;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+    width: 100%;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  a {
+    align-items: center;
+    color: var(--gray);
+    display: flex;
+    font-family: var(--futura);
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    margin-bottom: 0.25em;
+    order: 2;
+    padding: 1em 5%;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    .link-label { margin-left: 0.5em; }
+
+    svg {
+      margin-right: 1em;
+
+      .st0 {
+        fill: var(--gray);
+      }
+    }
+
+    &.product {
+      color: var(--selective-yellow);
+
+      svg .st0 {
+        fill: var(--selective-yellow);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .link-label {
+    display: none;
+  }
+
+  .utility {
+    background-color: var(--gallery);
+
+    > div {
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 auto;
+      max-width: var(--max-width);
+      order: 1;
+      padding: 1em 2.5%;
+      width: 95%;
+
+      > div {
+        align-items: center;
+        display: flex;
+        order: 2;
+      }
+    }
+
+    .company {
+      order: 1;
+    }
+
+    h2 {
+      color: var(--gray);
+      display: inline-block;
+      font-family: var(--futura);
+      font-size: 1.3em;
+      letter-spacing: 0.2em;
+      order: 2;
+      text-transform: uppercase;
+    }
+
+    a {
+      color: var(--black);
+      font-size: 1.3em;
+      margin-bottom: 0;
+      order: 1;
+      padding: 0;
+      transition: color 250ms ease;
+
+      &:hover,
+      &:focus {
+        color: var(--selective-yellow);
+      }
+
+      &.company {
+        font-size: 2.3em;
+        letter-spacing: 0;
+        text-transform: none;
+
+        svg {
+          display: none;
+        }
+      }
+
+      &.product {
+        color: var(--black);
+        order: 3;
+        padding-left: 3em;
+        transition: color 250ms ease;
+
+        svg .st0 {
+          fill: var(--black);
+        }
+
+        &:hover,
+        &:focus {
+          color: var(--selective-yellow);
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 1250px) {
+  .utility {
+    > div {
+      padding: 1em 0;
+      width: 100%;
+    }
+  }
+}
