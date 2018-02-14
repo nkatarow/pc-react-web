@@ -7,22 +7,22 @@ import { Link } from 'react-router-dom';
 import getComponentImages from '../../_utility/getComponentImages';
 
 // Atoms
-import Title from '../../atoms/title/';
-import Button from '../../atoms/button/';
+import Title from '../../components/atoms/title/';
+import Button from '../../components/atoms/button/';
 
 // Molecules
-import Hero from '../../molecules/Hero/';
-import HalfHalf from '../../molecules/_layouts/HalfHalf';
-import Introduction from '../../molecules/Introduction/';
-import ProductIntro from '../../molecules/ProductIntro/';
-import CTA from '../../molecules/CTA/';
+import Hero from '../../components/molecules/Hero/';
+import HalfHalf from '../../components/molecules/_layouts/HalfHalf';
+import Introduction from '../../components/molecules/Introduction/';
+import ProductIntro from '../../components/molecules/ProductIntro/';
+import CTA from '../../components/molecules/CTA/';
 
 // Organisms
-import Accordion from '../../organisms/Accordion/';
-import AccordionItem from '../../organisms/Accordion/AccordionItem/';
-import AccordionItemTitle from '../../organisms/Accordion/AccordionItemTitle/';
-import AccordionItemBody from '../../organisms/Accordion/AccordionItemBody/';
-import Video from '../../organisms/Video/';
+import Accordion from '../../components/organisms/Accordion/';
+import AccordionItem from '../../components/organisms/Accordion/AccordionItem/';
+import AccordionItemTitle from '../../components/organisms/Accordion/AccordionItemTitle/';
+import AccordionItemBody from '../../components/organisms/Accordion/AccordionItemBody/';
+import Video from '../../components/organisms/Video/';
 
 class Homepage extends PureComponent {
   componentDidMount() {

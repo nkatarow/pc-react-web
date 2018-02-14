@@ -9,21 +9,21 @@ import './style.css';
 import getComponentImages from '../../_utility/getComponentImages';
 
 // Atoms
-import Title from '../../atoms/title/';
-import Button from '../../atoms/button/';
-import Picture from '../../atoms/picture/';
+import Title from '../../components/atoms/title/';
+import Button from '../../components/atoms/button/';
+import Picture from '../../components/atoms/picture/';
 
 // Molecules
-import Hero from '../../molecules/Hero/';
-import Introduction from '../../molecules/Introduction/';
-import ProductIntro from '../../molecules/ProductIntro/';
-import HalfHalf from '../../molecules/_layouts/HalfHalf/';
-import Blockquote from '../../molecules/Blockquote/';
-import MediaBlock from '../../molecules/MediaBlock/';
-import CTA from '../../molecules/CTA/';
+import Hero from '../../components/molecules/Hero/';
+import Introduction from '../../components/molecules/Introduction/';
+import ProductIntro from '../../components/molecules/ProductIntro/';
+import HalfHalf from '../../components/molecules/_layouts/HalfHalf/';
+import Blockquote from '../../components/molecules/Blockquote/';
+import MediaBlock from '../../components/molecules/MediaBlock/';
+import CTA from '../../components/molecules/CTA/';
 
 // Organisms
-import MediaList, { MediaListTheme } from '../../organisms/MediaList/';
+import MediaList, { MediaListTheme } from '../../components/organisms/MediaList/';
 
 class HealthEMS extends PureComponent {
   componentDidMount() {

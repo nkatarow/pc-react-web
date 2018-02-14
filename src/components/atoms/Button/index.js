@@ -14,6 +14,9 @@ export const ButtonTheme = {
   OUTLINED: 'outlined',
 };
 
+/**
+ * Button Component
+ */
 const Button = (props) => {
   const classProps = classNames(
     styles.button,
@@ -44,8 +47,10 @@ Button.defaultProps = {
 };
 
 Button.propTypes = {
+  /** Options are ButtonType.BUTTON, ButtonType.RESET, ButtonType.SUBMIT */
   type: PropTypes.string,
   className: PropTypes.string,
+  /** Options are ButtonType.DEFAULT, ButtonType.OUTLINED */
   theme: PropTypes.string,
   onClick: PropTypes.func,
   disabled: PropTypes.bool,

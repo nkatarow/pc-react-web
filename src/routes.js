@@ -3,14 +3,14 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { Route, Switch, withRouter } from 'react-router-dom';
 
 // Templates
-import Homepage from './components/templates/Homepage/';
-import HealthEMS from './components/templates/HealthEMS/';
-import Lifenet from './components/templates/Lifenet/';
-import Codestat from './components/templates/Codestat/';
-import Homesolutions from './components/templates/Homesolutions/';
-import ProfessionalServices from './components/templates/ProfessionalServices/';
-import ContactUs from './components/templates/ContactUs/';
-import ErrorPage from './components/templates/ErrorPage/';
+import Homepage from './pages/Homepage/';
+import HealthEMS from './pages/HealthEMS/';
+import Lifenet from './pages/Lifenet/';
+import Codestat from './pages/Codestat/';
+import Homesolutions from './pages/Homesolutions/';
+import ProfessionalServices from './pages/ProfessionalServices/';
+import ContactUs from './pages/ContactUs/';
+import ErrorPage from './pages/ErrorPage/';
 
 const Routes = withRouter(({ location }) => (
   <TransitionGroup>

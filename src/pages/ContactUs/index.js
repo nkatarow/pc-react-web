@@ -6,12 +6,12 @@ import { connect } from 'react-redux';
 import getComponentImages from '../../_utility/getComponentImages';
 
 // Atoms
-import Title from '../../atoms/title/';
-import Button from '../../atoms/button/';
+import Title from '../../components/atoms/title/';
+import Button from '../../components/atoms/button/';
 
 // Molecules
-import Hero from '../../molecules/Hero';
-import { Input, Textarea, Select } from '../../molecules/_forms/';
+import Hero from '../../components/molecules/Hero';
+import { Input, Textarea, Select } from '../../components/molecules/_forms/';
 
 import './style.css';
 
