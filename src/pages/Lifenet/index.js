@@ -53,7 +53,7 @@ class Lifenet extends PureComponent {
             <Picture src={images['stemi-stroke.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Minimize Time to Treatment for STEMI and Stroke</Title>
+            <Title tag="h3" theme="subhead">Minimize Time to Treatment for STEMI, Stroke, and other emergencies</Title>
             <p>Faster response times lead to better outcomes. Give hospital critical care teams a head start on reducing time to treatment for all emergencies through comprehensive patient data delivery from EMS. Hospitals know exactly what to expect before patients reach their doors, which means care teams can be assembled faster and briefed in advance.</p>
           </div>
         </HalfHalf>
@@ -185,7 +185,7 @@ class Lifenet extends PureComponent {
           <Title tag="h2" theme="subhead">Complete Service by Stryker SmartDesk</Title>
           <p>Supported by the Stryker SmartDesk, LIFENET will integrate seamlessly with even the most complex hospital or EMS system.</p>
           <Button>
-            <Link to="/professional-services">About Service Plans</Link>
+            <Link to="/professional-services">Professional Services</Link>
           </Button>
         </MediaBlock>
 

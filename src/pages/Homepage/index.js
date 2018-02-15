@@ -39,7 +39,7 @@ class Homepage extends PureComponent {
           isMobile={this.props.isMobile}
           mobileHero={images['hp-hero-mobile.jpg']}
           desktopHero={images['hp-hero-desktop.jpg']}
-          headline="Quickly access the information to optimize performance."
+          headline="Better data. Better outcomes."
           copy="Easy, customizable documentation with advanced reporting can help you to improve patient care and service delivery."
         />
 
