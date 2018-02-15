@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { BrowserRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import store from './store/store';
+import store from './store/';
 // Routes
 import Routes from './routes';
 

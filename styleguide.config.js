@@ -41,5 +41,4 @@ module.exports = {
     },
   ],
   assetsDir: './src/',
-  // styleguideDir: './static/',
 };

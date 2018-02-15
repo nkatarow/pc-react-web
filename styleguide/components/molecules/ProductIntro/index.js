@@ -19,7 +19,9 @@ const ProductIntro = (props) => {
           <Title tag="h2" theme="context-head" color={props.contextColor}>{props.contextHead}</Title>
         }
         <Title tag="h3" theme="section-title">{props.headline}</Title>
-        <p className="large">{props.copy}</p>
+        { props.copy &&
+          <p className="large">{props.copy}</p>
+        }
       </div>
     </section>
   );

@@ -49,6 +49,7 @@ const MediaList = (props) => {
 };
 
 MediaList.propTypes = {
+  /** MediaListTheme.DEFAULT or MediaListTheme.GRAY */
   theme: PropTypes.string,
   isMobile: PropTypes.bool.isRequired,
   children: PropTypes.node.isRequired,

@@ -14,11 +14,11 @@ export const MediaBlockTheme = {
 };
 
 const MediaBlock = (props) => {
-  let background = null;
+  let background = { backgroundImage: 'none' };
 
-  if (props.isMobile) {
+  if (props.bgMobile && props.isMobile) {
     background = { backgroundImage: `url(${props.bgMobile})` };
-  } else {
+  } else if (props.bgDesktop && !props.isMobile) {
     background = { backgroundImage: `url(${props.bgDesktop})` };
   }
 
@@ -51,10 +51,14 @@ MediaBlock.defaultProps = {
 };
 
 MediaBlock.propTypes = {
+  /** Options are either MediaBlockSize.DEFAULT or MediaBlockSize.LARGE */
   size: PropTypes.string,
+  /** Options are either MediaBlockTheme.DEFAULT or MediaBlockTheme.IMAGE */
   theme: PropTypes.string,
   isMobile: PropTypes.bool,
+  /** Use if theme is set to MediaBlockTheme.IMAGE  */
   bgMobile: PropTypes.string,
+  /** Use if theme is set to MediaBlockTheme.IMAGE  */
   bgDesktop: PropTypes.string,
   image: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
