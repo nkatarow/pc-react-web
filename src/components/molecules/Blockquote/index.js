@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 
 // Atoms
 import Title from '../../atoms/title/';
@@ -58,6 +59,10 @@ const Blockquote = (props) => {
   );
 };
 
+const mapStateToProps = state => ({
+  isMobile: state.mobilestate.isMobile,
+});
+
 Blockquote.defaultProps = {
   citeFirstLine: null,
   citeSecondLine: null,
@@ -74,4 +79,4 @@ Blockquote.propTypes = {
   citeThirdLine: PropTypes.string,
 };
 
-export default Blockquote;
+export default connect(mapStateToProps)(Blockquote);

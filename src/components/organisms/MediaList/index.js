@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import { connect } from 'react-redux';
 import './style.css';
 
 export const MediaListTheme = {
@@ -48,6 +49,10 @@ const MediaList = (props) => {
   );
 };
 
+const mapStateToProps = state => ({
+  isMobile: state.mobilestate.isMobile,
+});
+
 MediaList.propTypes = {
   /** MediaListTheme.DEFAULT or MediaListTheme.GRAY */
   theme: PropTypes.string,
@@ -59,4 +64,4 @@ MediaList.defaultProps = {
   theme: MediaListTheme.DEFAULT,
 };
 
-export default MediaList;
+export default connect(mapStateToProps)(MediaList);
