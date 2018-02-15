@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 
 import Title from '../../atoms/title/';
 
@@ -44,7 +45,9 @@ const Introduction = (props) => {
   );
 };
 
-export default Introduction;
+const mapStateToProps = state => ({
+  isMobile: state.mobilestate.isMobile,
+});
 
 Introduction.defaultProps = {
   headline: 'Headline copy goes here',
@@ -62,3 +65,5 @@ Introduction.propTypes = {
   introDesktopImage: PropTypes.string,
   smallCopy: PropTypes.string,
 };
+
+export default connect(mapStateToProps)(Introduction);

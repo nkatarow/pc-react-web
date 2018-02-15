@@ -1,63 +1,55 @@
 <h3>Default settings</h3>
 
 ```js
-const { Provider } = require('react-redux');
-const storeConfig = require('../../../store/').default;
-const store = storeConfig.getState();
-<Provider store={storeConfig}>
+const Wrapper = require('../../../_utility/Wrapper').default;
+<Wrapper>
   <Blockquote
-    isMobile={store.mobilestate.isMobile}
+    isMobile={this.props}
     mobileBackground={'../../../pages/HealthEMS/_img/quote-bg-mobile.jpg'}
     desktopBackground={'../../../pages/HealthEMS/_img/quote-bg-desktop.jpg'}
     quote="Here's an example of some quote text"
   />
-</Provider>
+</Wrapper>
 ```
 
 <h3>With One Cite Line</h3>
 
 ```js
-const { Provider } = require('react-redux');
-const storeConfig = require('../../../store/').default;
-const store = storeConfig.getState();
-<Provider store={storeConfig}>
+const Wrapper = require('../../../_utility/Wrapper').default;
+<Wrapper>
   <Blockquote
-    isMobile={store.mobilestate.isMobile}
+    isMobile={this.props}
     mobileBackground={'../../../pages/HealthEMS/_img/quote-bg-mobile.jpg'}
     desktopBackground={'../../../pages/HealthEMS/_img/quote-bg-desktop.jpg'}
     quote="Here's an example of some quote text"
     citeFirstLine="Quotee's Name"
   />
-</Provider>
+</Wrapper>
 ```
 
 <h3>With Two Cite Lines</h3>
 
 ```js
-const { Provider } = require('react-redux');
-const storeConfig = require('../../../store/').default;
-const store = storeConfig.getState();
-<Provider store={storeConfig}>
+const Wrapper = require('../../../_utility/Wrapper').default;
+<Wrapper>
   <Blockquote
-    isMobile={store.mobilestate.isMobile}
+    isMobile={this.props}
     mobileBackground={'../../../pages/HealthEMS/_img/quote-bg-mobile.jpg'}
     desktopBackground={'../../../pages/HealthEMS/_img/quote-bg-desktop.jpg'}
     quote="Here's an example of some quote text"
     citeFirstLine="Quotee's Name"
     citeSecondLine="Quotee's Occuplation"
   />
-</Provider>
+</Wrapper>
 ```
 
 <h3>With Three Cite Lines</h3>
 
 ```js
-const { Provider } = require('react-redux');
-const storeConfig = require('../../../store/').default;
-const store = storeConfig.getState();
-<Provider store={storeConfig}>
+const Wrapper = require('../../../_utility/Wrapper').default;
+<Wrapper>
   <Blockquote
-    isMobile={store.mobilestate.isMobile}
+    isMobile={this.props}
     mobileBackground={'../../../pages/HealthEMS/_img/quote-bg-mobile.jpg'}
     desktopBackground={'../../../pages/HealthEMS/_img/quote-bg-desktop.jpg'}
     quote="Here's an example of some quote text"
@@ -65,5 +57,5 @@ const store = storeConfig.getState();
     citeSecondLine="Quotee's Occuplation"
     citeThirdLine="Quotee's Employer"
   />
-</Provider>
+</Wrapper>
 ```

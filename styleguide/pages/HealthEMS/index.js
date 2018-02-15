@@ -46,7 +46,7 @@ class HealthEMS extends PureComponent {
 
         <Introduction
           isMobile={this.props.isMobile}
-          headline="Easy. Empowering. Accurate."
+          headline="Easy. Powerful. Accurate."
           copy="Your dynamic work environment demands speed and flexibility, and the HealthEMS electronic patient care record (ePCR) provides both."
           smallCopy="Make operations and documentation easier and more efficient with this patient-based, protocol-driven ePCR that helps you easily receive, share, and find actionable data. This flexible solution can be customized to match your needs, from smooth CAD integration to accurate billing and reporting."
         />
@@ -68,7 +68,7 @@ class HealthEMS extends PureComponent {
           <div>
             <Picture src={images['docs-icon.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-            Quality documentation according to how you work
+            Quality documentation for how you work
             </Title>
             <p>Capture data from multiple sources to easily document activity at the point of care — based on input from CAD, monitors, and more — all according to your protocols.</p>
           </div>
@@ -99,7 +99,7 @@ class HealthEMS extends PureComponent {
         </MediaList>
 
         <ProductIntro
-          headline="HealthEMS ePCR System"
+          headline="HealthEMS ePCR Solution"
           copy="Choose the functionality and components that match the needs of your teams, whether fire-only, EMS-only, or fire/EMS responders."
         />
 
@@ -114,9 +114,9 @@ class HealthEMS extends PureComponent {
             <ul>
               <li>Dynamic, protocol-driven flow</li>
               <li>Data capture from multiple sources, from monitors to scanned driver’s licenses</li>
-              <li>Auto-filling of critical fields, from CAD and monitors to patient history and IDs</li>
+              <li>Auto-filling of critical fields, enabled by CAD, monitor integration, and patient {"ID's"}</li>
               <li>Assessments, vitals, and interventions, all in one place</li>
-              <li>Close-call rules with conditional validations</li>
+              <li>Closed-call rules with conditional validations</li>
             </ul>
           </div>
         </HalfHalf>
@@ -130,8 +130,8 @@ class HealthEMS extends PureComponent {
             <p className="medium">Better visibility for managing your operations</p>
             <p>Empower great teams to excel even more when you can easily assess performance and plan targeted enhancements. HealthEMS Manager is the ePCR command center for agency administrators. Personalized dashboards provide real-time metrics to support performance management and training, workflow optimization, and quality assurance / quality improvement (QA/QI) activities.</p>
             <ul>
-              <li>Greater configurability than any other ePCR</li>
-              <li>Secure, automatic alerting for custom-set events</li>
+              <li>High level of configurability</li>
+              <li>Secure, automatic QA alerting for custom-set events</li>
               <li>Standard and tailored reports</li>
               <li>A proprietary algorithm that analyzes patient reports to ensure accurate billing and CMS compliance</li>
               <li>Real-time CAD, patient, incident, monitor / ECG, and billing data in one record set</li>
@@ -196,9 +196,9 @@ class HealthEMS extends PureComponent {
           mobileBackground={images['quote-bg-mobile.jpg']}
           desktopBackground={images['quote-bg-desktop.jpg']}
           quote="HealthEMS supports how we function, how we work. With MobileTouch and HealthEMS Manager we can easily enter the pertinent data we need to justify the treatment provided and get quick QI information on our calls."
-          citeFirstLine="Bruce Baxter"
-          citeSecondLine="Chief Executive Officer"
-          citeThirdLine="New Britain EMS"
+          citeFirstLine="Derek Parker"
+          citeSecondLine="Captain"
+          citeThirdLine="Sacramento Fire Department"
         />
 
         <MediaBlock image={images['service-support.svg']}>
@@ -206,7 +206,7 @@ class HealthEMS extends PureComponent {
           <Title tag="h2" theme="subhead">Make it <em>your</em> ePCR</Title>
           <p>You need solutions that work right, quickly, and under pressure — just like you do. An expert support team will help you tailor your HealthEMS solution with all the components you need for success. Full training and support will speed implementation to put data and new insights at your fingertips while enabling your organization to continue operations.</p>
           <Button>
-            <Link to="/professional-services">About Service Plans</Link>
+            <Link to="/professional-services">About Professional Services</Link>
           </Button>
         </MediaBlock>
 

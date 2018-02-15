@@ -1,10 +1,11 @@
 import React, { PureComponent } from 'react';
 import ReactPlayer from 'react-player';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 
 import './style.css';
 
-export default class Video extends PureComponent {
+class Video extends PureComponent {
   state = {
     expandView: false,
     url: this.props.url,
@@ -128,6 +129,10 @@ export default class Video extends PureComponent {
   }
 }
 
+const mapStateToProps = state => ({
+  isMobile: state.mobilestate.isMobile,
+});
+
 Video.defaultProps = {
   children: <div />,
 };
@@ -138,3 +143,5 @@ Video.propTypes = {
   isMobile: PropTypes.bool.isRequired,
   children: PropTypes.node,
 };
+
+export default connect(mapStateToProps)(Video);

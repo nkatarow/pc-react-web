@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import { connect } from 'react-redux';
 import './style.css';
 
 export const MediaBlockSize = {
@@ -42,10 +43,13 @@ const MediaBlock = (props) => {
   );
 };
 
+const mapStateToProps = state => ({
+  isMobile: state.mobilestate.isMobile,
+});
+
 MediaBlock.defaultProps = {
   bgMobile: null,
   bgDesktop: null,
-  isMobile: false,
   size: MediaBlockSize.DEFAULT,
   theme: MediaBlockTheme.DEFAULT,
 };
@@ -55,7 +59,7 @@ MediaBlock.propTypes = {
   size: PropTypes.string,
   /** Options are either MediaBlockTheme.DEFAULT or MediaBlockTheme.IMAGE */
   theme: PropTypes.string,
-  isMobile: PropTypes.bool,
+  isMobile: PropTypes.bool.isRequired,
   /** Use if theme is set to MediaBlockTheme.IMAGE  */
   bgMobile: PropTypes.string,
   /** Use if theme is set to MediaBlockTheme.IMAGE  */
@@ -64,4 +68,4 @@ MediaBlock.propTypes = {
   children: PropTypes.node.isRequired,
 };
 
-export default MediaBlock;
+export default connect(mapStateToProps)(MediaBlock);
