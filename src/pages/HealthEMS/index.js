@@ -114,7 +114,7 @@ class HealthEMS extends PureComponent {
             <ul>
               <li>Dynamic, protocol-driven flow</li>
               <li>Data capture from multiple sources, from monitors to scanned driver’s licenses</li>
-              <li>Auto-filling of critical fields, enabled by CAD, monitor integration, and patient ID's</li>
+              <li>Auto-filling of critical fields, enabled by CAD, monitor integration, and patient {"ID's"}</li>
               <li>Assessments, vitals, and interventions, all in one place</li>
               <li>Closed-call rules with conditional validations</li>
             </ul>
@@ -196,9 +196,9 @@ class HealthEMS extends PureComponent {
           mobileBackground={images['quote-bg-mobile.jpg']}
           desktopBackground={images['quote-bg-desktop.jpg']}
           quote="HealthEMS supports how we function, how we work. With MobileTouch and HealthEMS Manager we can easily enter the pertinent data we need to justify the treatment provided and get quick QI information on our calls."
-          citeFirstLine="Bruce Baxter"
-          citeSecondLine="Chief Executive Officer"
-          citeThirdLine="New Britain EMS"
+          citeFirstLine="Derek Parker"
+          citeSecondLine="Captain"
+          citeThirdLine="Sacramento Fire Department"
         />
 
         <MediaBlock image={images['service-support.svg']}>
@@ -206,7 +206,7 @@ class HealthEMS extends PureComponent {
           <Title tag="h2" theme="subhead">Make it <em>your</em> ePCR</Title>
           <p>You need solutions that work right, quickly, and under pressure — just like you do. An expert support team will help you tailor your HealthEMS solution with all the components you need for success. Full training and support will speed implementation to put data and new insights at your fingertips while enabling your organization to continue operations.</p>
           <Button>
-            <Link to="/professional-services">Professional Services</Link>
+            <Link to="/professional-services">About Professional Services</Link>
           </Button>
         </MediaBlock>
 

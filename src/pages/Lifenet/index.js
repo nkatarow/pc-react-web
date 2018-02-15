@@ -185,7 +185,7 @@ class Lifenet extends PureComponent {
           <Title tag="h2" theme="subhead">Complete Service by Stryker SmartDesk</Title>
           <p>Supported by the Stryker SmartDesk, LIFENET will integrate seamlessly with even the most complex hospital or EMS system.</p>
           <Button>
-            <Link to="/professional-services">Professional Services</Link>
+            <Link to="/professional-services">About Professional Services</Link>
           </Button>
         </MediaBlock>
 
