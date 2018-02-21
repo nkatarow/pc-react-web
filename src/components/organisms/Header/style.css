@@ -9,6 +9,7 @@ header {
   height: 70px;
   padding: 0 5%; }
   .top-bar h2 {
+    color: var(--black);
     display: inline-block;
     font-family: var(--futura);
     font-size: 1.7em;

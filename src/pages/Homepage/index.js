@@ -64,7 +64,7 @@ class Homepage extends PureComponent {
             <AccordionItemTitle>
               <img src={images['healthems-icon.svg']} alt="" />
               <div>
-                <Title tag="h3" theme="headline">HealthEMS<sup>&trade;</sup></Title>
+                <Title tag="h3" theme="subhead">HealthEMS<sup>&trade;</sup></Title>
                 <p>ePCR Solution</p>
               </div>
             </AccordionItemTitle>

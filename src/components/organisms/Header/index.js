@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 import HamburgerMenu from '../../../components/atoms/hamburger/';
@@ -39,7 +39,9 @@ class Header extends PureComponent {
               status={this.state.isOpen}
               onClick={() => this.toggleNav(!this.state.isOpen)}
             />
-            <h2>Physio-Control Data Solutions</h2>
+            <Link to="/">
+              <h2>Physio-Control Data Solutions</h2>
+            </Link>
           </div>
         }
 
