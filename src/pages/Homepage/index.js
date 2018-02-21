@@ -45,8 +45,8 @@ class Homepage extends PureComponent {
 
         <Introduction
           isMobile={this.props.isMobile}
-          introMobileImage={images['hp-intro-bg-mobile.png']}
-          introDesktopImage={images['hp-intro-bg-desktop.png']}
+          introMobileImage={images['hp-intro-bg-mobile_revised.png']}
+          introDesktopImage={images['hp-intro-bg-desktop_revised.png']}
           headline="Integrated data solutions so you can deliver better care"
           copy="An unmatched set of data tools connects and accelerates caregiving teams to improve patient outcomes and operational efficiency. Choose the solution that meets your clinical and operational needs, then deploy quickly with support from a true partner — and the leader in emergency medicine and resuscitation."
         />
