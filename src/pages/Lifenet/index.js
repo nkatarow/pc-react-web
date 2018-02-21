@@ -80,7 +80,7 @@ class Lifenet extends PureComponent {
 
         <HalfHalf layout="flip">
           <div>
-            <Picture src={images['manage-equipment.jpg']} />
+            <Picture src={images['Lifenet-manage-equipment.jpg']} />
           </div>
           <div>
             <Title tag="h3" theme="subhead">Easily Manage Equipment</Title>
