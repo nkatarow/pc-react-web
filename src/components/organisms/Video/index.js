@@ -67,11 +67,7 @@ class Video extends PureComponent {
     this.player = player;
   }
   expandVideo = () => {
-    let expandView = { ...this.state.expandView };
-
-    if (!this.props.isMobile) { expandView = true; }
-
-    this.setState({ expandView });
+    this.setState({ expandView: true });
 
     setTimeout(() => {
       this.setState({
@@ -91,8 +87,13 @@ class Video extends PureComponent {
     } = this.state;
 
     let videoClass = 'video';
-    if (this.state.expandView) {
+
+    if (this.props.isMobile && this.state.expandView) {
+      videoClass = 'video mobile-expand';
+    } else if (!this.props.isMobile && this.state.expandView) {
       videoClass = 'video full';
+    } else {
+      videoClass = 'video';
     }
 
     return (

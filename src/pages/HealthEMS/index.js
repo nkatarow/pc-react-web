@@ -193,8 +193,8 @@ class HealthEMS extends PureComponent {
 
         <Blockquote
           isMobile={this.props.isMobile}
-          mobileBackground={images['quote-bg-mobile.jpg']}
-          desktopBackground={images['quote-bg-desktop.jpg']}
+          mobileBackground={images['health-ems-quotebackground-sacramento-mobile.jpg']}
+          desktopBackground={images['health-ems-quotebackground-sacramento.jpg']}
           quote="HealthEMS supports how we function, how we work. With MobileTouch and HealthEMS Manager we can easily enter the pertinent data we need to justify the treatment provided and get quick QI information on our calls."
           citeFirstLine="Derek Parker"
           citeSecondLine="Captain"

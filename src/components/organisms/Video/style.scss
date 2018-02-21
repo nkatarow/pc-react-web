@@ -8,15 +8,16 @@
 
   > div {
     &.embed {
-      button {
-        opacity: 1;
-        transition: opacity 500ms ease;
-        position: relative;
-        z-index: 2;
+      position: relative;
 
+      button {
         height: auto;
+        opacity: 1;
         padding: 0;
+        position: relative;
+        transition: opacity 500ms ease;
         width: 100%;
+        z-index: 2;
 
         img { width: 100%; }
       }
@@ -34,6 +35,21 @@
     }
 
     &.copy { margin-top: 4em; }
+  }
+
+  &.mobile-expand {
+    .embed {
+      button {
+        opacity: 0;
+        z-index: 1;
+      }
+
+      .react-player {
+        opacity: 1;
+        z-index: 2;
+      }
+    }
+
   }
 }
 
