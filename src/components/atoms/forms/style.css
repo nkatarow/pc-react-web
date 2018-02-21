@@ -15,12 +15,16 @@ label {
     label input:placeholder {
       color: var(--gray);
       font-family: var(--humanist); }
-    label input:active, label input:focus {
-      outline-color: var(--selective-yellow); }
+    label input:required {
+      box-shadow: none; }
+    label input:focus {
+      box-shadow: 0 0 3px var(--selective-yellow);
+      outline: none; }
   label textarea {
     background-image: none;
     border: 0;
     box-sizing: border-box;
+    color: var(--gray);
     font-family: var(--humanist);
     font-size: 1.8em;
     margin-bottom: 1em;
@@ -29,8 +33,11 @@ label {
     label textarea:placeholder {
       color: var(--gray);
       font-family: var(--humanist); }
-    label textarea:active, label textarea:focus {
-      outline-color: var(--selective-yellow); }
+    label textarea:required {
+      box-shadow: none; }
+    label textarea:focus {
+      box-shadow: 0 0 3px var(--selective-yellow);
+      outline: none; }
   label select {
     appearance: none;
     background-color: var(--white);
@@ -42,12 +49,15 @@ label {
     margin-bottom: 1em;
     padding: 0.75em;
     width: 100%; }
-    label select:active, label select:focus {
-      outline-color: var(--selective-yellow); }
+    label select:required {
+      box-shadow: none; }
+    label select:focus {
+      box-shadow: 0 0 3px var(--selective-yellow);
+      outline: none; }
     label select option {
-      color: var(--gray);
-      padding: 0.75em; }
+      color: var(--gray); }
   label.select {
+    color: var(--gray);
     position: relative; }
     label.select::after {
       background-color: var(--selective-yellow);

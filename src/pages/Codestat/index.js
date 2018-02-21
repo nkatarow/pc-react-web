@@ -163,9 +163,9 @@ class Codestat extends PureComponent {
           <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
           <Title tag="h2" theme="subhead">Complete Service by Stryker SmartDesk</Title>
           <p>Start gaining insight immediately with smooth, easy CODE-STAT implementation. An expert Physio-Control team guides you with tutorials, traning, and assistance through our Smart Desk support.</p>
-          <Button>
-            <Link to="/professional-services">About Professional Services</Link>
-          </Button>
+          <Link to="/professional-services">
+            <Button>About Professional Services</Button>
+          </Link>
         </MediaBlock>
 
         <CTA />

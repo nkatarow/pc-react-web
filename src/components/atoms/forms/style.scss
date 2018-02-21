@@ -21,9 +21,11 @@ label {
       font-family: var(--humanist);
     }
 
-    &:active,
+    &:required { box-shadow: none; }
+
     &:focus {
-      outline-color: var(--selective-yellow);
+      box-shadow: 0 0 3px var(--selective-yellow);
+      outline: none;
     }
   }
 
@@ -31,6 +33,7 @@ label {
     background-image: none;
     border: 0;
     box-sizing: border-box;
+    color: var(--gray);
     font-family: var(--humanist);
     font-size: 1.8em;
     margin-bottom: 1em;
@@ -42,9 +45,11 @@ label {
       font-family: var(--humanist);
     }
 
-    &:active,
+    &:required { box-shadow: none; }
+
     &:focus {
-      outline-color: var(--selective-yellow);
+      box-shadow: 0 0 3px var(--selective-yellow);
+      outline: none;
     }
   }
 
@@ -60,18 +65,18 @@ label {
     padding: 0.75em;
     width: 100%;
 
-    &:active,
+    &:required { box-shadow: none; }
+
     &:focus {
-      outline-color: var(--selective-yellow);
+      box-shadow: 0 0 3px var(--selective-yellow);
+      outline: none;
     }
 
-    option {
-      color: var(--gray);
-      padding: 0.75em;
-    }
+    option { color: var(--gray); }
   }
 
   &.select {
+    color: var(--gray);
     position: relative;
 
     &::after {

@@ -205,9 +205,9 @@ class HealthEMS extends PureComponent {
           <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
           <Title tag="h2" theme="subhead">Make it <em>your</em> ePCR</Title>
           <p>You need solutions that work right, quickly, and under pressure — just like you do. An expert support team will help you tailor your HealthEMS solution with all the components you need for success. Full training and support will speed implementation to put data and new insights at your fingertips while enabling your organization to continue operations.</p>
-          <Button>
-            <Link to="/professional-services">About Professional Services</Link>
-          </Button>
+          <Link to="/professional-services">
+            <Button>About Professional Services</Button>
+          </Link>
         </MediaBlock>
 
         <CTA />

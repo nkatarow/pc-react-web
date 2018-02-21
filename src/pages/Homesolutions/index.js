@@ -157,9 +157,9 @@ class Homesolutions extends PureComponent {
           <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
           <Title tag="h2" theme="subhead">Dedicated to enabling your success</Title>
           <p>Delivering Software as a Service is our specialty, and we’re passionate about it. We believe that serving your business is both a privilege and a responsibility. We strive to maintain that business by providing you with software and services to help your organization improve clinical, operational and financial performance.</p>
-          <Button>
-            <Link to="/professional-services">About Professional Services</Link>
-          </Button>
+          <Link to="/professional-services">
+            <Button>About Professional Services</Button>
+          </Link>
         </MediaBlock>
 
         <CTA />

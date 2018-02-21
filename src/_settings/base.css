@@ -9,11 +9,11 @@ body {
 }
 
 /* Paragraph Types */
-p {
-  font-size: 1.6em;
-}
-p.medium { font-size: 1.8em; }
-p.large { font-size: 2em; }
+p { font-size: 1.6em; }
+  p.medium { font-size: 1.8em; }
+  p.large { font-size: 2em; }
+
+a { text-decoration: none; }
 
 /* Other Elements */
 ul, ol {
@@ -47,7 +47,7 @@ ul, ol {
 }
   .fade-enter.fade-enter-active {
     opacity: 1;
-    transition: opacity 500ms ease-in;
+    transition: opacity 750ms ease;
   }
 
 .fade-exit {
@@ -55,7 +55,7 @@ ul, ol {
 }
   .fade-exit.fade-exit-active {
     opacity: 0.01;
-    transition: opacity 400ms ease-in;
+    transition: opacity 250ms ease;
   }
 
 /* Utility Classes */

@@ -11,6 +11,7 @@
   outline: 0;
   padding: 1em 3em;
   position: relative;
+  text-decoration: none;
   text-transform: uppercase;
   transition: background-color 250ms ease, border-color 250ms ease, color 250ms ease;
   width: 100%;
@@ -19,11 +20,7 @@
   &.default {
     background-color: var(--selective-yellow);
     border-color: var(--selective-yellow);
-
-    a {
-      color: var(--black);
-      text-decoration: none;
-    }
+    color: var(--black);
 
     &:hover,
     &:focus {
@@ -42,11 +39,7 @@
   &.outlined {
     background-color: transparent;
     border-color: var(--selective-yellow);
-
-    a {
-      color: var(--black);
-      text-decoration: none;
-    }
+    color: var(--black);
 
     &:hover,
     &:focus {
@@ -61,7 +54,6 @@
     }
   }
 }
-
 
 @media screen and (min-width: 50em) {
   .button,

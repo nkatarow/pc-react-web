@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: space-between;
     max-width: var(--max-width);
-    padding: 5% 0; }
+    padding: 5%; }
     .half-half:first-of-type {
       padding-top: 10%; }
     .half-half:last-of-type {
@@ -26,4 +26,5 @@
 
 @media screen and (min-width: 1250px) {
   .half-half {
-    margin: 0 auto; } }
+    margin: 0 auto;
+    padding: 5% 0; } }

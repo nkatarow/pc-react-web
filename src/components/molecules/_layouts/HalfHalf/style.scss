@@ -13,7 +13,7 @@
     flex-direction: row;
     justify-content: space-between;
     max-width: var(--max-width);
-    padding: 5% 0;
+    padding: 5%;
 
     &:first-of-type { padding-top: 10%; }
     &:last-of-type { padding-bottom: 10%; }
@@ -36,5 +36,8 @@
 }
 
 @media screen and (min-width: 1250px) {
-  .half-half { margin: 0 auto; }
+  .half-half {
+    margin: 0 auto;
+    padding: 5% 0;
+  }
 }
