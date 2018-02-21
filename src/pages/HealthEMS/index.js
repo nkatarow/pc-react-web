@@ -38,8 +38,8 @@ class HealthEMS extends PureComponent {
       <div className="healthems-page">
         <Hero
           isMobile={this.props.isMobile}
-          mobileHero={images['healthems-hero-mobile.jpg']}
-          desktopHero={images['healthems-hero-desktop.jpg']}
+          mobileHero={images['mobile-healthems-hero.jpg']}
+          desktopHero={images['desktop-healthems-hero.jpg']}
           headline="Quickly access the information to optimize performance."
           copy="Easy, customizable documentation with advanced reporting can help you to improve patient care and service delivery."
         />
