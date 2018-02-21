@@ -28,9 +28,9 @@ const PrimaryNav = (props) => {
     }
       <nav>
         <NavLink to="/health-ems" onClick={handleClick}>HealthEMS</NavLink>
-        <NavLink to="/lifenet-system" onClick={handleClick}>LifeNet System</NavLink>
-        <NavLink to="/code-stat" onClick={handleClick}>Code-Stat</NavLink>
-        <NavLink to="/homesolutions-net" onClick={handleClick}>Homesolutions.net</NavLink>
+        <NavLink to="/lifenet-system" onClick={handleClick}>LIFENET System</NavLink>
+        <NavLink to="/code-stat" onClick={handleClick}>CODE-STAT</NavLink>
+        <NavLink to="/homesolutions-net" onClick={handleClick}>HomeSolutions.NET</NavLink>
         <NavLink to="/professional-services" onClick={handleClick}>Professional Services</NavLink>
         <NavLink to="/contact-us" onClick={handleClick}>Contact Us</NavLink>
       </nav>

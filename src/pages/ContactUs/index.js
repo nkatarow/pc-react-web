@@ -348,7 +348,7 @@ class ContactUs extends PureComponent {
             label="Notes"
           />
 
-          <Button type="submit" name="submit">Submit</Button>
+          <Button type="submit" name="submit">SUBMIT</Button>
         </form>
       </section>
     );

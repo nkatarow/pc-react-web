@@ -75,7 +75,7 @@ class Homepage extends PureComponent {
                   <Title tag="p" theme="subhead">Easy, customizable documentation with advanced reporting to improve patient care and service delivery.</Title>
                   <p>HealthEMS is a patient-based, protocol-driven electronic patient care record (ePCR) system that makes documentation and critical operational processes as effortless as possible. This suite of flexible software tools provides all the documentation required for improved patient care, accurate billing, and advanced reporting. Quickly configure it to match your organizational needs. One connected system makes it easier to receive, share, and find actionable information that can make a difference inpatient outcomes, regulatory compliance, and operational and financial performance.</p>
                   <Link to="/health-ems">
-                    <Button>More about Health EMS</Button>
+                    <Button>MORE ABOUT HealthEMS</Button>
                   </Link>
                 </div>
                 <div>
@@ -100,7 +100,7 @@ class Homepage extends PureComponent {
                   <Title tag="p" theme="headline">Smoother communication. Faster care. Stronger teams.</Title>
                   <p>The LIFENET® System is a comprehensive cloud-based platform that provides the information and tools that EMS and hospital teams need to work together seamlessly, minimize time to treatment, and improve outcomes. Access and share the critical patient data that can help you reduce time to treatment for STEMI patients, stroke patients, and other emergencies. Quickly and easily obtain consultations from remote clinicians and activate care teams across your organization. Rapidly distribute post-event review insights and manage your LIFEPAK device fleet wide with innovative tools that help save time and empower improvement.</p>
                   <Link to="/lifenet-system">
-                    <Button>More about LifeNET System</Button>
+                    <Button>MORE ABOUT LIFENET System</Button>
                   </Link>
                 </div>
                 <div>
@@ -125,7 +125,7 @@ class Homepage extends PureComponent {
                   <Title tag="p" theme="headline">The insights you need to improve performance and patient outcomes.</Title>
                   <p>Identify and quickly make targeted improvements when you can easily understand team performance immediately after a response. CODE-STAT software gives you precision access to relevant, detailed CPR and resuscitation performance data to help you monitor and improve response. Customized reports deliver actionable information back to your teams for improvement.</p>
                   <Link to="/code-stat">
-                    <Button>More about Code-Stat System</Button>
+                    <Button>MORE ABOUT CODE-STAT</Button>
                   </Link>
                 </div>
                 <div>
@@ -150,7 +150,7 @@ class Homepage extends PureComponent {
                   <Title tag="p" theme="headline">Streamline the operational intricacies of delivering home healthcare.</Title>
                   <p>Improve the clinical, operational, financial, and regulatory performance of your home health organization. This cloud-based, agency management EMR solution provides comprehensive tools for mobile point-of-care documentation, revenue cycle management, and data dashboards for enhancing workflows and quality assurance. Move beyond error-prone paperwork to enhance processes for scheduling, coding, eligibility, visit reconciliation, and more.</p>
                   <Link to="/homesolutions-net">
-                    <Button>More about Homesolutions.net</Button>
+                    <Button>MORE ABOUT HomeSolutions.NET</Button>
                   </Link>
                 </div>
                 <div>

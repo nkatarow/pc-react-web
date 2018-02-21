@@ -9,11 +9,9 @@ nav a {
   display: block;
   font-family: var(--futura);
   font-size: 1.5em;
-  letter-spacing: 0.15em;
   margin-bottom: 1px;
   padding: 1em 5%;
   text-decoration: none;
-  text-transform: uppercase;
   transition: color 250ms ease; }
   nav a:last-child {
     margin-bottom: 0; }
