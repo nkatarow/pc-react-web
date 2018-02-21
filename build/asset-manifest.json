@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.c446c874.css",
   "main.css.map": "static/css/main.c446c874.css.map",
-  "main.js": "static/js/main.ef13cd72.js",
-  "main.js.map": "static/js/main.ef13cd72.js.map",
+  "main.js": "static/js/main.ec80fcea.js",
+  "main.js.map": "static/js/main.ec80fcea.js.map",
   "static/media/25-percent-compressions.svg": "static/media/25-percent-compressions.de64844f.svg",
   "static/media/35AF9E_0_0.eot": "static/media/35AF9E_0_0.1884b6b0.eot",
   "static/media/35AF9E_0_0.ttf": "static/media/35AF9E_0_0.e9f61caa.ttf",
@@ -29,6 +29,7 @@
   "static/media/35AF9E_5_0.woff": "static/media/35AF9E_5_0.c84e9fc2.woff",
   "static/media/35AF9E_5_0.woff2": "static/media/35AF9E_5_0.7f2ce840.woff2",
   "static/media/Lifenet-manage-equipment.jpg": "static/media/Lifenet-manage-equipment.341d066f.jpg",
+  "static/media/StrykerDataSolutionsVideoStill.jpg": "static/media/StrykerDataSolutionsVideoStill.e6c2491f.jpg",
   "static/media/bg-compression-desktop.jpg": "static/media/bg-compression-desktop.df4bfea1.jpg",
   "static/media/bg-compression-mobile.jpg": "static/media/bg-compression-mobile.77d6061a.jpg",
   "static/media/bg-hero-desktop.jpg": "static/media/bg-hero-desktop.8ab02509.jpg",
@@ -93,6 +94,5 @@
   "static/media/service-support.svg": "static/media/service-support.3ea0758c.svg",
   "static/media/stemi-stroke.jpg": "static/media/stemi-stroke.79398a10.jpg",
   "static/media/streamline-reporting.jpg": "static/media/streamline-reporting.f89bfc6d.jpg",
-  "static/media/stryker-logo.svg": "static/media/stryker-logo.b6e21a2f.svg",
-  "static/media/video-poster.jpg": "static/media/video-poster.af0ad0cc.jpg"
+  "static/media/stryker-logo.svg": "static/media/stryker-logo.b6e21a2f.svg"
 }

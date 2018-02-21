@@ -164,7 +164,7 @@ class Homepage extends PureComponent {
         <Video
           isMobile={this.props.isMobile}
           url="https://vimeo.com/253985701"
-          poster={images['video-poster.jpg']}
+          poster={images['StrykerDataSolutionsVideoStill.jpg']}
         >
           <div>
             <Title tag="h3" theme="context-head" color="scorpion">Video</Title>

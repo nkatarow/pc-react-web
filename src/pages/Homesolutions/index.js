@@ -64,7 +64,7 @@ class Homesolutions extends PureComponent {
           <div>
             <Picture src={images['icon-touchscreen.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Easy-to-use Touch-screen Interface
+              Easy-to-use<br />Touch-screen Interface
             </Title>
             <p>MobileTouch is the revolutionary Point-of-Care application that works online or offline on today’s popular tablets. This easy-to-use tool facilitates quick, timely documentation at the point-of-care, improving accuracy and patient care.</p>
           </div>
