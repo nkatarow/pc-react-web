@@ -44,6 +44,9 @@ h6 {
   padding-bottom: 0.5em;
   text-transform: uppercase; }
 
+.mobile-title {
+  padding: 0 5%; }
+
 @media screen and (min-width: 50em) {
   .page-title {
     font-size: 7.8em; }
@@ -55,3 +58,7 @@ h6 {
     font-size: 2.6em; }
   .subhead {
     font-size: 1.8em; } }
+
+@media screen and (min-width: 1080px) {
+  .mobile-title {
+    display: none; } }

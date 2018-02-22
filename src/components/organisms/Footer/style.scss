@@ -111,8 +111,11 @@ footer {
   .legal {
     border-top: 0;
     display: flex;
+    justify-content: space-between;
     padding-top: 0;
     width: 50%;
+
+    > div { width: 45%;  }
 
     a {
       display: block;

@@ -76,8 +76,11 @@ footer {
   .legal {
     border-top: 0;
     display: flex;
+    justify-content: space-between;
     padding-top: 0;
     width: 50%; }
+    .legal > div {
+      width: 45%; }
     .legal a {
       display: block;
       padding-bottom: 0.5em; } }

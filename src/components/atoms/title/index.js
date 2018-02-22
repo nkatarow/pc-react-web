@@ -22,6 +22,7 @@ const Title = (props) => {
   const classProps = classNames(
     props.tag,
     caps,
+    props.className,
     props.theme,
     props.color,
   );
@@ -38,6 +39,7 @@ export default Title;
 Title.defaultProps = {
   caps: false,
   color: 'black',
+  className: '',
 };
 
 Title.propTypes = {
@@ -46,6 +48,7 @@ Title.propTypes = {
   /** Use CSS color variable */
   color: PropTypes.string,
   /** Options are TitleThemes.PAGE\_TITLE, TitleThemes.HERO\_TITLE, TitleThemes.SECTION\_TITLE, TitleThemes.HEADLINE, TitleThemes.SUBHEAD, TitleThemes.CONTEXT\_HEAD  */
+  className: PropTypes.string,
   theme: PropTypes.string.isRequired,
   caps: PropTypes.bool,
   children: PropTypes.node.isRequired,

@@ -9,7 +9,7 @@ import './style.css';
 import getComponentImages from '../../_utility/getComponentImages';
 
 // Atoms
-import Title from '../../components/atoms/title/';
+import Title, { TitleThemes } from '../../components/atoms/title/';
 import Button from '../../components/atoms/button/';
 import Picture from '../../components/atoms/picture/';
 
@@ -33,6 +33,7 @@ class Codestat extends PureComponent {
     const images = getComponentImages(require.context('./_img', false, /\.(png|jpe?g|svg)$/));
     return (
       <div className="codestat-page">
+        <Title tag="h1" theme={TitleThemes.HEADLINE} className="mobile-title">CODE-STAT</Title>
         <Hero
           isMobile={this.props.isMobile}
           mobileHero={images['codestat-hero-mobile.jpg']}

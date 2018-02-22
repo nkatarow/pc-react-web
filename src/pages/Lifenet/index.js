@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import getComponentImages from '../../_utility/getComponentImages';
 
 // Atoms
-import Title from '../../components/atoms/title/';
+import Title, { TitleThemes } from '../../components/atoms/title/';
 import Button from '../../components/atoms/button/';
 import Picture from '../../components/atoms/picture/';
 
@@ -34,6 +34,7 @@ class Lifenet extends PureComponent {
 
     return (
       <div>
+        <Title tag="h1" theme={TitleThemes.HEADLINE} className="mobile-title">LIFENET System</Title>
         <Hero
           isMobile={this.props.isMobile}
           mobileHero={images['lifenet-hero-mobile.jpg']}
