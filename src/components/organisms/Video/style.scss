@@ -2,14 +2,15 @@
 
 .video {
   background-color: $gallery;
-  display: flex;
-  flex-wrap: wrap;
   padding: 10% 5%;
 
   .context-head { margin-bottom: 1em; }
 
-  > div {
-    &.embed {
+  .contain {
+    display: flex;
+    flex-wrap: wrap;
+
+    .embed {
       position: relative;
 
       button {
@@ -36,10 +37,10 @@
       }
     }
 
-    &.copy { margin-top: 4em; }
+    .copy { margin-top: 4em; }
   }
 
-  &.mobile-expand {
+  .mobile-expand {
     .embed {
       button {
         opacity: 0;
@@ -57,34 +58,40 @@
 
 @media screen and (min-width: 50em) {
   .video {
-    > div {
-      transition: flex-basis 500ms ease;
-      flex-basis: 50%;
+    .contain {
+      margin: 0 auto;
+      max-width: $max-width;
       position: relative;
+      width: 100%;
 
-      &.copy > div {
+      > div {
+        flex-basis: 50%;
+        transition: flex-basis 500ms ease;
+      }
+
+      .copy > div {
         margin: 0;
         max-width: 100%;
         padding-left: 20%;
         transition:
-          padding-left 250ms ease,
           margin 250ms ease,
-          max-width 250ms ease;
+          max-width 250ms ease,
+          padding-left 250ms ease;
       }
     }
 
     &.full {
-      > div {
-        flex-basis: 100%;
+      .contain {
+        > div { flex-basis: 100%; }
 
-        &.copy > div {
+        .copy > div {
           margin: 4em auto;
           max-width: 50%;
           padding-left: 0;
           text-align: center;
         }
 
-        &.embed {
+        .embed {
           button {
             opacity: 0;
             z-index: 1;

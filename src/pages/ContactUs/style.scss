@@ -13,8 +13,11 @@
     .hero-title { margin-bottom: 0; }
   }
 
-  form {
+  .contain {
     background-color: $gallery;
+  }
+
+  form {
     padding: 5%;
     width: 90%;
 
@@ -40,6 +43,8 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      margin: 0 auto;
+      max-width: $max-width;
     }
 
     label {

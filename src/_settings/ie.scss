@@ -1,0 +1,18 @@
+// MS Edge Browser CSS Start
+@supports (-ms-ime-align:auto) {
+  body { overflow-x: hidden; }
+}
+
+// IE10 and IE11   (Method 1)
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  // body { background-color: blue; }
+}
+
+// IE10 and IE11   (Method 2)
+@media all and (-ms-high-contrast: none) {
+  // body { background-color: green; }
+}
+
+@media screen\0 {
+  // body { background-color: pink; }
+}

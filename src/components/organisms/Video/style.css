@@ -1,60 +1,65 @@
 .video {
   background-color: #ebebeb;
-  display: flex;
-  flex-wrap: wrap;
   padding: 10% 5%; }
   .video .context-head {
     margin-bottom: 1em; }
-  .video > div.embed {
-    position: relative; }
-    .video > div.embed button {
-      height: auto;
-      opacity: 1;
-      padding: 0;
-      position: relative;
-      transition: opacity 500ms ease;
-      width: 100%;
-      z-index: 2; }
-      .video > div.embed button img {
-        width: 100%; }
-    .video > div.embed .react-player {
-      height: 100%;
-      left: 0;
-      opacity: 0;
-      position: absolute;
-      top: 0;
-      transition: opacity 500ms ease;
-      width: 100%;
-      z-index: -1; }
-  .video > div.copy {
-    margin-top: 4em; }
-  .video.mobile-expand .embed button {
+  .video .contain {
+    display: flex;
+    flex-wrap: wrap; }
+    .video .contain .embed {
+      position: relative; }
+      .video .contain .embed button {
+        height: auto;
+        opacity: 1;
+        padding: 0;
+        position: relative;
+        transition: opacity 500ms ease;
+        width: 100%;
+        z-index: 2; }
+        .video .contain .embed button img {
+          width: 100%; }
+      .video .contain .embed .react-player {
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        transition: opacity 500ms ease;
+        width: 100%;
+        z-index: -1; }
+    .video .contain .copy {
+      margin-top: 4em; }
+  .video .mobile-expand .embed button {
     opacity: 0;
     z-index: 1; }
-  .video.mobile-expand .embed .react-player {
+  .video .mobile-expand .embed .react-player {
     opacity: 1;
     z-index: 2; }
 
 @media screen and (min-width: 50em) {
-  .video > div {
-    transition: flex-basis 500ms ease;
-    flex-basis: 50%;
-    position: relative; }
-    .video > div.copy > div {
+  .video .contain {
+    margin: 0 auto;
+    max-width: 1180px;
+    position: relative;
+    width: 100%; }
+    .video .contain > div {
+      flex-basis: 50%;
+      transition: flex-basis 500ms ease; }
+    .video .contain .copy > div {
       margin: 0;
       max-width: 100%;
       padding-left: 20%;
-      transition: padding-left 250ms ease, margin 250ms ease, max-width 250ms ease; }
-  .video.full > div {
+      transition: margin 250ms ease, max-width 250ms ease, padding-left 250ms ease; }
+  .video.full .contain > div {
     flex-basis: 100%; }
-    .video.full > div.copy > div {
-      margin: 4em auto;
-      max-width: 50%;
-      padding-left: 0;
-      text-align: center; }
-    .video.full > div.embed button {
-      opacity: 0;
-      z-index: 1; }
-    .video.full > div.embed .react-player {
-      opacity: 1;
-      z-index: 2; } }
+  .video.full .contain .copy > div {
+    margin: 4em auto;
+    max-width: 50%;
+    padding-left: 0;
+    text-align: center; }
+  .video.full .contain .embed button {
+    opacity: 0;
+    z-index: 1; }
+  .video.full .contain .embed .react-player {
+    opacity: 1;
+    z-index: 2; } }

@@ -5,5 +5,6 @@ import store from './store/';
 import App from './App';
 
 import './_settings/base.css';
+import './_settings/ie.css';
 
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));

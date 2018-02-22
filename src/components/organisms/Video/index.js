@@ -98,32 +98,33 @@ class Video extends PureComponent {
 
     return (
       <section className={videoClass}>
+        <div className="contain">
+          <div className="embed">
+            <button onClick={this.expandVideo}>
+              <img src={this.props.poster} alt="Play Video" />
+            </button>
 
-        <div className="embed">
-          <button onClick={this.expandVideo}>
-            <img src={this.props.poster} alt="Play Video" />
-          </button>
-
-          <ReactPlayer
-            ref={this.ref}
-            className="react-player"
-            width="100%"
-            height="100%"
-            url={url}
-            playing={playing}
-            loop={loop}
-            playbackRate={playbackRate}
-            volume={volume}
-            muted={muted}
-            onPlay={this.onPlay}
-            onPause={this.onPause}
-            onEnded={this.onEnded}
-            onProgress={this.onProgress}
-            onDuration={this.onDuration}
-          />
-        </div>
-        <div className="copy">
-          {this.props.children}
+            <ReactPlayer
+              ref={this.ref}
+              className="react-player"
+              width="100%"
+              height="100%"
+              url={url}
+              playing={playing}
+              loop={loop}
+              playbackRate={playbackRate}
+              volume={volume}
+              muted={muted}
+              onPlay={this.onPlay}
+              onPause={this.onPause}
+              onEnded={this.onEnded}
+              onProgress={this.onProgress}
+              onDuration={this.onDuration}
+            />
+          </div>
+          <div className="copy">
+            {this.props.children}
+          </div>
         </div>
       </section>
     );
