@@ -40,7 +40,7 @@ class Homesolutions extends PureComponent {
           mobileHero={images['homesolutions-hero-mobile.jpg']}
           desktopHero={images['homesolutions-hero-desktop.jpg']}
           headline="Powerful. Flexible. Accurate."
-          copy="HomeSolutions.NET is a comprehensive cloud-based agency management EMR solution proven to help home health organizations improve clinical, operational, financial and regulatory performance."
+          copy="HomeSolutions.NET is a comprehensive cloud-based agency management EMR solution proven to help home health organizations improve clinical, operational, financial and regulatory performance."
         />
 
         <Introduction

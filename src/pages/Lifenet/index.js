@@ -39,7 +39,7 @@ class Lifenet extends PureComponent {
           isMobile={this.props.isMobile}
           mobileHero={images['lifenet-hero-mobile.jpg']}
           desktopHero={images['lifenet-hero-desktop.jpg']}
-          headline="Smoother communication. Faster care. Stronger teamwork."
+          headline="Smoother communication. Faster care. Stronger teamwork."
           copy="The LIFENET® System is a comprehensive cloud-based platform that intelligently manages and delivers patient information and device data that EMS and hospital teams need to work together seamlessly, minimize time to treatment, and improve outcomes."
         />
 

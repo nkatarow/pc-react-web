@@ -31,7 +31,7 @@ class ContactUs extends PureComponent {
           headlineColor="white"
           mobileHero={images['bg-hero-mobile.jpg']}
           desktopHero={images['bg-hero-desktop.jpg']}
-          headline="Ready to learn more? Let’s schedule a demo."
+          headline="Ready to learn more? Let's schedule a demo."
         />
 
         <div className="contain">
