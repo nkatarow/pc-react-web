@@ -4,7 +4,7 @@
   border: 2px solid;
   cursor: pointer;
   display: block;
-  font-family: var(--futura);
+  font-family: "Futura Bold", sans-serif;
   font-size: 1.4em;
   height: auto;
   letter-spacing: 0.07em;
@@ -16,34 +16,34 @@
   width: 100%; }
   .button.default,
   .submit.default {
-    background-color: var(--selective-yellow);
-    border-color: var(--selective-yellow);
-    color: var(--black); }
+    background-color: #ffb500;
+    border-color: #ffb500;
+    color: #000; }
     .button.default:hover, .button.default:focus,
     .submit.default:hover,
     .submit.default:focus {
-      background-color: var(--school-bus-yellow);
-      border-color: var(--school-bus-yellow); }
+      background-color: #ffda00;
+      border-color: #ffda00; }
     .button.default:disabled,
     .submit.default:disabled {
-      background-color: var(--silver);
-      border-color: var(--silver);
-      color: var(--gray);
+      background-color: #cdcdcd;
+      border-color: #cdcdcd;
+      color: #8c8c8c;
       cursor: default; }
   .button.outlined,
   .submit.outlined {
     background-color: transparent;
-    border-color: var(--selective-yellow);
-    color: var(--black); }
+    border-color: #ffb500;
+    color: #000; }
     .button.outlined:hover, .button.outlined:focus,
     .submit.outlined:hover,
     .submit.outlined:focus {
-      border-color: var(--school-bus-yellow); }
+      border-color: #ffda00; }
     .button.outlined:disabled,
     .submit.outlined:disabled {
-      background-color: var(--silver);
-      border-color: var(--gray);
-      color: var(--gray);
+      background-color: #cdcdcd;
+      border-color: #8c8c8c;
+      color: #8c8c8c;
       cursor: default; }
 
 @media screen and (min-width: 50em) {

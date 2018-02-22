@@ -14,7 +14,7 @@
     margin-bottom: 2em; }
   .media-block.image {
     background-size: cover;
-    color: var(--white); }
+    color: #fff; }
   .media-block.large > div {
     max-width: 1075px; }
   .media-block.large img {

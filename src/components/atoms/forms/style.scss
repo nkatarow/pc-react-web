@@ -1,3 +1,5 @@
+@import '../../../_settings/helpers/variables';
+
 label {
   display: block;
   width: 100%;
@@ -5,12 +7,12 @@ label {
   input {
     border-radius: 0;
     box-sizing: border-box;
-    color: var(--gray);
+    color: $gray;
 
     &[type='text'] {
       background-image: none;
       border: 0;
-      font-family: var(--humanist);
+      font-family: $humanist;
       font-size: 1.8em;
       margin-bottom: 1em;
       padding: 0.75em;
@@ -18,14 +20,14 @@ label {
     }
 
     &:placeholder {
-      color: var(--gray);
-      font-family: var(--humanist);
+      color: $gray;
+      font-family: $humanist;
     }
 
     &:required { box-shadow: none; }
 
     &:focus {
-      box-shadow: 0 0 3px var(--selective-yellow);
+      box-shadow: 0 0 3px $selective-yellow;
       outline: none;
     }
   }
@@ -34,33 +36,33 @@ label {
     background-image: none;
     border: 0;
     box-sizing: border-box;
-    color: var(--gray);
-    font-family: var(--humanist);
+    color: $gray;
+    font-family: $humanist;
     font-size: 1.8em;
     margin-bottom: 1em;
     padding: 0.75em;
     width: 100%;
 
     &:placeholder {
-      color: var(--gray);
-      font-family: var(--humanist);
+      color: $gray;
+      font-family: $humanist;
     }
 
     &:required { box-shadow: none; }
 
     &:focus {
-      box-shadow: 0 0 3px var(--selective-yellow);
+      box-shadow: 0 0 3px $selective-yellow;
       outline: none;
     }
   }
 
   select {
     appearance: none;
-    background-color: var(--white);
+    background-color: $white;
     border: 0;
     border-radius: 0;
-    color: var(--gray);
-    font-family: var(--humanist);
+    color: $gray;
+    font-family: $humanist;
     font-size: 1.8em;
     margin-bottom: 1em;
     padding: 0.75em;
@@ -69,19 +71,19 @@ label {
     &:required { box-shadow: none; }
 
     &:focus {
-      box-shadow: 0 0 3px var(--selective-yellow);
+      box-shadow: 0 0 3px $selective-yellow;
       outline: none;
     }
 
-    option { color: var(--gray); }
+    option { color: $gray; }
   }
 
   &.select {
-    color: var(--gray);
+    color: $gray;
     position: relative;
 
     &::after {
-      background-color: var(--selective-yellow);
+      background-color: $selective-yellow;
       background-image: url('./_img/chevron-down.svg');
       background-position: center center;
       background-repeat: no-repeat;
@@ -98,7 +100,7 @@ label {
 }
 
 // For styleguide
-.bg-gallery { background-color: var(--gallery); }
+.bg-gallery { background-color: $gallery; }
 
 @media screen and (min-width: 50em) {
   input,

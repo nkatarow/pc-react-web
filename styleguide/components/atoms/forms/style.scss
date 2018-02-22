@@ -4,12 +4,12 @@ label {
 
   input {
     box-sizing: border-box;
-    color: var(--gray);
+    color: $gray;
 
     &[type='text'] {
       background-image: none;
       border: 0;
-      font-family: var(--humanist);
+      font-family: $humanist;
       font-size: 1.8em;
       margin-bottom: 1em;
       padding: 0.75em;
@@ -17,13 +17,13 @@ label {
     }
 
     &:placeholder {
-      color: var(--gray);
-      font-family: var(--humanist);
+      color: $gray;
+      font-family: $humanist;
     }
 
     &:active,
     &:focus {
-      outline-color: var(--selective-yellow);
+      outline-color: $selective-yellow;
     }
   }
 
@@ -31,30 +31,30 @@ label {
     background-image: none;
     border: 0;
     box-sizing: border-box;
-    font-family: var(--humanist);
+    font-family: $humanist;
     font-size: 1.8em;
     margin-bottom: 1em;
     padding: 0.75em;
     width: 100%;
 
     &:placeholder {
-      color: var(--gray);
-      font-family: var(--humanist);
+      color: $gray;
+      font-family: $humanist;
     }
 
     &:active,
     &:focus {
-      outline-color: var(--selective-yellow);
+      outline-color: $selective-yellow;
     }
   }
 
   select {
     appearance: none;
-    background-color: var(--white);
+    background-color: $white;
     border: 0;
     border-radius: 0;
-    color: var(--gray);
-    font-family: var(--humanist);
+    color: $gray;
+    font-family: $humanist;
     font-size: 1.8em;
     margin-bottom: 1em;
     padding: 0.75em;
@@ -62,11 +62,11 @@ label {
 
     &:active,
     &:focus {
-      outline-color: var(--selective-yellow);
+      outline-color: $selective-yellow;
     }
 
     option {
-      color: var(--gray);
+      color: $gray;
       padding: 0.75em;
     }
   }
@@ -75,7 +75,7 @@ label {
     position: relative;
 
     &::after {
-      background-color: var(--selective-yellow);
+      background-color: $selective-yellow;
       background-image: url('./_img/chevron-down.svg');
       background-position: center center;
       background-repeat: no-repeat;
@@ -92,7 +92,7 @@ label {
 }
 
 // For styleguide
-.bg-gallery { background-color: var(--gallery); }
+.bg-gallery { background-color: $gallery; }
 
 @media screen and (min-width: 50em) {
   input,

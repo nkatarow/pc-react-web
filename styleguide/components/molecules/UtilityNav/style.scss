@@ -14,9 +14,9 @@
 
   a {
     align-items: center;
-    color: var(--gray);
+    color: $gray;
     display: flex;
-    font-family: var(--futura);
+    font-family: $futura;
     font-size: 1.5em;
     letter-spacing: 0.2em;
     margin-bottom: 0.25em;
@@ -31,15 +31,15 @@
       margin-right: 1em;
 
       .st0 {
-        fill: var(--gray);
+        fill: $gray;
       }
     }
 
     &.product {
-      color: var(--selective-yellow);
+      color: $selective-yellow;
 
       svg .st0 {
-        fill: var(--selective-yellow);
+        fill: $selective-yellow;
       }
     }
   }
@@ -51,14 +51,14 @@
   }
 
   .utility {
-    background-color: var(--gallery);
+    background-color: $gallery;
 
     > div {
       align-items: center;
       flex-direction: row;
       justify-content: space-between;
       margin: 0 auto;
-      max-width: var(--max-width);
+      max-width: $max-width;
       order: 1;
       padding: 1em 2.5%;
       width: 95%;
@@ -75,9 +75,9 @@
     }
 
     h2 {
-      color: var(--gray);
+      color: $gray;
       display: inline-block;
-      font-family: var(--futura);
+      font-family: $futura;
       font-size: 1.3em;
       letter-spacing: 0.2em;
       order: 2;
@@ -85,7 +85,7 @@
     }
 
     a {
-      color: var(--black);
+      color: $black;
       font-size: 1.3em;
       margin-bottom: 0;
       order: 1;
@@ -94,7 +94,7 @@
 
       &:hover,
       &:focus {
-        color: var(--selective-yellow);
+        color: $selective-yellow;
       }
 
       &.company {
@@ -108,18 +108,18 @@
       }
 
       &.product {
-        color: var(--black);
+        color: $black;
         order: 3;
         padding-left: 3em;
         transition: color 250ms ease;
 
         svg .st0 {
-          fill: var(--black);
+          fill: $black;
         }
 
         &:hover,
         &:focus {
-          color: var(--selective-yellow);
+          color: $selective-yellow;
         }
       }
     }

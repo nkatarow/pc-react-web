@@ -1,0 +1,89 @@
+@import './helpers/normalize';
+@import './helpers/variables';
+@import './helpers/fonts';
+
+body {
+  color: $black;
+  font-family: $humanist;
+  font-size: 62.5%;
+}
+
+// Paragraph Types
+p {
+  font-size: 1.6em;
+
+  &.medium { font-size: 1.8em; }
+  &.large { font-size: 2em; }
+}
+
+a { text-decoration: none; }
+
+// Other Elements
+ul,
+ol {
+  font-size: 1.6em;
+  padding-left: 1em;
+
+  li { margin-bottom: 0.5em; }
+}
+
+// Utility Colors
+.black { color: $black; }
+.cod-gray { color: $cod-gray; }
+.mine-shaft { color: $mine-shaft; }
+.scorpion { color: $scorpion; }
+.gray { color: $gray; }
+.silver-chalice { color: $silver-chalice; }
+.silver { color: $silver; }
+.gallery { color: $gallery; }
+.white { color: $white; }
+
+// Brand Colors
+.school-bus-yellow { color: $school-bus-yellow; }
+.selective-yellow { color: $selective-yellow; }
+.mai-tai { color: $mai-tai; }
+.affair { color: $affair; }
+.blumine { color: $blumine; }
+.faded-jade { color: $faded-jade; }
+
+// Page Transitions
+.fade-enter {
+  opacity: 0.01;
+
+  &.fade-enter-active {
+    opacity: 1;
+    transition: opacity 750ms ease;
+  }
+}
+
+.fade-exit {
+  opacity: 1;
+
+  &.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 250ms ease;
+  }
+}
+
+
+// Utility Classes
+.offscreen {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@media screen and (min-width: 50em) {
+  // Paragraph Types
+  p {
+    &.medium { font-size: 2.1em; }
+    &.large { font-size: 2.4em; }
+  }
+}

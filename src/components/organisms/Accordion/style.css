@@ -1,5 +1,5 @@
 .accordion .accordion-item {
-  border-top: 1px solid var(--silver);
+  border-top: 1px solid #cdcdcd;
   padding: 5%; }
 
 .accordion .accordion-title {
@@ -54,7 +54,7 @@
   .accordion .accordion-title {
     justify-content: flex-start;
     margin: 0 auto;
-    max-width: var(--max-width); }
+    max-width: 1180px; }
     .accordion .accordion-title img {
       width: 7%; }
     .accordion .accordion-title > div {
@@ -63,7 +63,7 @@
       width: 7%; }
   .accordion .accordion-body {
     margin: 0 auto;
-    max-width: var(--max-width); } }
+    max-width: 1180px; } }
 
 @media screen and (min-width: 1250px) {
   .accordion .accordion-body .half-half {

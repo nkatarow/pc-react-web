@@ -1,9 +1,9 @@
 .medialist {
   padding: 0 5% 5%; }
   .medialist.default {
-    background-color: var(--white); }
+    background-color: #fff; }
   .medialist.medialist--gray {
-    background-color: var(--gallery); }
+    background-color: #ebebeb; }
   .medialist .list-contain {
     display: flex;
     flex-direction: column; }
@@ -22,7 +22,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 0 auto;
-    max-width: var(--max-width); }
+    max-width: 1180px; }
     .medialist .list-contain > div {
       width: 48%; }
   .medialist.two-col .list-contain > div {

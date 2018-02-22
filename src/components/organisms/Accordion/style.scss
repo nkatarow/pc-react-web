@@ -1,6 +1,8 @@
+@import '../../../_settings/helpers/variables';
+
 .accordion {
   .accordion-item {
-    border-top: 1px solid var(--silver);
+    border-top: 1px solid $silver;
     padding: 5%;
   }
 
@@ -68,7 +70,7 @@
     .accordion-title {
       justify-content: flex-start;
       margin: 0 auto;
-      max-width: var(--max-width);
+      max-width: $max-width;
 
       img { width: 7%; }
       > div { width: 81%; }
@@ -77,7 +79,7 @@
 
     .accordion-body {
       margin: 0 auto;
-      max-width: var(--max-width);
+      max-width: $max-width;
     }
   }
 }

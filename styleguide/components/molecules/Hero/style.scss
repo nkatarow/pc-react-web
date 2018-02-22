@@ -16,7 +16,7 @@
   }
 
   p {
-    color: var(--scorpion);
+    color: $scorpion;
   }
 }
 
@@ -26,7 +26,7 @@
 
     .hero-copy {
       left: 50%;
-      max-width: var(--max-width);
+      max-width: $max-width;
       padding: 0;
       position: absolute;
       text-align: left;

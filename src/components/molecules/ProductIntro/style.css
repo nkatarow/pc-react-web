@@ -6,7 +6,7 @@
   .product-intro .context-head {
     margin-bottom: 2em; }
   .product-intro.product-intro--gray {
-    background-color: var(--gallery); }
+    background-color: #ebebeb; }
 
 @media screen and (min-width: 50em) {
   .product-intro > div {

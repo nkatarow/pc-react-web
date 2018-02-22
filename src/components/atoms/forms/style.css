@@ -4,48 +4,48 @@ label {
   label input {
     border-radius: 0;
     box-sizing: border-box;
-    color: var(--gray); }
+    color: #8c8c8c; }
     label input[type='text'] {
       background-image: none;
       border: 0;
-      font-family: var(--humanist);
+      font-family: "Humanist", serif;
       font-size: 1.8em;
       margin-bottom: 1em;
       padding: 0.75em;
       width: 100%; }
     label input:placeholder {
-      color: var(--gray);
-      font-family: var(--humanist); }
+      color: #8c8c8c;
+      font-family: "Humanist", serif; }
     label input:required {
       box-shadow: none; }
     label input:focus {
-      box-shadow: 0 0 3px var(--selective-yellow);
+      box-shadow: 0 0 3px #ffb500;
       outline: none; }
   label textarea {
     background-image: none;
     border: 0;
     box-sizing: border-box;
-    color: var(--gray);
-    font-family: var(--humanist);
+    color: #8c8c8c;
+    font-family: "Humanist", serif;
     font-size: 1.8em;
     margin-bottom: 1em;
     padding: 0.75em;
     width: 100%; }
     label textarea:placeholder {
-      color: var(--gray);
-      font-family: var(--humanist); }
+      color: #8c8c8c;
+      font-family: "Humanist", serif; }
     label textarea:required {
       box-shadow: none; }
     label textarea:focus {
-      box-shadow: 0 0 3px var(--selective-yellow);
+      box-shadow: 0 0 3px #ffb500;
       outline: none; }
   label select {
     appearance: none;
-    background-color: var(--white);
+    background-color: #fff;
     border: 0;
     border-radius: 0;
-    color: var(--gray);
-    font-family: var(--humanist);
+    color: #8c8c8c;
+    font-family: "Humanist", serif;
     font-size: 1.8em;
     margin-bottom: 1em;
     padding: 0.75em;
@@ -53,15 +53,15 @@ label {
     label select:required {
       box-shadow: none; }
     label select:focus {
-      box-shadow: 0 0 3px var(--selective-yellow);
+      box-shadow: 0 0 3px #ffb500;
       outline: none; }
     label select option {
-      color: var(--gray); }
+      color: #8c8c8c; }
   label.select {
-    color: var(--gray);
+    color: #8c8c8c;
     position: relative; }
     label.select::after {
-      background-color: var(--selective-yellow);
+      background-color: #ffb500;
       background-image: url("./_img/chevron-down.svg");
       background-position: center center;
       background-repeat: no-repeat;
@@ -75,7 +75,7 @@ label {
       width: 33px; }
 
 .bg-gallery {
-  background-color: var(--gallery); }
+  background-color: #ebebeb; }
 
 @media screen and (min-width: 50em) {
   input,

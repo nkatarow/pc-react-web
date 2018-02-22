@@ -4,7 +4,7 @@
   border: 2px solid;
   cursor: pointer;
   display: block;
-  font-family: var(--futura);
+  font-family: $futura;
   font-size: 1.4em;
   height: auto;
   letter-spacing: 0.07em;
@@ -17,46 +17,46 @@
 
   // Themes
   &.default {
-    background-color: var(--selective-yellow);
-    border-color: var(--selective-yellow);
+    background-color: $selective-yellow;
+    border-color: $selective-yellow;
 
     a {
-      color: var(--black);
+      color: $black;
       text-decoration: none;
     }
 
     &:hover,
     &:focus {
-      background-color: var(--school-bus-yellow);
-      border-color: var(--school-bus-yellow);
+      background-color: $school-bus-yellow;
+      border-color: $school-bus-yellow;
     }
 
     &:disabled {
-      background-color: var(--silver);
-      border-color: var(--silver);
-      color: var(--gray);
+      background-color: $silver;
+      border-color: $silver;
+      color: $gray;
       cursor: default;
     }
   }
 
   &.outlined {
     background-color: transparent;
-    border-color: var(--selective-yellow);
+    border-color: $selective-yellow;
 
     a {
-      color: var(--black);
+      color: $black;
       text-decoration: none;
     }
 
     &:hover,
     &:focus {
-      border-color: var(--school-bus-yellow);
+      border-color: $school-bus-yellow;
     }
 
     &:disabled {
-      background-color: var(--silver);
-      border-color: var(--gray);
-      color: var(--gray);
+      background-color: $silver;
+      border-color: $gray;
+      color: $gray;
       cursor: default;
     }
   }

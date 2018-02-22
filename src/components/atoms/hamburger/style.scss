@@ -1,3 +1,5 @@
+@import '../../../_settings/helpers/variables';
+
 button {
   appearance: none;
   background-color: transparent;
@@ -10,7 +12,7 @@ button {
   width: 25px;
 
   span {
-    background-color: var(--scorpion);
+    background-color: $scorpion;
     display: block;
     height: 2px;
     left: 0;

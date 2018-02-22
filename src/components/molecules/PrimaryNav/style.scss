@@ -1,14 +1,16 @@
+@import '../../../_settings/helpers/variables';
+
 .primary {
-  background-color: var(--white);
+  background-color: $white;
   order: 1;
   width: 100vw;
 }
 
 nav a {
-  background-color: var(--gallery);
-  color: var(--black);
+  background-color: $gallery;
+  color: $black;
   display: block;
-  font-family: var(--futura);
+  font-family: $futura;
   font-size: 1.5em;
   margin-bottom: 1px;
   padding: 1em 5%;
@@ -23,7 +25,7 @@ nav a {
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto;
-  max-width: var(--max-width);
+  max-width: $max-width;
   padding: 3em 0;
 
   a {
@@ -36,7 +38,7 @@ nav a {
     &:hover,
     &:focus {
       h2 {
-        color: var(--selective-yellow);
+        color: $selective-yellow;
       }
     }
   }
@@ -54,13 +56,13 @@ nav a {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    max-width: var(--max-width);
+    max-width: $max-width;
     padding: 0 2.5%;
     width: 95%;
 
     a {
-      background-color: var(--white);
-      border-bottom: 5px solid var(--white);
+      background-color: $white;
+      border-bottom: 5px solid $white;
       display: inline-block;
       font-size: 1.6em;
       margin: 0 1.75em 0 0;
@@ -68,11 +70,11 @@ nav a {
       transition: color 250ms ease, border-color 250ms ease;
 
       &:last-child { margin-right: 0; }
-      &.active { border-color: var(--selective-yellow); }
+      &.active { border-color: $selective-yellow; }
 
       &:hover,
       &:focus {
-        color: var(--selective-yellow);
+        color: $selective-yellow;
       }
     }
   }

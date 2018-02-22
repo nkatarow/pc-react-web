@@ -1,3 +1,5 @@
+@import '../../../_settings/helpers/variables';
+
 blockquote {
   background-position: center;
   background-size: cover;
@@ -6,7 +8,7 @@ blockquote {
   text-align: center;
 
   cite {
-    color: var(--selective-yellow);
+    color: $selective-yellow;
     display: block;
     font-style: normal;
     margin-top: 5%;
@@ -24,7 +26,7 @@ blockquote {
   blockquote {
     p {
       margin: 0 auto 5%;
-      max-width: var(--max-width);
+      max-width: $max-width;
     }
   }
 }

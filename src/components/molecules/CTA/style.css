@@ -1,5 +1,5 @@
 .cta {
-  background-color: var(--selective-yellow);
+  background-color: #ffb500;
   padding: 10% 5%;
   text-align: center; }
   .cta a {
@@ -10,14 +10,14 @@
       display: inline;
       margin-right: 1em; }
       .cta a svg polygon, .cta a svg rect {
-        fill: var(--black);
+        fill: #000;
         transition: fill 250ms ease; }
     .cta a p {
-      color: var(--black);
+      color: #000;
       display: inline;
       margin-bottom: 0;
       transition: color 250ms ease; }
     .cta a:hover svg polygon, .cta a:hover svg rect, .cta a:focus svg polygon, .cta a:focus svg rect {
-      fill: var(--white); }
+      fill: #fff; }
     .cta a:hover p, .cta a:focus p {
-      color: var(--white); }
+      color: #fff; }

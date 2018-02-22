@@ -1,8 +1,10 @@
+@import '../../../_settings/helpers/variables';
+
 .medialist {
   padding: 0 5% 5%;
 
-  &.default { background-color: var(--white); }
-  &.medialist--gray { background-color: var(--gallery); }
+  &.default { background-color: $white; }
+  &.medialist--gray { background-color: $gallery; }
 
   .list-contain {
     display: flex;
@@ -30,7 +32,7 @@
       flex-wrap: wrap;
       justify-content: space-around;
       margin: 0 auto;
-      max-width: var(--max-width);
+      max-width: $max-width;
 
       > div { width: 48%; }
     }

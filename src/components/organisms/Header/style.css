@@ -1,22 +1,22 @@
 header {
-  border-top: 7px solid var(--selective-yellow); }
+  border-top: 7px solid #ffb500; }
 
 .top-bar {
   align-items: center;
-  border-bottom: 1px solid var(--cod-gray);
+  border-bottom: 1px solid #141414;
   display: flex;
   flex-direction: row;
   height: 70px;
   padding: 0 5%; }
   .top-bar h2 {
-    color: var(--black);
+    color: #000;
     display: inline-block;
-    font-family: var(--futura);
+    font-family: "Futura Bold", sans-serif;
     font-size: 1.7em;
     margin: 0 0 0 1em; }
 
 #nav-container {
-  background-color: var(--mine-shaft);
+  background-color: #323232;
   display: flex;
   flex-direction: column;
   height: 0;
@@ -31,7 +31,7 @@ header {
 
 @media screen and (min-width: 1080px) {
   #nav-container {
-    background-color: var(--white);
+    background-color: #fff;
     padding-bottom: 0;
     position: relative;
     top: 0; }

@@ -1,6 +1,6 @@
 footer {
-  background-color: var(--mine-shaft);
-  color: var(--white);
+  background-color: $mine-shaft;
+  color: $white;
   font-size: 1.3em;
   padding: 10% 5%;
 
@@ -10,21 +10,21 @@ footer {
   }
 
   a {
-    color: var(--white);
+    color: $white;
     text-decoration: none;
     transition: color 250ms ease;
 
     svg .st0 {
-      fill: var(--white);
+      fill: $white;
       transition: fill 250ms ease;
     }
 
     &:hover,
     &:focus {
-      color: var(--selective-yellow);
+      color: $selective-yellow;
 
       svg .st0 {
-        fill: var(--selective-yellow);
+        fill: $selective-yellow;
       }
     }
   }
@@ -36,7 +36,7 @@ footer {
   img { max-width: 108px; }
 
   small {
-    color: var(--gray);
+    color: $gray;
     display: block;
     font-size: 1em;
     margin-top: 1em;
@@ -64,7 +64,7 @@ footer {
 }
 
 .legal {
-  border-top: 1px solid var(--scorpion);
+  border-top: 1px solid $scorpion;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -75,7 +75,7 @@ footer {
   > div { width: 50%; }
 
   a {
-    color: var(--gray);
+    color: $gray;
     display: block;
     margin-bottom: 2em;
   }
@@ -88,7 +88,7 @@ footer {
 
     > div {
       margin: 0 auto;
-      max-width: var(--max-width);
+      max-width: $max-width;
     }
   }
 

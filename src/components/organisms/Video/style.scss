@@ -1,5 +1,7 @@
+@import '../../../_settings/helpers/variables';
+
 .video {
-  background-color: var(--gallery);
+  background-color: $gallery;
   display: flex;
   flex-wrap: wrap;
   padding: 10% 5%;

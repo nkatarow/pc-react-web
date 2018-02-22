@@ -1,5 +1,5 @@
 .introduction {
-  background: linear-gradient(to bottom, var(--cod-gray) 0%, var(--black) 100%);
+  background: linear-gradient(to bottom, #141414 0%, #000 100%);
   position: relative;
   width: 100%; }
   .introduction .noise {
@@ -13,7 +13,7 @@
     width: 100%;
     z-index: 2; }
   .introduction .image {
-    background: linear-gradient(to bottom, var(--cod-gray) 0%, var(--black) 100%);
+    background: linear-gradient(to bottom, #141414 0%, #000 100%);
     margin-bottom: -3px;
     position: relative; }
     .introduction .image img {
@@ -26,11 +26,11 @@
     text-align: center;
     z-index: 2; }
     .introduction .copy.with-image {
-      background-color: var(--black); }
+      background-color: #000; }
   .introduction .section-title {
     margin-bottom: 2em; }
   .introduction p {
-    color: var(--white); }
+    color: #fff; }
 
 @media screen and (min-width: 940px) {
   .introduction .copy {

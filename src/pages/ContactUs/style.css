@@ -8,7 +8,7 @@
     margin-bottom: 0; }
 
 .contact-form form {
-  background-color: var(--gallery);
+  background-color: #ebebeb;
   padding: 5%;
   width: 90%; }
   .contact-form form h2 {
@@ -19,7 +19,7 @@
   .contact-form .hero .hero-copy {
     left: 50%;
     margin: 0 auto;
-    max-width: var(--max-width);
+    max-width: 1180px;
     transform: translateX(-50%) translateY(-50%); }
   .contact-form form {
     display: flex;

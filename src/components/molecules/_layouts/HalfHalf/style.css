@@ -9,7 +9,7 @@
   .half-half {
     flex-direction: row;
     justify-content: space-between;
-    max-width: var(--max-width);
+    max-width: 1180px;
     padding: 5%; }
     .half-half:first-of-type {
       padding-top: 10%; }
