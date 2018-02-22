@@ -4,15 +4,15 @@
 }
 
 // IE10 and IE11   (Method 1)
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+// @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
   // body { background-color: blue; }
-}
+//}
 
 // IE10 and IE11   (Method 2)
-@media all and (-ms-high-contrast: none) {
+// @media all and (-ms-high-contrast: none) {
   // body { background-color: green; }
-}
+// }
 
-@media screen\0 {
+// @media screen\0 {
   // body { background-color: pink; }
-}
+// }

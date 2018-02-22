@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { BrowserRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
 
-import store from './store/';
+// import store from './store/';
 // Routes
 import Routes from './routes';
 
@@ -57,8 +57,7 @@ class App extends Component {
   }
 
   render() {
-    console.log(store.getState());
-
+    // console.log(store.getState());
     return (
       <BrowserRouter>
         <div className="App">
