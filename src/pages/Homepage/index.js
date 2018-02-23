@@ -3,10 +3,6 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 
-// These are to support the video player
-import 'babel-polyfill';
-import 'es6-promise';
-
 // Utilities
 import getComponentImages from '../../_utility/getComponentImages';
 

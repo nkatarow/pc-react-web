@@ -3,6 +3,10 @@ import ReactPlayer from 'react-player';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
+// These are to support the video player
+import 'babel-polyfill';
+import 'es6-promise';
+
 import Button, { ButtonTheme } from '../../../components/atoms/button/';
 
 import './style.css';
