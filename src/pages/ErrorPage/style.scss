@@ -1,0 +1,44 @@
+@import '../../_settings/helpers/variables';
+
+.error-page {
+  background-color: $gallery;
+
+  .half-half {
+    display: flex;
+    flex-basis: 100%;
+
+    div {
+      &:nth-child(1) { order: 2; }
+      &:nth-child(2) {
+        margin-bottom: 4em;
+        order: 1;
+        text-align: center;
+      }
+    }
+
+    img { max-width: 50%; }
+  }
+}
+
+@media screen and (min-width: 50em) {
+  .error-page {
+    .half-half {
+      flex-basis: 50%;
+
+      div {
+        &:nth-child(1) {
+          max-width: 400px;
+          order: 1;
+        }
+
+        &:nth-child(2) {
+          margin-bottom: 0;
+          order: 2;
+          text-align: left;
+        }
+      }
+
+      img { max-width: 235px; }
+    }
+  }
+}

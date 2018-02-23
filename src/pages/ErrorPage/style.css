@@ -1,0 +1,26 @@
+.error-page {
+  background-color: #ebebeb; }
+  .error-page .half-half {
+    display: flex;
+    flex-basis: 100%; }
+    .error-page .half-half div:nth-child(1) {
+      order: 2; }
+    .error-page .half-half div:nth-child(2) {
+      margin-bottom: 4em;
+      order: 1;
+      text-align: center; }
+    .error-page .half-half img {
+      max-width: 50%; }
+
+@media screen and (min-width: 50em) {
+  .error-page .half-half {
+    flex-basis: 50%; }
+    .error-page .half-half div:nth-child(1) {
+      max-width: 400px;
+      order: 1; }
+    .error-page .half-half div:nth-child(2) {
+      margin-bottom: 0;
+      order: 2;
+      text-align: left; }
+    .error-page .half-half img {
+      max-width: 235px; } }
