@@ -4,9 +4,11 @@
 }
 
 // IE10 and IE11   (Method 1)
-// @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-  // body { background-color: blue; }
-//}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  html { line-height: 1; }
+  body { overflow-x: hidden; }
+  .branding-bar img { width: 100px; }
+}
 
 // IE10 and IE11   (Method 2)
 // @media all and (-ms-high-contrast: none) {

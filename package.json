@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "classnames": "^2.2.5",
     "consecutive": "^5.0.4",
+    "es6-promise": "^4.2.4",
     "lodash": "^4.17.5",
     "lodash.debounce": "^4.0.8",
     "node-sass-chokidar": "0.0.3",
