@@ -3,7 +3,10 @@ import ReactPlayer from 'react-player';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
+import Button, { ButtonTheme } from '../../../components/atoms/button/';
+
 import './style.css';
+import close from './_img/CloseButton.svg';
 
 class Video extends PureComponent {
   state = {
@@ -99,6 +102,10 @@ class Video extends PureComponent {
     return (
       <section className={videoClass}>
         <div className="contain">
+          <Button theme={ButtonTheme.ACCESSIBLE} onClick={this.onEnded} className="close-video">
+            <img src={close} alt="Close Video" />
+          </Button>
+
           <div className="embed">
             <button onClick={this.expandVideo}>
               <img src={this.props.poster} alt="Play Video" />

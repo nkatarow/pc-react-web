@@ -12,6 +12,7 @@ export const ButtonType = {
 export const ButtonTheme = {
   DEFAULT: 'default',
   OUTLINED: 'outlined',
+  ACCESSIBLE: 'accessibile',
 };
 
 const Button = (props) => {

@@ -6,6 +6,8 @@
   .video .contain {
     display: flex;
     flex-wrap: wrap; }
+    .video .contain .close-video {
+      display: none; }
     .video .contain .embed {
       position: relative; }
       .video .contain .embed button {
@@ -52,6 +54,13 @@
       transition: margin 250ms ease, max-width 250ms ease, padding-left 250ms ease; }
   .video.full .contain > div {
     flex-basis: 100%; }
+  .video.full .contain .close-video {
+    display: block;
+    margin-bottom: 20px;
+    text-align: right;
+    width: 100%; }
+    .video.full .contain .close-video img {
+      max-width: 25px; }
   .video.full .contain .copy > div {
     margin: 4em auto;
     max-width: 50%;

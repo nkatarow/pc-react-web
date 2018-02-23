@@ -45,6 +45,11 @@
       border-color: #8c8c8c;
       color: #8c8c8c;
       cursor: default; }
+  .button.accessibile,
+  .submit.accessibile {
+    background-color: transparent;
+    border: 0;
+    padding: 0; }
 
 @media screen and (min-width: 50em) {
   .button,

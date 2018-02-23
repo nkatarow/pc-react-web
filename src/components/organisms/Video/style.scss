@@ -10,6 +10,8 @@
     display: flex;
     flex-wrap: wrap;
 
+    .close-video { display: none; }
+
     .embed {
       position: relative;
 
@@ -83,6 +85,15 @@
     &.full {
       .contain {
         > div { flex-basis: 100%; }
+
+        .close-video {
+          display: block;
+          margin-bottom: 20px;
+          text-align: right;
+          width: 100%;
+
+          img { max-width: 25px; }
+        }
 
         .copy > div {
           margin: 4em auto;
