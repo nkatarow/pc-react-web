@@ -13,8 +13,8 @@ import ContactUs from './pages/ContactUs/';
 import ErrorPage from './pages/ErrorPage/';
 
 const Routes = withRouter(({ location }) => (
-  <TransitionGroup>
-    <CSSTransition key={location.key} classNames="fade" timeout={500}>
+  <TransitionGroup className="page-transition">
+    <CSSTransition appear timeout={{ appear: 250, enter: 500, exit: 250 }} key={location.key} classNames="pagefade">
       <Switch location={location}>
         <Route exact path="/" component={Homepage} />
         <Route path="/health-ems" component={HealthEMS} />

@@ -545,17 +545,24 @@ ol {
 .faded-jade {
   color: #4c7d7a; }
 
-.fade-enter {
-  opacity: 0.01; }
-  .fade-enter.fade-enter-active {
-    opacity: 1;
-    transition: opacity 750ms ease; }
+.pagefade-enter,
+.pagefade-appear {
+  opacity: 0; }
 
-.fade-exit {
+.pagefade-enter.pagefade-enter-active,
+.pagefade-appear.pagefade-appear-active {
+  opacity: 1;
+  transition: opacity 250ms; }
+
+.pagefade-enter.pagefade-enter-active {
+  transition-delay: 250ms; }
+
+.pagefade-exit {
   opacity: 1; }
-  .fade-exit.fade-exit-active {
-    opacity: 0.01;
-    transition: opacity 250ms ease; }
+
+.pagefade-exit.pagefade-exit-active {
+  opacity: 0;
+  transition: opacity 250ms; }
 
 .offscreen {
   border: 0;
