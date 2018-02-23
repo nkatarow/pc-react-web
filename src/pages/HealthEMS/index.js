@@ -177,7 +177,7 @@ class HealthEMS extends PureComponent {
 
         <HalfHalf>
           <div>
-            <Picture src={images['revnet.jpg']} />
+            <Picture src={images['healthems-revnet.jpg']} />
           </div>
           <div>
             <Title tag="h3" theme="subhead">RevNet</Title>

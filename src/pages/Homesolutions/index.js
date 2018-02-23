@@ -87,7 +87,7 @@ class Homesolutions extends PureComponent {
 
         <HalfHalf>
           <div>
-            <Picture src={images['mobiletouch.jpg']} />
+            <Picture src={images['homesolutions-mobile.jpg']} />
           </div>
           <div>
             <Title tag="h2" theme="subhead">MobileTouch<sup>&trade;</sup></Title>
@@ -107,7 +107,7 @@ class Homesolutions extends PureComponent {
 
         <HalfHalf layout="flip">
           <div>
-            <Picture src={images['homesolutions-manager.jpg']} />
+            <Picture src={images['manager.jpg']} />
           </div>
           <div>
             <Title tag="h2" theme="subhead">HomeSolutions Manager</Title>
@@ -126,7 +126,7 @@ class Homesolutions extends PureComponent {
 
         <HalfHalf>
           <div>
-            <Picture src={images['revnet.jpg']} />
+            <Picture src={images['homesolutions-revnet.jpg']} />
           </div>
           <div>
             <Title tag="h2" theme="subhead">RevNet</Title>

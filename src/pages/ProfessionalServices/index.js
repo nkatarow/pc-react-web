@@ -93,7 +93,7 @@ class ProfessionalServices extends PureComponent {
             <Picture src={images['proservices-get-help.jpg']} />
           </div>
           <div>
-            <p className="medium">Get Help When, Where, and As You Need</p>
+            <Title tag="h3" theme="subhead">Get Help When, Where, and As You Need</Title>
             <ul>
               <li>Draw on various support options before, during, and/or after you begin using your new solutions.</li>
               <li>Reduce workloads on internal technical resources and free them for more valuable use of their time.</li>
@@ -108,7 +108,7 @@ class ProfessionalServices extends PureComponent {
             <Picture src={images['proservices-confidence.jpg']} />
           </div>
           <div>
-            <p className="medium">Develop Team Confidence and Competence Faster</p>
+            <Title tag="h3" theme="subhead">Develop Team Confidence and Competence Faster</Title>
             <ul>
               <li>Follow easy, step-by-step implementation processes and critical-path timelines.</li>
               <li>Take advantage of proven procedures and tools that can be tailored to your situation.</li>
@@ -123,7 +123,7 @@ class ProfessionalServices extends PureComponent {
             <Picture src={images['proservices-smooth-interaction.jpg']} />
           </div>
           <div>
-            <p className="medium">Ensure Smooth Interaction with Other Systems and Processes</p>
+            <Title tag="h3" theme="subhead">Ensure Smooth Interaction with Other Systems and Processes</Title>
             <ul>
               <li>Rely on a dedicated project manager, who works with you to understand your entire operation and then configure interfaces, educate users, and make your new solution a time-saving, trusted part of their work.</li>
               <li>For your ePCR, automate or streamline data interfaces with CAD, billing, and third-party agency systems, defibrillation devices, organizational recordkeeping, and regulatory agencies.</li>
