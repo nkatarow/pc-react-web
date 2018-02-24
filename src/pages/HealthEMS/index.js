@@ -144,7 +144,7 @@ class HealthEMS extends PureComponent {
 
         <HalfHalf>
           <div>
-            <Picture src={images['connectx.jpg']} />
+            <Picture src={images['connectx.svg']} />
           </div>
           <div>
             <Title tag="h3" theme="subhead">ConnectX</Title>
