@@ -37,6 +37,7 @@ class Homesolutions extends PureComponent {
         <Title tag="h1" theme={TitleThemes.HEADLINE} className="mobile-title">HomeSolutions.NET</Title>
         <Hero
           isMobile={this.props.isMobile}
+          preloadImage={images['homesolutions-hero-preload.jpg']}
           mobileHero={images['homesolutions-hero-mobile.jpg']}
           desktopHero={images['homesolutions-hero-desktop.jpg']}
           headline="Powerful. Flexible. Accurate."

@@ -37,6 +37,7 @@ class Lifenet extends PureComponent {
         <Title tag="h1" theme={TitleThemes.HEADLINE} className="mobile-title">LIFENET System</Title>
         <Hero
           isMobile={this.props.isMobile}
+          preloadImage={images['lifenet-hero-preload.jpg']}
           mobileHero={images['lifenet-hero-mobile.jpg']}
           desktopHero={images['lifenet-hero-desktop.jpg']}
           headline="Smoother communication. Faster care. Stronger teamwork."

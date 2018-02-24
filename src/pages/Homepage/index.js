@@ -37,6 +37,7 @@ class Homepage extends PureComponent {
       <div>
         <Hero
           isMobile={this.props.isMobile}
+          preloadImage={images['hp-hero-preload.jpg']}
           mobileHero={images['hp-hero-mobile.jpg']}
           desktopHero={images['hp-hero-desktop.jpg']}
           headline="Better data. Better outcomes."

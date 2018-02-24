@@ -36,6 +36,7 @@ class Codestat extends PureComponent {
         <Title tag="h1" theme={TitleThemes.HEADLINE} className="mobile-title">CODE-STAT</Title>
         <Hero
           isMobile={this.props.isMobile}
+          preloadImage={images['codestat-hero-preload.jpg']}
           mobileHero={images['codestat-hero-mobile.jpg']}
           desktopHero={images['codestat-hero-desktop.jpg']}
           headline="Insights to Improve Performance and Patient Outcomes"

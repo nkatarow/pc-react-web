@@ -2,7 +2,7 @@
 
 .hero {
   .hero-image {
-    margin-bottom: -4px;
+    height: 200px;
 
     img {
       height: auto;
@@ -26,6 +26,8 @@
   .hero {
     position: relative;
 
+    .hero-image { height: 600px; }
+
     .hero-copy {
       left: 50%;
       max-width: $max-width;
@@ -35,6 +37,7 @@
       top: 50%;
       transform: translateX(-50%) translateY(-50%);
       width: 90%;
+      z-index: 2;
 
       p,
       .hero-title {

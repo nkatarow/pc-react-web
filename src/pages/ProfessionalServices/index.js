@@ -34,6 +34,7 @@ class ProfessionalServices extends PureComponent {
         <Title tag="h1" theme={TitleThemes.HEADLINE} className="mobile-title">Professional Services</Title>
         <Hero
           isMobile={this.props.isMobile}
+          preloadImage={images['proservices-hero-preload.jpg']}
           mobileHero={images['proservices-hero-mobile.jpg']}
           desktopHero={images['proservices-hero-desktop.jpg']}
           headline="Quickly and easily put data solutions to work."

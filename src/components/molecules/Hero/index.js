@@ -2,21 +2,22 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Title from '../../atoms/title/';
+import IronImage from '../../atoms/IronImage/';
 import './style.css';
 
 const Hero = (props) => {
-  let heroImage = '';
+  let hdUrl = '';
 
   if (props.screenWidth <= 940) {
-    heroImage = props.mobileHero;
+    hdUrl = props.mobileHero;
   } else {
-    heroImage = props.desktopHero;
+    hdUrl = props.desktopHero;
   }
 
   return (
     <section className="hero">
       <div className="hero-image">
-        <img src={heroImage} alt="" />
+        <IronImage srcPreload={props.preloadImage} srcLoaded={hdUrl} alt="" />
       </div>
       <div className="hero-copy">
         <Title tag="h2" theme="hero-title" color={props.headlineColor}>
@@ -35,6 +36,7 @@ const mapStateToProps = state => ({
 });
 
 Hero.defaultProps = {
+  preloadImage: './_img/preload.jpg',
   headline: 'Headline copy goes here',
   headlineColor: 'black',
   copy: null,
@@ -44,6 +46,7 @@ Hero.propTypes = {
   screenWidth: PropTypes.number.isRequired,
   mobileHero: PropTypes.string.isRequired,
   desktopHero: PropTypes.string.isRequired,
+  preloadImage: PropTypes.string,
   headline: PropTypes.string,
   headlineColor: PropTypes.string,
   copy: PropTypes.string,

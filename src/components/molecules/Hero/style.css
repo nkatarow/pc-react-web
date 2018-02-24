@@ -1,5 +1,5 @@
 .hero .hero-image {
-  margin-bottom: -4px; }
+  height: 200px; }
   .hero .hero-image img {
     height: auto;
     width: 100%; }
@@ -16,6 +16,8 @@
 @media screen and (min-width: 940px) {
   .hero {
     position: relative; }
+    .hero .hero-image {
+      height: 600px; }
     .hero .hero-copy {
       left: 50%;
       max-width: 1180px;
@@ -24,7 +26,8 @@
       text-align: left;
       top: 50%;
       transform: translateX(-50%) translateY(-50%);
-      width: 90%; }
+      width: 90%;
+      z-index: 2; }
       .hero .hero-copy p,
       .hero .hero-copy .hero-title {
         max-width: 45%; } }
