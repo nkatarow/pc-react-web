@@ -37,9 +37,8 @@ class Homesolutions extends PureComponent {
         <Title tag="h1" theme={TitleThemes.HEADLINE} className="mobile-title">HomeSolutions.NET</Title>
         <Hero
           isMobile={this.props.isMobile}
-          preloadImage={images['homesolutions-hero-preload.jpg']}
-          mobileHero={images['homesolutions-hero-mobile.jpg']}
-          desktopHero={images['homesolutions-hero-desktop.jpg']}
+          mobileHero={images['Home-Solutions-Hero-mobile.jpg']}
+          desktopHero={images['Home-Solutions-Hero-desktop.jpg']}
           headline="Powerful. Flexible. Accurate."
           copy="HomeSolutions.NET is a comprehensive cloud-based agency management EMR solution proven to help home health organizations improve clinical, operational, financial and regulatory performance."
         />

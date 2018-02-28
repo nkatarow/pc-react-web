@@ -39,9 +39,8 @@ class HealthEMS extends PureComponent {
         <Title tag="h1" theme={TitleThemes.HEADLINE} className="mobile-title">HealthEMS</Title>
         <Hero
           isMobile={this.props.isMobile}
-          preloadImage={images['desktop-healthems-preload.jpg']}
-          mobileHero={images['mobile-healthems-hero.jpg']}
-          desktopHero={images['desktop-healthems-hero.jpg']}
+          mobileHero={images['health-ems-hero-mobile.jpg']}
+          desktopHero={images['health-ems-hero-desktop.jpg']}
           headline="Quickly access the information to optimize performance."
           copy="Easy, customizable documentation with advanced reporting can help you to improve patient care and service delivery."
         />

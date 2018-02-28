@@ -80,7 +80,7 @@ class Homepage extends PureComponent {
                   </Link>
                 </div>
                 <div>
-                  <img src={images['healthems.jpg']} alt="" />
+                  <img src={images['Home-Accordion-HealthEMS-Composite.jpg']} alt="" />
                 </div>
               </HalfHalf>
             </AccordionItemBody>
@@ -155,7 +155,7 @@ class Homepage extends PureComponent {
                   </Link>
                 </div>
                 <div>
-                  <img src={images['homesolutions.jpg']} alt="" />
+                  <img src={images['Home-Accordion-HomeSolutions.jpg']} alt="" />
                 </div>
               </HalfHalf>
             </AccordionItemBody>
