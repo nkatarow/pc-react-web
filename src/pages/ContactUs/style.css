@@ -19,8 +19,6 @@
     width: 100%; }
 
 @media screen and (min-width: 50em) {
-  .contact-form .hero .hero-image {
-    height: 250px; }
   .contact-form .hero .hero-copy {
     left: 50%;
     margin: 0 auto;

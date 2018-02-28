@@ -146,8 +146,8 @@ class Homesolutions extends PureComponent {
 
         <Blockquote
           isMobile={this.props.isMobile}
-          mobileBackground={images['quote-bg-mobile.jpg']}
-          desktopBackground={images['quote-bg-desktop.jpg']}
+          mobileBackground={images['Home-Solutions-Blockquote-mobile.jpg']}
+          desktopBackground={images['Home-Solutions-Blockquote-desktop.jpg']}
           quote="HomeSolutions.NET has been such a time saver for our company, decreasing administrative hours spent doing data entry and manual tracking. We can buzz through payroll, billing, and OASIS quicker than ever and I am impressed with all the reports and dashboards!"
           citeFirstLine="Sue Keenan RN"
           citeSecondLine="Director of Clinical Services"
