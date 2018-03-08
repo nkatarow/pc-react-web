@@ -115,8 +115,8 @@ class Homepage extends PureComponent {
             <AccordionItemTitle>
               <img src={images['codestat-icon.svg']} alt="" />
               <div>
-                <Title tag="h3" theme="subhead">Code-Stat<sup>&trade;</sup> System</Title>
-                <p>CODE-STATTM Data Review Software</p>
+                <Title tag="h3" theme="subhead">CODE-STAT<sup>&trade;</sup></Title>
+                <p>Data Review Software</p>
               </div>
             </AccordionItemTitle>
 
