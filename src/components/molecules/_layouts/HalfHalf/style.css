@@ -4,6 +4,8 @@
   padding: 5%; }
   .half-half > div:nth-child(2) {
     margin-top: 4em; }
+  .half-half > div .medium {
+    margin-top: .25em; }
 
 @media screen and (min-width: 50em) {
   .half-half {
