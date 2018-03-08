@@ -89,7 +89,8 @@ class Codestat extends PureComponent {
         <ProductIntro
           contextHead="Product Features"
           headline="CODE-STAT"
-          copy="Accelerate your QA/QI efforts with insights revealed through comprehensive CODE-STAT analysis. AHA Consensus Statement recommendations on CPR quality suggest maintaining “continuous quality improvement on provider, team, and system levels.” CODE-STAT software gives you quick access to relevant high-quality data—including compression hands-on time, rate, longest pauses, and time elapsed before first shock."
+          copy="Accelerate your QA/QI efforts with insights revealed through comprehensive CODE-STAT analysis. 2013 AHA Consensus Statement recommendations on CPR quality suggest maintaining “continuous quality improvement on provider, team, and system levels.”* CODE-STAT software gives you quick access to relevant high-quality data—including compression hands-on time, chest compression and ventilation, rate, longest pause, peri-shock pause time, and time elapsed before first shock."
+          smallCopy="*Meaney PA, Bobrow BJ, Mancini ME, et al. on behalf of the CPR Quality Summit Investigators, the American Heart Association Emergency Cardiovascular Care Committee, and the Council on Cardiopulmonary, Critical Care, Perioperative and Resuscitation. Cardiopulmonary resuscitation quality: improving cardiac resuscitation outcomes both inside and outside the hospital: a consensus statement from the American Heart Association. Circulation. 2013;128:417–435"
           contextColor="affair"
         />
 
@@ -113,7 +114,7 @@ class Codestat extends PureComponent {
           <div>
             <Title tag="h3" theme="subhead">Create Custom Analytics and Reporting According to Your Needs</Title>
             <ul>
-              <li>Customize display of the statistics and details you need most, including CPR performance, ECG and EtCO2 waveforms, and CO2 trend data.</li>
+              <li>Customize display of the statistics and details you need most, including CPR performance, ECG and EtCO<sub>2</sub> waveforms, and CO<sub>2</sub> trend data.</li>
               <li>Annotate the stories of each resuscitation event to add context or focus attention on achievements or areas needing improvement.</li>
               <li>Create individual or summary reports.</li>
             </ul>
@@ -141,7 +142,7 @@ class Codestat extends PureComponent {
           <div>
             <Title tag="h3" theme="subhead">Reduce Data Handling Effort</Title>
             <ul>
-              <li>Simplify data collection and management, thanks to full integration with all LIFEPAK monitor/defibrillators.</li>
+              <li>Simplify data collection and management, thanks to full integration with all LIFEPAK<sup>&reg;</sup> monitor/defibrillators.</li>
               <li>No time or staff for review? Receive expert summaries and targeted recommendations on request with Physio-Control’s new CODE-STAT Data Review Service.</li>
             </ul>
           </div>
@@ -157,12 +158,12 @@ class Codestat extends PureComponent {
         >
           <Title tag="h2" theme="section-title" color="selective-yellow">Speed Clinically-Significant Improvements</Title>
           <p className="large">Hands-on compression ratio relates directly to patient outcomes, which is why Redmond Medic One set out to increase this performance metric using CODE-STAT software. In just six months, the team increased its compression ratio from 66% to 83% — a 25% improvement. Research shows clinically significant improvement takes place after the kind of targeted performance reviews you can hold when you learn from every resuscitation with CODE-STAT.</p>
-          <p>Olasveengen footnote lorem ipsum dolor sit amet consequat duis autem.</p>
+          <p>Olasveengen T, Wik L, Kramer-Johansen J, et al. Is CPR quality improving? A retrospective study of out-of-hospital cardiac arrest. Resuscitation.</p>
         </MediaBlock>
 
         <MediaBlock image={images['service-support.svg']}>
           <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
-          <Title tag="h2" theme="subhead">Complete Service by Stryker SmartDesk</Title>
+          <Title tag="h2" theme="subhead">Complete Support by Stryker SmartDesk</Title>
           <p>Start gaining insight immediately with smooth, easy CODE-STAT implementation. An expert Physio-Control team guides you with tutorials, traning, and assistance through our Smart Desk support.</p>
           <Link to="/professional-services">
             <Button>ABOUT PROFESSIONAL SERVICES</Button>

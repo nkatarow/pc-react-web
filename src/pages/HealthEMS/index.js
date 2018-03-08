@@ -18,7 +18,7 @@ import Hero from '../../components/molecules/Hero/';
 import Introduction from '../../components/molecules/Introduction/';
 import ProductIntro from '../../components/molecules/ProductIntro/';
 import HalfHalf from '../../components/molecules/_layouts/HalfHalf/';
-import Blockquote from '../../components/molecules/Blockquote/';
+// import Blockquote from '../../components/molecules/Blockquote/';
 import MediaBlock from '../../components/molecules/MediaBlock/';
 import CTA from '../../components/molecules/CTA/';
 
@@ -42,14 +42,14 @@ class HealthEMS extends PureComponent {
           mobileHero={images['health-ems-hero-mobile.jpg']}
           desktopHero={images['health-ems-hero-desktop.jpg']}
           headline="Quickly access the information to optimize performance."
-          copy="Easy, customizable documentation with advanced reporting can help you to improve patient care and service delivery."
+          copy="Easy, configurable documentation with advanced reporting can help you to improve patient care and service delivery."
         />
 
         <Introduction
           isMobile={this.props.isMobile}
           headline="Easy. Powerful. Accurate."
           copy="Your dynamic work environment demands speed and flexibility, and the HealthEMS electronic patient care record (ePCR) provides both."
-          smallCopy="Make operations and documentation easier and more efficient with this patient-based, protocol-driven ePCR that helps you easily receive, share, and find actionable data. This flexible solution can be customized to match your needs, from smooth CAD integration to accurate billing and reporting."
+          smallCopy="Make operations and documentation easier and more efficient with this patient-based, protocol-driven ePCR that helps you easily receive, share, and find actionable data. This flexible solution can be configured to match your needs, from smooth CAD integration to accurate billing and reporting."
         />
 
         <Picture src={images['healthems-landscape.jpg']} alt="Alt Text" />
@@ -79,7 +79,7 @@ class HealthEMS extends PureComponent {
             <Title tag="h3" theme="subhead">
             Greater operational effectiveness
             </Title>
-            <p>Quickly satisfy all reporting and compliance requirements of hospitals and regulatory authorities. HealthEMS tracks patient and incident data and can work with or replace your existing billing system.</p>
+            <p>Quickly satisfy reporting and compliance requirements of hospitals and regulatory authorities. HealthEMS tracks patient and incident data and can work with or replace your existing billing system.</p>
           </div>
 
           <div>
@@ -115,7 +115,7 @@ class HealthEMS extends PureComponent {
             <ul>
               <li>Dynamic, protocol-driven flow</li>
               <li>Data capture from multiple sources, from monitors to scanned driver’s licenses</li>
-              <li>Auto-filling of critical fields, enabled by CAD, monitor integration, and patient {"ID's"}</li>
+              <li>Auto-filling of critical fields enabled by CAD, monitor integration, and patient IDs for known patients in your system</li>
               <li>Assessments, vitals, and interventions, all in one place</li>
               <li>Closed-call rules with conditional validations</li>
             </ul>
@@ -131,12 +131,11 @@ class HealthEMS extends PureComponent {
             <p className="medium">Better visibility for managing your operations</p>
             <p>Empower great teams to excel even more when you can easily assess performance and plan targeted enhancements. HealthEMS Manager is the ePCR command center for agency administrators. Personalized dashboards provide real-time metrics to support performance management and training, workflow optimization, and quality assurance / quality improvement (QA/QI) activities.</p>
             <ul>
-              <li>High level of configurability</li>
-              <li>Secure, automatic QA alerting for custom-set events</li>
-              <li>Standard and tailored reports</li>
-              <li>A proprietary algorithm that analyzes patient reports to ensure accurate billing and CMS compliance</li>
-              <li>Real-time CAD, patient, incident, monitor / ECG, and billing data in one record set</li>
-              <li>Flexible, role-based security</li>
+              <li>Centralized records and intelligent matching between fire incidents and ePCRs</li>
+              <li>Electronic tracking for investigations and hydrant/hose/vehicle inspections</li>
+              <li>Auto-populate fields with CAD integration and HealthEMS ePCR data</li>
+              <li>NFIRS compliant reporting</li>
+              <li>Integrated reports, dashboards, and hydrant mapping</li>
             </ul>
           </div>
         </HalfHalf>
@@ -146,14 +145,14 @@ class HealthEMS extends PureComponent {
             <Picture src={images['connectx.svg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">ConnectX</Title>
+            <Title tag="h3" theme="subhead">XchangER & Connectx</Title>
             <p className="medium">Faster, easier collaboration</p>
-            <p>You’re one crucial link in a lifesaving system that depends on shared information and close collaboration. HealthEMS Connectx enables fire/EMS organizations to securely connect to the broader healthcare ecosystem, from hospitals to regulatory authorities, to improve patient care and reduce healthcare costs.</p>
+            <p>You’re one crucial link in a lifesaving system that depends on shared information and close collaboration. HealthEMS XchangER & Connectx enables fire/EMS organizations to securely connect to the broader healthcare ecosystem, from hospitals to regulatory authorities, to improve patient care and reduce healthcare costs.</p>
             <ul>
               <li>Flexible, fast cloud interconnection</li>
-              <li>Structured, standardized data sets and exchanges</li>
               <li>Automated or on-demand integrations with third-party systems and data repositories</li>
               <li>HIPAA-compliant data integration</li>
+              <li>XchangER hospital dashboard for patient record sharing for inbound patient information</li>
             </ul>
           </div>
         </HalfHalf>
@@ -192,7 +191,7 @@ class HealthEMS extends PureComponent {
           </div>
         </HalfHalf>
 
-        <Blockquote
+        {/* <Blockquote
           isMobile={this.props.isMobile}
           mobileBackground={images['health-ems-quotebackground-sacramento-mobile.jpg']}
           desktopBackground={images['health-ems-quotebackground-sacramento.jpg']}
@@ -200,7 +199,7 @@ class HealthEMS extends PureComponent {
           citeFirstLine="Derek Parker"
           citeSecondLine="Captain"
           citeThirdLine="Sacramento Fire Department"
-        />
+        /> */}
 
         <MediaBlock image={images['service-support.svg']}>
           <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>

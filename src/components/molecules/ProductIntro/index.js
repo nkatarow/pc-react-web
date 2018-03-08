@@ -22,6 +22,10 @@ const ProductIntro = (props) => {
         { props.copy &&
           <p className="large">{props.copy}</p>
         }
+
+        { props.smallCopy &&
+          <small>{props.smallCopy}</small>
+        }
       </div>
     </section>
   );
@@ -34,6 +38,7 @@ ProductIntro.defaultProps = {
   contextColor: 'black',
   theme: null,
   copy: null,
+  smallCopy: null,
 };
 
 ProductIntro.propTypes = {
@@ -42,4 +47,5 @@ ProductIntro.propTypes = {
   contextColor: PropTypes.string,
   headline: PropTypes.string.isRequired,
   copy: PropTypes.string,
+  smallCopy: PropTypes.string,
 };

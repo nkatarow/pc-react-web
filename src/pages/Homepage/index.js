@@ -41,7 +41,7 @@ class Homepage extends PureComponent {
           mobileHero={images['hp-hero-mobile.jpg']}
           desktopHero={images['hp-hero-desktop.jpg']}
           headline="Better data. Better outcomes."
-          copy="Easy, customizable documentation with advanced reporting can help you to improve patient care and service delivery."
+          copy="Physio-Control data solutions make it faster and easier to share information, collaborate, and generate insights that help to improve patient outcomes, team performance, and operational."
         />
 
         <Introduction
@@ -91,7 +91,7 @@ class Homepage extends PureComponent {
               <img src={images['lifenet-icon.svg']} alt="" />
               <div>
                 <Title tag="h3" theme="subhead">LIFENET<sup>&reg;</sup> System</Title>
-                <p>Telemedicine & Asset Management System</p>
+                <p>Data & Asset Management Solution</p>
               </div>
             </AccordionItemTitle>
 
@@ -116,7 +116,7 @@ class Homepage extends PureComponent {
               <img src={images['codestat-icon.svg']} alt="" />
               <div>
                 <Title tag="h3" theme="subhead">Code-Stat<sup>&trade;</sup> System</Title>
-                <p>Code Review Software</p>
+                <p>CODE-STATTM Data Review Software</p>
               </div>
             </AccordionItemTitle>
 
@@ -170,7 +170,7 @@ class Homepage extends PureComponent {
           <div>
             <Title tag="h3" theme="context-head" color="scorpion">Video</Title>
             <Title tag="h2" theme="section-title">Data Solutions</Title>
-            <p>Lorem ipsum dolor sit amet consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <p>See how University Hospital in Cleveland is using LIFENET Alert, OnePush, and Consult to minimize time to treatment for stroke and STEMI cases.</p>
           </div>
         </Video>
 

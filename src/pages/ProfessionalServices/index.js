@@ -44,7 +44,7 @@ class ProfessionalServices extends PureComponent {
         <Introduction
           isMobile={this.props.isMobile}
           headline="Our experience and expertise help ensure your success."
-          copy="From easy-access, self-managed training to dedicated project managers who can walk you through the whole start-up process and beyond, personalized support from our Professional Services team can help deliver a fast, smooth implementation—no matter how large your organization."
+          copy="From easy-access, self-managed training, to dedicated project managers who can walk you through the entire process, personalized support from our Professional Services team can help deliver a fast, smooth implementation for every type of organization."
         />
 
         <ProductIntro

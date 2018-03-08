@@ -47,7 +47,7 @@ class Homesolutions extends PureComponent {
           isMobile={this.props.isMobile}
           headline="Experience data-driven healthcare."
           copy="From admissions to scheduling, coding, orders, visit reconciliation, eligibility, billing, AR, HR and payroll preparation processes, HomeSolutions.NET can improve revenue cycle management performance and overall efficiency."
-          smallCopy="With the web-based HomeSolutions.NET Manager, agencies can effectively manage workflow by moving away from paper-driven processes. For field staff, homecare agencies can choose between Scannable Forms, Telephony or Mobile Device-based point-of-care methods, from nursing and therapy to paraprofessional disciplines."
+          smallCopy="With the web-based HomeSolutions.NET Manager, agencies can effectively manage workflow by moving away from paper-driven processes. For field staff, homecare agencies can choose between scannable forms, telephony or mobile device-based point-of-care methods, from nursing and therapy to paraprofessional disciplines."
         />
 
         <ProductIntro
@@ -157,7 +157,7 @@ class Homesolutions extends PureComponent {
         <MediaBlock image={images['service-support.svg']}>
           <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
           <Title tag="h2" theme="subhead">Dedicated to enabling your success</Title>
-          <p>Delivering Software as a Service is our specialty, and we’re passionate about it. We believe that serving your business is both a privilege and a responsibility. We strive to maintain that business by providing you with software and services to help your organization improve clinical, operational and financial performance.</p>
+          <p>Delivering Software as a Service is our specialty, and we’re passionate about it. We believe that serving your business is both a privilege and a responsibility. We strive to provide you with software and services to help your organization improve clinical, operational, and financial performance.</p>
           <Link to="/professional-services">
             <Button>ABOUT PROFESSIONAL SERVICES</Button>
           </Link>
