@@ -132,7 +132,7 @@ class HealthEMS extends PureComponent {
             <p>Empower great teams to excel even more when you can easily assess performance and plan targeted enhancements. HealthEMS Manager is the ePCR command center for agency administrators. Personalized dashboards provide real-time metrics to support performance management and training, workflow optimization, and quality assurance / quality improvement (QA/QI) activities.</p>
             <ul>
               <li>Centralized records and intelligent matching between fire incidents and ePCRs</li>
-              <li>Electronic tracking for investigations and hydrant/hose/vehicle inspections</li>
+              <li>Electronic tracking for investigations and hydrant, hose, and vehicle inspections</li>
               <li>Auto-populate fields with CAD integration and HealthEMS ePCR data</li>
               <li>NFIRS compliant reporting</li>
               <li>Integrated reports, dashboards, and hydrant mapping</li>
@@ -169,7 +169,7 @@ class HealthEMS extends PureComponent {
               <li>Centralized records and intelligent matching between fire incidents and ePCRs</li>
               <li>Electronic tracking for routine inspections and investigations</li>
               <li>CAD, roster, and hydrant map integration</li>
-              <li>Auto-filling of fields and dynamic NFIRS code suggestions</li>
+              <li>Integrated reports, dashboards, and hydrant mapping</li>
             </ul>
           </div>
         </HalfHalf>

@@ -41,7 +41,7 @@ class Homepage extends PureComponent {
           mobileHero={images['hp-hero-mobile.jpg']}
           desktopHero={images['hp-hero-desktop.jpg']}
           headline="Better data. Better outcomes."
-          copy="Physio-Control data solutions make it faster and easier to share information, collaborate, and generate insights that help to improve patient outcomes, team performance, and operational."
+          copy="Physio-Control data solutions make it faster and easier to share information, collaborate, and generate insights that help to improve patient outcomes, team performance, and operational effectiveness."
         />
 
         <Introduction

@@ -158,7 +158,7 @@ class Codestat extends PureComponent {
         >
           <Title tag="h2" theme="section-title" color="selective-yellow">Speed Clinically-Significant Improvements</Title>
           <p className="large">Hands-on compression ratio relates directly to patient outcomes, which is why Redmond Medic One set out to increase this performance metric using CODE-STAT software. In just six months, the team increased its compression ratio from 66% to 83% — a 25% improvement. Research shows clinically significant improvement takes place after the kind of targeted performance reviews you can hold when you learn from every resuscitation with CODE-STAT.</p>
-          <p>Olasveengen T, Wik L, Kramer-Johansen J, et al. Is CPR quality improving? A retrospective study of out-of-hospital cardiac arrest. Resuscitation.</p>
+          <p>Olasveengen T, Wik L, Kramer-Johansen J, et al. Is CPR quality improving? A retrospective study of out-of-hospital cardiac arrest. Resuscitation. 2007;75:260–266</p>
         </MediaBlock>
 
         <MediaBlock image={images['service-support.svg']}>

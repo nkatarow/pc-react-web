@@ -117,7 +117,7 @@ class Homesolutions extends PureComponent {
               <li>Flexible role-based security with personalized dashboards and report views</li>
               <li>Real-time hospital readmission tracking, reporting and analysis</li>
               <li>Electronic charts with document manager</li>
-              <li>Visual Visit Reconciliation, matching schedule to orders/auths to visits</li>
+              <li>Visual Visit Reconciliation, matching schedule to orders and authorizations to visits</li>
               <li>QA and validation checking throughout all processes</li>
               <li>Support for multiple business lines and multiple sites</li>
             </ul>
