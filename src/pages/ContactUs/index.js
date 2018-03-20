@@ -44,9 +44,10 @@ class ContactUs extends PureComponent {
             {/*
             NOTE: These fields are optional debugging elements. Please uncomment
             these lines if you wish to test in debug mode.
-          */}
+
             <input type="hidden" name="debug" value="1" />
             <input type="hidden" name="debugEmail" value="nick@turnstyle.studio" />
+            */}
 
             <Input
               fieldName="first_name"
