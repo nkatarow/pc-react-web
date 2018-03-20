@@ -183,8 +183,8 @@ class Lifenet extends PureComponent {
 
         <MediaBlock image={images['service-support.svg']}>
           <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
-          <Title tag="h2" theme="subhead">Complete Support by Stryker SmartDesk</Title>
-          <p>Supported by the Stryker SmartDesk, LIFENET will integrate seamlessly with even the most complex hospital or EMS system.</p>
+          <Title tag="h2" theme="subhead">Complete Support by Stryker Data Solutions Technical Support</Title>
+          <p>Supported by the Stryker Data Solutions Technical Support, LIFENET will integrate seamlessly with even the most complex hospital or EMS system.</p>
           <Link to="/professional-services">
             <Button>ABOUT PROFESSIONAL SERVICES</Button>
           </Link>

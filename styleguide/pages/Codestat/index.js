@@ -161,8 +161,8 @@ class Codestat extends PureComponent {
 
         <MediaBlock image={images['service-support.svg']}>
           <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
-          <Title tag="h2" theme="subhead">Complete Service by Stryker SmartDesk</Title>
-          <p>Start gaining insight immediately with smooth, easy CODE-STAT implementation. An expert Physio-Control team guides you with tutorials, traning, and assistance through our Smart Desk support.</p>
+          <Title tag="h2" theme="subhead">Complete Service by Stryker Data Solutions Technical Support</Title>
+          <p>Start gaining insight immediately with smooth, easy CODE-STAT implementation. An expert Physio-Control team guides you with tutorials, traning, and assistance through our Smart Data Solutions Technical Support.</p>
           <Button>
             <Link to="/professional-services">About Professional Services</Link>
           </Button>
