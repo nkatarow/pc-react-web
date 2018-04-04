@@ -170,7 +170,7 @@ class Codestat extends PureComponent {
           </Link>
         </MediaBlock>
 
-        <CTA />
+        <CTA linkUrl="/contact-us?referrer=code-stat" />
       </div>
     );
   }

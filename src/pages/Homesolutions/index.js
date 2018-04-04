@@ -163,7 +163,7 @@ class Homesolutions extends PureComponent {
           </Link>
         </MediaBlock>
 
-        <CTA />
+        <CTA linkUrl="/contact-us?referrer=homesolutions" />
       </div>
     );
   }

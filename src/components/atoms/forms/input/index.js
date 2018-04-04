@@ -12,7 +12,7 @@ const Input = (props) => {
   return (
     <label htmlFor={props.fieldName}>
       <span className="offscreen">{reqLabel}</span>
-      <input id={props.fieldName} name={props.fieldName} type={props.type} maxLength={props.maxLength} placeholder={reqLabel} required={props.required} />
+      <input defaultValue={props.defaultValue} id={props.fieldName} name={props.fieldName} type={props.type} maxLength={props.maxLength} placeholder={reqLabel} required={props.required} />
     </label>
   );
 };
@@ -20,9 +20,11 @@ const Input = (props) => {
 Input.defaultProps = {
   maxLength: 20,
   required: false,
+  defaultValue: '',
 };
 
 Input.propTypes = {
+  defaultValue: PropTypes.string,
   maxLength: PropTypes.number,
   type: PropTypes.string.isRequired,
   /** Used for field label and placeholder text */

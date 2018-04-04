@@ -210,7 +210,7 @@ class HealthEMS extends PureComponent {
           </Link>
         </MediaBlock>
 
-        <CTA />
+        <CTA linkUrl="/contact-us?referrer=healthems" />
       </div>
     );
   }

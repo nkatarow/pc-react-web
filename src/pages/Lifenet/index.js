@@ -190,7 +190,7 @@ class Lifenet extends PureComponent {
           </Link>
         </MediaBlock>
 
-        <CTA />
+        <CTA linkUrl="/contact-us?referrer=lifenet-system" />
       </div>
     );
   }

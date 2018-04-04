@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
@@ -15,7 +15,37 @@ import { Input, Textarea, Select } from '../../components/atoms/forms/';
 
 import './style.css';
 
-class ContactUs extends PureComponent {
+class ContactUs extends Component {
+  constructor() {
+    super();
+
+    const queryString = new URLSearchParams(window.location.search);
+    const referrer = queryString.get('referrer');
+    let referralId = null;
+
+    switch (referrer) {
+      case 'code-stat':
+        referralId = '701j0000001S9TD';
+        break;
+      case 'healthems':
+        referralId = '701j00000005hYx';
+        break;
+      case 'homesolutions':
+        referralId = '701f1000001o8eZ';
+        break;
+      case 'lifenet-system':
+        referralId = '701j0000001S9TI';
+        break;
+      case 'professional-services':
+        referralId = '701f1000001o8ee';
+        break;
+      default:
+        referralId = '701f1000001o8ej';
+    }
+
+    this.state = { campaign: referralId };
+  }
+
   componentDidMount() {
     document.title = 'Contact Us | Physio-Control';
     window.scrollTo(0, 0);
@@ -39,12 +69,61 @@ class ContactUs extends PureComponent {
             <Title tag="h2" theme="headline">Please tell us a little about yourself</Title>
 
             <input type="hidden" name="oid" value="00Dj0000000Hq9N" />
-            <input type="hidden" name="retURL" value="http://" />
+            <input type="hidden" name="retURL" value="#" />
+
+            <div className="offscreen">
+              {/*
+                NOTE: These fields are hidden and
+                pre-populated for use in salesforce
+              */}
+
+              <Select
+                fieldName="lead_source"
+                id="lead_source"
+                label="Lead Source"
+                defaultValue="Website (Data-Solutions)"
+              >
+                <option value="Website (Data-Solutions)">Website (Data-Solutions)</option>
+              </Select>
+
+              <Input
+                id="00Nj0000003VGZW"
+                fieldName="00Nj0000003VGZW"
+                defaultValue="Customer Has Requested Information"
+                maxLength={50}
+                type="text"
+                label="Lead Source Description"
+                required
+              />
+
+              <Select
+                fieldName="00Nj000000A0B9H"
+                id="00Nj000000A0B9H"
+                name="00Nj000000A0B9H"
+                label="Primary Physio Product"
+                defaultValue="Data Solutions Only"
+              >
+                <option value="Data Solutions Only">Data Solutions Only</option>
+              </Select>
+
+              <Select
+                fieldName="Campaign_ID"
+                id="Campaign_ID"
+                label="Campaign"
+                defaultValue={this.state.campaign}
+              >
+                <option value="701j0000001S9TD">PLMF | CODE-STAT</option>
+                <option value="701f1000001o8ej">PLMF | Contact Us</option>
+                <option value="701j00000005hYx">PLMF | HealthEMS</option>
+                <option value="701f1000001o8eZ">PLMF | HomeSolutions.net</option>
+                <option value="701j0000001S9TI">PLMF | LIFENET</option>
+                <option value="701f1000001o8ee">PLMF | Professional Services</option>
+              </Select>
+            </div>
 
             {/*
             NOTE: These fields are optional debugging elements. Please uncomment
             these lines if you wish to test in debug mode.
-
             <input type="hidden" name="debug" value="1" />
             <input type="hidden" name="debugEmail" value="nick@turnstyle.studio" />
             */}
@@ -338,7 +417,7 @@ class ContactUs extends PureComponent {
               required
             />
 
-            <Select fieldName="00Nj0000002taVP" label="Segment">
+            <Select fieldName="00Nj0000002taVP" label="Where will this be used?">
               <option value="Hospital">Hospital</option>
               <option value="Pre-hospital">Pre-hospital</option>
               <option value="Government">Government</option>

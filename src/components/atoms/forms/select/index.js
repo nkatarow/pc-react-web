@@ -12,7 +12,13 @@ const Select = (props) => {
   return (
     <label htmlFor={props.fieldName} className="select">
       <span className="offscreen">{reqLabel}</span>
-      <select id={props.fieldName} name={props.fieldName} placeholder={reqLabel} required={props.required}>
+      <select
+        defaultValue={props.defaultValue}
+        id={props.fieldName}
+        name={props.fieldName}
+        placeholder={reqLabel}
+        required={props.required}
+      >
         <option value="">{ props.label }</option>
         {props.children}
       </select>
@@ -22,6 +28,7 @@ const Select = (props) => {
 
 Select.defaultProps = {
   required: false,
+  defaultValue: '',
 };
 
 Select.propTypes = {
@@ -29,6 +36,7 @@ Select.propTypes = {
   fieldName: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
   required: PropTypes.bool,
+  defaultValue: PropTypes.string,
 };
 
 export default Select;
