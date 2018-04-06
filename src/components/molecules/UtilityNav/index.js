@@ -36,7 +36,7 @@ const UtilityNav = () => (
           </svg>
           Health EMS <span className="link-label">Login</span>
         </Link>
-        <Link to="http://www.lifenetsystems.com" target="_blank" className="product">
+        <Link to="https://lifenetsystems.com" target="_blank" className="product">
           <svg
             x="0px"
             y="0px"
