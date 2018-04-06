@@ -1,3 +1,8 @@
+.contact-form .success {
+  background-color: #ffb500;
+  padding: 2em;
+  text-align: center; }
+
 .contact-form .hero {
   position: relative; }
   .contact-form .hero .hero-copy {

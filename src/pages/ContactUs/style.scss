@@ -1,6 +1,12 @@
 @import '../../_settings/helpers/variables';
 
 .contact-form {
+  .success {
+    background-color: $selective-yellow;
+    padding: 2em;
+    text-align: center;
+  }
+
   .hero {
     position: relative;
 

@@ -22,8 +22,12 @@ class ContactUs extends Component {
     const queryString = new URLSearchParams(window.location.search);
     const referrer = queryString.get('referrer');
     let referralId = null;
+    let success = false;
 
     switch (referrer) {
+      case 'success':
+        success = true;
+        break;
       case 'code-stat':
         referralId = '701j0000001S9TD';
         break;
@@ -43,7 +47,10 @@ class ContactUs extends Component {
         referralId = '701f1000001o8ej';
     }
 
-    this.state = { campaign: referralId };
+    this.state = {
+      campaign: referralId,
+      success,
+    };
   }
 
   componentDidMount() {
@@ -64,12 +71,18 @@ class ContactUs extends Component {
           headline="Ready to learn more? Let's schedule a demo."
         />
 
+        {this.state.success &&
+          <div className="success">
+            <h2 className="h2 subhead black">Your message has been submitteed!</h2>
+          </div>
+        }
+
         <div className="contain">
           <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
             <Title tag="h2" theme="headline">Please tell us a little about yourself</Title>
 
             <input type="hidden" name="oid" value="00Dj0000000Hq9N" />
-            <input type="hidden" name="retURL" value="#" />
+            <input type="hidden" name="retURL" value="http://www.betterdatabettercare.com/contact-us?referrer=success" />
 
             <div className="offscreen">
               {/*
