@@ -432,9 +432,8 @@ class ContactUs extends Component {
 
             <Select fieldName="00Nj0000002taVP" label="Where will this be used?">
               <option value="Hospital">Hospital</option>
-              <option value="Pre-hospital">Pre-hospital</option>
+              <option value="Pre-hospital">Emergency Medical Services</option>
               <option value="Government">Government</option>
-              <option value="Commercial">Commercial</option>
             </Select>
 
             <Textarea
