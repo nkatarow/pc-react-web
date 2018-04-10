@@ -131,11 +131,12 @@ class HealthEMS extends PureComponent {
             <p className="medium">Better visibility for managing your operations</p>
             <p>Empower great teams to excel even more when you can easily assess performance and plan targeted enhancements. HealthEMS Manager is the ePCR command center for agency administrators. Personalized dashboards provide real-time metrics to support performance management and training, workflow optimization, and quality assurance / quality improvement (QA/QI) activities.</p>
             <ul>
-              <li>Centralized records and intelligent matching between fire incidents and ePCRs</li>
-              <li>Electronic tracking for investigations and hydrant, hose, and vehicle inspections</li>
-              <li>Auto-populate fields with CAD integration and HealthEMS ePCR data</li>
-              <li>NFIRS compliant reporting</li>
-              <li>Integrated reports, dashboards, and hydrant mapping</li>
+              <li>High level of configurability</li>
+              <li>Secure, automatic QA alerting for custom-set events</li>
+              <li>Standard and tailored reports</li>
+              <li>A propriety algorithm that analyzes patient reports to ensure accurate billing and CMS compliance</li>
+              <li>CAD, patient, incident, monitor/ECG and billing data in one record set</li>
+              <li>Flexible, role-based security</li>
             </ul>
           </div>
         </HalfHalf>
@@ -167,8 +168,9 @@ class HealthEMS extends PureComponent {
             <p>Combined EMS and fire duties increase your management challenges. HealthEMS Fire software coordinates and streamlines your data and reporting so you can seamlessly track, document, and correlate incident and ePCR data in one NFIRS-5-compatible records management system (RMS).</p>
             <ul>
               <li>Centralized records and intelligent matching between fire incidents and ePCRs</li>
-              <li>Electronic tracking for routine inspections and investigations</li>
-              <li>CAD, roster, and hydrant map integration</li>
+              <li>Electronic tracking for investigations and hydrant/hose/vehicle inspections</li>
+              <li>Auto-populate fields with CAD integration and HealthEMS ePCR data</li>
+              <li>NFIRS compliant reporting</li>
               <li>Integrated reports, dashboards, and hydrant mapping</li>
             </ul>
           </div>
