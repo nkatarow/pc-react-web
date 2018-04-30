@@ -50,7 +50,7 @@ class ProfessionalServices extends PureComponent {
         <ProductIntro
           contextHead="Benefits"
           headline="Why Professional Services?"
-          copy="Save time and harness maximum power from LIFENET, CODE-STAT, or HealthEMS. Rely on Professional Services support for tailoring your solution, integrating it with current systems and processes, training users, and optimizing features."
+          copy="Save time and harness maximum power from LIFENET, CODE-STAT, or HealthEMS®. Rely on Professional Services support for tailoring your solution, integrating it with current systems and processes, training users, and optimizing features."
           theme="gray"
           contextColor="affair"
         />

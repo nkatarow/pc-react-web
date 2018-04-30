@@ -127,8 +127,8 @@ class ContactUs extends Component {
               >
                 <option value="701j0000001S9TD">PLMF | CODE-STAT</option>
                 <option value="701f1000001o8ej">PLMF | Contact Us</option>
-                <option value="701j00000005hYx">PLMF | HealthEMS</option>
-                <option value="701f1000001o8eZ">PLMF | HomeSolutions.net</option>
+                <option value="701j00000005hYx">PLMF | HealthEMS®</option>
+                <option value="701f1000001o8eZ">PLMF | HomeSolutions.net®</option>
                 <option value="701j0000001S9TI">PLMF | LIFENET</option>
                 <option value="701f1000001o8ee">PLMF | Professional Services</option>
               </Select>
