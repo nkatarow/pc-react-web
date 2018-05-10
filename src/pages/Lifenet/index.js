@@ -40,7 +40,7 @@ class Lifenet extends PureComponent {
           mobileHero={images['life-net-hero-mobile.jpg']}
           desktopHero={images['life-net-hero-desktop.jpg']}
           headline="Smoother communication. Faster care. Stronger teamwork."
-          copy="The LIFENET® System is a comprehensive cloud-based platform that intelligently manages and delivers patient information and device data that EMS and hospital teams need to work together seamlessly, minimize time to treatment, and improve outcomes."
+          copy="The LIFENET System is a comprehensive cloud-based platform that intelligently manages and delivers patient information and device data that EMS and hospital teams need to work together seamlessly, minimize time to treatment, and improve outcomes."
         />
 
         <Introduction
@@ -75,7 +75,7 @@ class Lifenet extends PureComponent {
           </div>
           <div>
             <Title tag="h3" theme="subhead">Quickly Mobilize Data for Reporting and Quality Improvement</Title>
-            <p>In addition to capturing minute-by-minute transmission/reception history, LIFENET facilitates the immediate transfer of data to CODE-STAT™ Data Review Software and ePCR solutions for efficient post-event QA/QI.</p>
+            <p>In addition to capturing minute-by-minute transmission/reception history, The LIFENET System facilitates the immediate transfer of data to CODE-STAT Data Review Software and ePCR solutions for efficient post-event QA/QI.</p>
           </div>
         </HalfHalf>
 
@@ -85,7 +85,7 @@ class Lifenet extends PureComponent {
           </div>
           <div>
             <Title tag="h3" theme="subhead">Easily Manage Equipment</Title>
-            <p>LIFENET Asset allows you to manage an entire fleet of devices from one place. This web-based tool allows you to track equipment readiness, manage setup options, update software and receive notifications about potential device issues. Asset is highly configurable with automated alerting capabilities.</p>
+            <p>The LIFENET System Asset allows you to manage an entire fleet of devices from one place. This web-based tool allows you to track equipment readiness, manage setup options, update software and receive notifications about potential device issues. Asset is highly configurable with automated alerting capabilities.</p>
           </div>
         </HalfHalf>
 
@@ -105,7 +105,7 @@ class Lifenet extends PureComponent {
           </div>
           <div>
             <Title tag="h3" theme="subhead">Trust a Proven System</Title>
-            <p>LIFENET is backed by a leader in emergency medicine and resuscitation, providing the most comprehensive toolset for team coordination, alerting, data transmission, and device fleet management for multiple devices.</p>
+            <p>The LIFENET System is backed by a leader in emergency medicine and resuscitation, providing the most comprehensive toolset for team coordination, alerting, data transmission, and device fleet management for multiple devices.</p>
           </div>
         </HalfHalf>
 
@@ -156,7 +156,7 @@ class Lifenet extends PureComponent {
             <Title tag="h3" theme="subhead">
             Connect
             </Title>
-            <p>Send patient care data directly to CODE-STAT™ Data Review Software or your ePCR directly from the LIFEPAK device through the same gateway used to transmit 12-lead ECGs.</p>
+            <p>Send patient care data directly to CODE-STAT Data Review Software or your ePCR directly from the LIFEPAK device through the same gateway used to transmit 12-lead ECGs.</p>
           </div>
           <div>
             <Picture src={images['icon-adapter.svg']} alt="" />
@@ -184,7 +184,7 @@ class Lifenet extends PureComponent {
         <MediaBlock image={images['service-support.svg']}>
           <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
           <Title tag="h2" theme="subhead">Complete Support by Stryker Data Solutions Technical Support</Title>
-          <p>Supported by the Stryker Data Solutions Technical Support, LIFENET will integrate seamlessly with even the most complex hospital or EMS system.</p>
+          <p>Supported by the Stryker Data Solutions Technical Support, The LIFENET System will integrate seamlessly with even the most complex hospital or EMS system.</p>
           <Link to="/professional-services">
             <Button>ABOUT PROFESSIONAL SERVICES</Button>
           </Link>

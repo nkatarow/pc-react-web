@@ -38,7 +38,7 @@ class Codestat extends PureComponent {
           isMobile={this.props.isMobile}
           mobileHero={images['code-stat-hero-mobile.jpg']}
           desktopHero={images['code-stat-hero-desktop.jpg']}
-          headline="Insights to Improve Performance and Patient Outcomes"
+          headline="Insights to improve performance and patient outcomes"
           copy="Turn your passion for saving lives into targeted improvements — CODE-STAT Data Review Software lets you easily understand team performance immediately after response."
         />
 
@@ -59,28 +59,28 @@ class Codestat extends PureComponent {
           <div>
             <Picture src={images['icon-bettercare.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Deliver Better Care
+              Deliver better care
             </Title>
             <p>Respond more effectively for better outcomes with easier access to complete event data.</p>
           </div>
           <div>
             <Picture src={images['icon-trainefficiently.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Train More Efficiently
+              Train more efficiently
             </Title>
             <p>Focus training and performance management where it’s needed most.</p>
           </div>
           <div>
             <Picture src={images['icon-fastereasier.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Make Improvement Faster and Easier
+              Make improvement faster and easier
             </Title>
             <p>Simplify the collection, analysis, and sharing of data that can power performance reviews and enhancement.</p>
           </div>
           <div>
             <Picture src={images['icon-data.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Save Time on Data Collection and Reporting
+              Save time on data collectionand reporting
             </Title>
             <p>Collect information automatically and customize required reports and documentation.</p>
           </div>
@@ -99,7 +99,7 @@ class Codestat extends PureComponent {
             <Picture src={images['resuscitation.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">See Resuscitation Performance at a Glance</Title>
+            <Title tag="h3" theme="subhead">See resuscitation performance at a glance</Title>
             <ul>
               <li>Display CPR metrics visually, according to your targets, for intuitive insight. Dive into moment-by-moment details of an entire event on a graphic, continuous time scale.</li>
               <li>Review interval statistics for the entire resuscitation, broken down by time interval.</li>
@@ -112,7 +112,7 @@ class Codestat extends PureComponent {
             <Picture src={images['custom-analytics.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Create Custom Analytics and Reporting According to Your Needs</Title>
+            <Title tag="h3" theme="subhead">Create custom analytics and reporting according to your needs</Title>
             <ul>
               <li>Customize display of the statistics and details you need most, including CPR performance, ECG and EtCO<sub>2</sub> waveforms, and CO<sub>2</sub> trend data.</li>
               <li>Annotate the stories of each resuscitation event to add context or focus attention on achievements or areas needing improvement.</li>
@@ -126,7 +126,7 @@ class Codestat extends PureComponent {
             <Picture src={images['streamline-reporting.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Streamline Reporting</Title>
+            <Title tag="h3" theme="subhead">Streamline reporting</Title>
             <ul>
               <li>Easily create summary, detail, or custom reports for performance reviews, training plans, or documentation.</li>
               <li>Provide feedback to caregivers in a simple, intuitive format.</li>
@@ -140,7 +140,7 @@ class Codestat extends PureComponent {
             <Picture src={images['data-handling.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Reduce Data Handling Effort</Title>
+            <Title tag="h3" theme="subhead">Reduce data handling effort</Title>
             <ul>
               <li>Simplify data collection and management, thanks to full integration with all LIFEPAK<sup>&reg;</sup> monitor/defibrillators.</li>
               <li>No time or staff for review? Receive expert summaries and targeted recommendations on request with Physio-Control’s new CODE-STAT Data Review Service.</li>
@@ -163,7 +163,7 @@ class Codestat extends PureComponent {
 
         <MediaBlock image={images['service-support.svg']}>
           <Title tag="p" theme="context-head" color="selective-yellow">Service &amp; Support</Title>
-          <Title tag="h2" theme="subhead">Complete Support by Stryker Data Solutions Technical Support</Title>
+          <Title tag="h2" theme="subhead">Complete support by Stryker Data Solutions technical support</Title>
           <p>Start gaining insight immediately with smooth, easy CODE-STAT implementation. An expert Physio-Control team guides you with tutorials, traning, and assistance through our Data Solutions Technical Support.</p>
           <Link to="/professional-services">
             <Button>ABOUT PROFESSIONAL SERVICES</Button>

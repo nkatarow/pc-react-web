@@ -40,21 +40,21 @@ class Homesolutions extends PureComponent {
           mobileHero={images['Home-Solutions-Hero-mobile.jpg']}
           desktopHero={images['Home-Solutions-Hero-desktop.jpg']}
           headline="Powerful. Flexible. Accurate."
-          copy="HomeSolutions.net® is a comprehensive cloud-based agency management EMR solution proven to help home health organizations improve clinical, operational, financial and regulatory performance."
+          copy="HomeSolutions.net is a comprehensive cloud-based agency management EMR solution proven to help home health organizations improve clinical, operational, financial and regulatory performance."
         />
 
         <Introduction
           isMobile={this.props.isMobile}
           headline="Experience data-driven healthcare."
-          copy="From admissions to scheduling, coding, orders, visit reconciliation, eligibility, billing, AR, HR and payroll preparation processes, HomeSolutions.net® can improve revenue cycle management performance and overall efficiency."
-          smallCopy="With the web-based HomeSolutions.net® Manager, agencies can effectively manage workflow by moving away from paper-driven processes. For field staff, homecare agencies can choose between scannable forms, telephony or mobile device-based point-of-care methods, from nursing and therapy to paraprofessional disciplines."
+          copy="From admissions to scheduling, coding, orders, visit reconciliation, eligibility, billing, AR, HR and payroll preparation processes, HomeSolutions.net can improve revenue cycle management performance and overall efficiency."
+          smallCopy="With the web-based HomeSolutions.net Manager, agencies can effectively manage workflow by moving away from paper-driven processes. For field staff, homecare agencies can choose between scannable forms, telephony or mobile device-based point-of-care methods, from nursing and therapy to paraprofessional disciplines."
         />
 
         <ProductIntro
           contextHead="Product Features"
-          headline="HomeSolutions.net®"
+          headline="HomeSolutions.net"
           theme="gray"
-          copy="HomeSolutions.net® can provide an immediate return on investment and is designed with a compliance-driven approach. Physio-Control has a successful track record of meeting regulatory deadlines with rich features and responsive, professional service and support."
+          copy="HomeSolutions.net can provide an immediate return on investment and is designed with a compliance-driven approach. Physio-Control has a successful track record of meeting regulatory deadlines with rich features and responsive, professional service and support."
           contextColor="affair"
         />
 
@@ -65,23 +65,23 @@ class Homesolutions extends PureComponent {
           <div>
             <Picture src={images['icon-touchscreen.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Easy-to-use<br />Touch-screen Interface
+              Easy-to-use<br />touch-screen interface
             </Title>
             <p>MobileTouch is the revolutionary Point-of-Care application that works online or offline on today’s popular tablets. This easy-to-use tool facilitates quick, timely documentation at the point-of-care, improving accuracy and patient care.</p>
           </div>
           <div>
             <Picture src={images['icon-dashboard.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Dashboard-Driven<br />Workflow
+              Dashboard-driven<br />workflow
             </Title>
             <p>HomeSolutions Manager is the industry-leading data management solution for Home Health and Hospice. The configurable, dashboard-driven approach supports optimized workflow, Quality Assurance and Continuous Quality Improvement.</p>
           </div>
           <div>
             <Picture src={images['icon-revenue.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Accelerate All Phases of Your Revenue Cycle
+              Accelerate all phases of your revenue cycle
             </Title>
-            <p>RevNet<sup>®</sup> is a cloud-based revenue cycle management (RCM) solution that helps achieve highly efficient, compliant revenue performance by producing cleaner, quicker claims with less effort.</p>
+            <p>RevNet is a cloud-based revenue cycle management (RCM) solution that helps achieve highly efficient, compliant revenue performance by producing cleaner, quicker claims with less effort.</p>
           </div>
         </MediaList>
 
@@ -90,17 +90,17 @@ class Homesolutions extends PureComponent {
             <Picture src={images['homesolutions-mobile.jpg']} />
           </div>
           <div>
-            <Title tag="h2" theme="subhead">MobileTouch<sup>&trade;</sup></Title>
+            <Title tag="h2" theme="subhead">HomeSolutions MobileTouch</Title>
             <p>HomeSolutions MobileTouch is a finger-friendly point-of-care solution that combines the power and secure accessibility of cloud computing with the ease of use of a web browser. HomeSolutions MobileTouch is more than an “app,” and is designed to work on a wide variety of platforms including Android™, iOS™ and Windows® devices. HomeSolutions MobileTouch enables service documentation at the point-of-care without the heavy synchronization or persistent connection challenges typical of traditional point-of-care approaches.</p>
             <ul>
-              <li>HTML5 Browser-based, iPad™-Optimized</li>
-              <li>Online or Offline Capability</li>
-              <li>Electronic Signature via Touch/Tablet</li>
-              <li>Medications at the Point-of-Care</li>
-              <li>Instant Response Validations and Error Checking</li>
-              <li>HomeSoutions Mobile Chart with Key Information</li>
-              <li>Scheduling Integration</li>
-              <li>Comm Notes, myMessages, Alerts and Orders</li>
+              <li>HTML5 Browser-based, iPad™-optimized</li>
+              <li>Online or offline capability</li>
+              <li>Electronic signature via touch/Tablet</li>
+              <li>Medications at the point-of-care</li>
+              <li>Instant response validations and error checking</li>
+              <li>HomeSoutions mobile chart with key information</li>
+              <li>Scheduling integration</li>
+              <li>Comm notes, myMessages, alerts and orders</li>
             </ul>
           </div>
         </HalfHalf>
@@ -129,8 +129,8 @@ class Homesolutions extends PureComponent {
             <Picture src={images['homesolutions-revnet.jpg']} />
           </div>
           <div>
-            <Title tag="h2" theme="subhead">RevNet<sup>®</sup></Title>
-            <p>HomeSolutions RevNet<sup>®</sup> helps agencies improve their financial performance by automating much of the billing process and providing a continuous data stream – from data collection, to claims generation, to AR collection. Numerous integrated pre-billing checks will help your agency maximize your allowable revenue and stay in compliance with regulatory requirements.</p>
+            <Title tag="h2" theme="subhead">RevNet Revenue Cycle Management (RCM)</Title>
+            <p>RevNet helps agencies improve their financial performance by automating much of the billing process and providing a continuous data stream – from data collection, to claims generation, to AR collection. Numerous integrated pre-billing checks will help your agency maximize your allowable revenue and stay in compliance with regulatory requirements.</p>
             <ul>
               <li>GL Builder creates validated GL code structure</li>
               <li>Electronic batch claim creation and payer level pre-billing checks</li>
@@ -148,7 +148,7 @@ class Homesolutions extends PureComponent {
           isMobile={this.props.isMobile}
           mobileBackground={images['Home-Solutions-Blockquote-mobile.jpg']}
           desktopBackground={images['Home-Solutions-Blockquote-desktop.jpg']}
-          quote="HomeSolutions.net® has been such a time saver for our company, decreasing administrative hours spent doing data entry and manual tracking. We can buzz through payroll, billing, and OASIS quicker than ever and I am impressed with all the reports and dashboards!"
+          quote="HomeSolutions.net has been such a time saver for our company, decreasing administrative hours spent doing data entry and manual tracking. We can buzz through payroll, billing, and OASIS quicker than ever and I am impressed with all the reports and dashboards!"
           citeFirstLine="Sue Keenan RN"
           citeSecondLine="Director of Clinical Services"
           citeThirdLine="Comfort Care Medicare, Inc."

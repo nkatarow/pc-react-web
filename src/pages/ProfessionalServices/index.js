@@ -50,7 +50,7 @@ class ProfessionalServices extends PureComponent {
         <ProductIntro
           contextHead="Benefits"
           headline="Why Professional Services?"
-          copy="Save time and harness maximum power from LIFENET, CODE-STAT, or HealthEMS®. Rely on Professional Services support for tailoring your solution, integrating it with current systems and processes, training users, and optimizing features."
+          copy="Save time and harness maximum power from LIFENET System, CODE-STAT, or HealthEMS. Rely on Professional Services support for tailoring your solution, integrating it with current systems and processes, training users, and optimizing features."
           theme="gray"
           contextColor="affair"
         />
@@ -62,28 +62,28 @@ class ProfessionalServices extends PureComponent {
           <div>
             <Picture src={images['customize-solution.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Customize the Solution to Meet Your Unique Needs
+              Customize the solution to meet your unique needs
             </Title>
             <p>Work with our experts to identify the features or modules that will deliver the information and functions you need.</p>
           </div>
           <div>
             <Picture src={images['software-implementation.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Make Software Implementation Faster and Easier
+              Make software implementation faster and easier
             </Title>
             <p>Simplify deployment and start using your system quickly, without business disruption.</p>
           </div>
           <div>
             <Picture src={images['data-reports.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Get Exactly the Data and Reports You Need
+              Get exactly the data and reports you need
             </Title>
             <p>Improve performance right away when you can rapidly access the insights that matter without irrelevant detail or manual analysis.</p>
           </div>
           <div>
             <Picture src={images['learn-efficiently.svg']} alt="" />
             <Title tag="h3" theme="subhead">
-              Learn Efficiently, at Your Own Convenience
+              Learn efficiently, at your own convenience
             </Title>
             <p>Get your team up to speed fast with training options that work for your circumstances.</p>
           </div>
@@ -94,7 +94,7 @@ class ProfessionalServices extends PureComponent {
             <Picture src={images['proservices-get-help.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Get Help When, Where, and As You Need</Title>
+            <Title tag="h3" theme="subhead">Get help when, where, and as you need</Title>
             <ul>
               <li>Draw on various support options before, during, and/or after you begin using your new solutions.</li>
               <li>Reduce workloads on internal technical resources and free them for more valuable use of their time.</li>
@@ -109,7 +109,7 @@ class ProfessionalServices extends PureComponent {
             <Picture src={images['proservices-confidence.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Develop Team Confidence and Competence Faster</Title>
+            <Title tag="h3" theme="subhead">Develop team confidence and competence faster</Title>
             <ul>
               <li>Follow easy, step-by-step implementation processes and critical-path timelines.</li>
               <li>Take advantage of proven procedures and tools that can be tailored to your situation.</li>
@@ -124,7 +124,7 @@ class ProfessionalServices extends PureComponent {
             <Picture src={images['proservices-smooth-interaction.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Ensure Smooth Interaction with Other Systems and Processes</Title>
+            <Title tag="h3" theme="subhead">Ensure smooth interaction with other systems and processes</Title>
             <ul>
               <li>Rely on a dedicated project manager, who works with you to understand your entire operation and then configure interfaces, educate users, and make your new solution a time-saving, trusted part of their work.</li>
               <li>For your ePCR, automate or streamline data interfaces with CAD, billing, and third-party agency systems, defibrillation devices, organizational recordkeeping, and regulatory agencies.</li>

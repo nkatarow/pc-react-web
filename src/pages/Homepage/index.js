@@ -66,7 +66,7 @@ class Homepage extends PureComponent {
               <img src={images['healthems-icon.svg']} alt="" />
               <div>
                 <Title tag="h3" theme="subhead">HealthEMS<sup>&reg;</sup></Title>
-                <p>ePCR Solution</p>
+                <p>ePCR Solutions</p>
               </div>
             </AccordionItemTitle>
 
@@ -74,9 +74,9 @@ class Homepage extends PureComponent {
               <HalfHalf>
                 <div>
                   <Title tag="p" theme="subhead">Easy, customizable documentation with advanced reporting to improve patient care and service delivery.</Title>
-                  <p>HealthEMS<sup>®</sup> is a patient-based, protocol-driven electronic patient care record (ePCR) system that makes documentation and critical operational processes as effortless as possible. This suite of flexible software tools provides all the documentation required for improved patient care, accurate billing, and advanced reporting. Quickly configure it to match your organizational needs. One connected system makes it easier to receive, share, and find actionable information that can make a difference inpatient outcomes, regulatory compliance, and operational and financial performance.</p>
+                  <p>HealthEMS is a patient-based, protocol-driven electronic patient care record (ePCR) system that makes documentation and critical operational processes as effortless as possible. This suite of flexible software tools provides all the documentation required for improved patient care, accurate billing, and advanced reporting. Quickly configure it to match your organizational needs. One connected system makes it easier to receive, share, and find actionable information that can make a difference inpatient outcomes, regulatory compliance, and operational and financial performance.</p>
                   <Link to="/health-ems">
-                    <Button>MORE ABOUT HealthEMS<sup>®</sup></Button>
+                    <Button>MORE ABOUT HealthEMS</Button>
                   </Link>
                 </div>
                 <div>
@@ -151,7 +151,7 @@ class Homepage extends PureComponent {
                   <Title tag="p" theme="headline">Streamline the operational intricacies of delivering home healthcare.</Title>
                   <p>Improve the clinical, operational, financial, and regulatory performance of your home health organization. This cloud-based, agency management EMR solution provides comprehensive tools for mobile point-of-care documentation, revenue cycle management, and data dashboards for enhancing workflows and quality assurance. Move beyond error-prone paperwork to enhance processes for scheduling, coding, eligibility, visit reconciliation, and more.</p>
                   <Link to="/homesolutions-net">
-                    <Button>MORE ABOUT HomeSolutions.NET</Button>
+                    <Button>MORE ABOUT HomeSolutions.net</Button>
                   </Link>
                 </div>
                 <div>

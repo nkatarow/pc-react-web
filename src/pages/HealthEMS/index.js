@@ -48,7 +48,7 @@ class HealthEMS extends PureComponent {
         <Introduction
           isMobile={this.props.isMobile}
           headline="Easy. Powerful. Accurate."
-          copy="Your dynamic work environment demands speed and flexibility, and the HealthEMS® electronic patient care record (ePCR) provides both."
+          copy="Your dynamic work environment demands speed and flexibility, and the HealthEMS electronic Patient Care Record (ePCR) provides both."
           smallCopy="Make operations and documentation easier and more efficient with this patient-based, protocol-driven ePCR that helps you easily receive, share, and find actionable data. This flexible solution can be configured to match your needs, from smooth CAD integration to accurate billing and reporting."
         />
 
@@ -79,7 +79,7 @@ class HealthEMS extends PureComponent {
             <Title tag="h3" theme="subhead">
             Greater operational effectiveness
             </Title>
-            <p>Quickly satisfy reporting and compliance requirements of hospitals and regulatory authorities. HealthEMS<sup>®</sup> tracks patient and incident data and can work with or replace your existing billing system.</p>
+            <p>Quickly satisfy reporting and compliance requirements of hospitals and regulatory authorities. HealthEMS tracks patient and incident data and can work with or replace your existing billing system.</p>
           </div>
 
           <div>
@@ -100,7 +100,7 @@ class HealthEMS extends PureComponent {
         </MediaList>
 
         <ProductIntro
-          headline="HealthEMS® ePCR Solution"
+          headline="HealthEMS ePCR Solution"
           copy="Choose the functionality and components that match the needs of your teams, whether fire-only, EMS-only, or fire/EMS responders."
         />
 
@@ -109,9 +109,9 @@ class HealthEMS extends PureComponent {
             <Picture src={images['mobiletouch.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">MobileTouch</Title>
+            <Title tag="h3" theme="subhead">HealthEMS MobileTouch</Title>
             <p className="medium">Quality documentation with less effort</p>
-            <p>Save time and prevent errors when you can record easily and in a flow that makes sense with your protocols. The MobileTouch electronic patient care report (ePCR) application works securely on today’s popular tablets—online or offline. Its quick, touch-based operation facilitates quick, immediate documentation, right at the point of care.</p>
+            <p>Save time and prevent errors when you can record easily and in a flow that makes sense with your protocols. The HealthEMS MobileTouch electronic patient care report (ePCR) application works securely on today’s popular tablets—online or offline. Its quick, touch-based operation facilitates quick, immediate documentation, right at the point of care.</p>
             <ul>
               <li>Dynamic, protocol-driven flow</li>
               <li>Data capture from multiple sources, from monitors to scanned driver’s licenses</li>
@@ -127,9 +127,9 @@ class HealthEMS extends PureComponent {
             <Picture src={images['healthems-manager.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">HealthEMS<sup>®</sup> Manager</Title>
+            <Title tag="h3" theme="subhead">HealthEMS Manager</Title>
             <p className="medium">Better visibility for managing your operations</p>
-            <p>Empower great teams to excel even more when you can easily assess performance and plan targeted enhancements. HealthEMS<sup>®</sup> Manager is the ePCR command center for agency administrators. Personalized dashboards provide real-time metrics to support performance management and training, workflow optimization, and quality assurance / quality improvement (QA/QI) activities.</p>
+            <p>Empower great teams to excel even more when you can easily assess performance and plan targeted enhancements. HealthEMS Manager is the ePCR command center for agency administrators. Personalized dashboards provide real-time metrics to support performance management and training, workflow optimization, and quality assurance / quality improvement (QA/QI) activities.</p>
             <ul>
               <li>High level of configurability</li>
               <li>Secure, automatic QA alerting for custom-set events</li>
@@ -146,7 +146,7 @@ class HealthEMS extends PureComponent {
             <Picture src={images['connectx.svg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">XchangER & Connectx</Title>
+            <Title tag="h3" theme="subhead">HealthEMS® XchangER & HealthEMS® Connectx</Title>
             <p className="medium">Faster, easier collaboration</p>
             <p>You’re one crucial link in a lifesaving system that depends on shared information and close collaboration. HealthEMS XchangER & Connectx enables fire/EMS organizations to securely connect to the broader healthcare ecosystem, from hospitals to regulatory authorities, to improve patient care and reduce healthcare costs.</p>
             <ul>
@@ -165,11 +165,11 @@ class HealthEMS extends PureComponent {
           <div>
             <Title tag="h3" theme="subhead">HealthEMS Fire</Title>
             <p className="medium">One solution for fire and EMS</p>
-            <p>Combined EMS and fire duties increase your management challenges. HealthEMS<sup>®</sup> Fire software coordinates and streamlines your data and reporting so you can seamlessly track, document, and correlate incident and ePCR data in one NFIRS-5-compatible records management system (RMS).</p>
+            <p>Combined EMS and fire duties increase your management challenges. HealthEMS Fire software coordinates and streamlines your data and reporting so you can seamlessly track, document, and correlate incident and ePCR data in one NFIRS-5-compatible records management system (RMS).</p>
             <ul>
               <li>Centralized records and intelligent matching between fire incidents and ePCRs</li>
               <li>Electronic tracking for investigations and hydrant/hose/vehicle inspections</li>
-              <li>Auto-populate fields with CAD integration and HealthEMS<sup>®</sup> ePCR data</li>
+              <li>Auto-populate fields with CAD integration and HealthEMS ePCR data</li>
               <li>NFIRS compliant reporting</li>
               <li>Integrated reports, dashboards, and hydrant mapping</li>
             </ul>
@@ -181,9 +181,9 @@ class HealthEMS extends PureComponent {
             <Picture src={images['healthems-revnet.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">RevNet<sup>®</sup></Title>
+            <Title tag="h3" theme="subhead">RevNet<sup>®</sup> Revenue Cycle Management (RCM)</Title>
             <p className="medium">An accelerated revenue cycle</p>
-            <p>Focus your attention on what matters rather than administrative workloads. RevNet<sup>®</sup> is a cloud-based revenue cycle management (RCM) solution for improving revenue performance and reducing collection efforts. Produce cleaner, quicker claims with less effort and more accountability.</p>
+            <p>Focus your attention on what matters rather than administrative workloads. RevNet is a cloud-based revenue cycle management (RCM) solution for improving revenue performance and reducing collection efforts. Produce cleaner, quicker claims with less effort and more accountability.</p>
             <ul>
               <li>Intelligent patient matching and integrated eligibility to maximize revenue on first pass</li>
               <li>Electronic remittance advice (ERA) posting and one-click balance forwarding</li>
