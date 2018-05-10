@@ -98,7 +98,7 @@ class Homesolutions extends PureComponent {
               <li>Electronic signature via touch/Tablet</li>
               <li>Medications at the point-of-care</li>
               <li>Instant response validations and error checking</li>
-              <li>HomeSoutions mobile chart with key information</li>
+              <li>HomeSoutions Mobile Chart with key information</li>
               <li>Scheduling integration</li>
               <li>Comm notes, myMessages, alerts and orders</li>
             </ul>

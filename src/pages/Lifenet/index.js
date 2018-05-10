@@ -54,7 +54,7 @@ class Lifenet extends PureComponent {
             <Picture src={images['stemi-stroke.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Minimize Time to Treatment for STEMI, Stroke, and Other Emergencies</Title>
+            <Title tag="h3" theme="subhead">Minimize time to treatment for STEMI, stroke, and other emergencies</Title>
             <p>Faster response times lead to better outcomes. Give hospital critical care teams a head start on reducing time to treatment for all emergencies through comprehensive patient data delivery from EMS. Hospitals know exactly what to expect before patients reach their doors, which means care teams can be assembled faster and briefed in advance.</p>
           </div>
         </HalfHalf>
@@ -64,7 +64,7 @@ class Lifenet extends PureComponent {
             <Picture src={images['decisions-collaboration.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Enable Quicker Decisions and Team Collaboration</Title>
+            <Title tag="h3" theme="subhead">Enable quicker decisions and team collaboration</Title>
             <p>No matter where a physician might be located, their advice is only a click away with LIFENET Consult. This smartphone application allows clinicians to quickly perform remote consultations and decision support, while securely messaging the team coordinator.</p>
           </div>
         </HalfHalf>
@@ -74,7 +74,7 @@ class Lifenet extends PureComponent {
             <Picture src={images['improvement.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Quickly Mobilize Data for Reporting and Quality Improvement</Title>
+            <Title tag="h3" theme="subhead">Quickly mobilize data for reporting and quality improvement</Title>
             <p>In addition to capturing minute-by-minute transmission/reception history, The LIFENET System facilitates the immediate transfer of data to CODE-STAT Data Review Software and ePCR solutions for efficient post-event QA/QI.</p>
           </div>
         </HalfHalf>
@@ -84,7 +84,7 @@ class Lifenet extends PureComponent {
             <Picture src={images['Lifenet-manage-equipment.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Easily Manage Equipment</Title>
+            <Title tag="h3" theme="subhead">Easily manage equipment</Title>
             <p>The LIFENET System Asset allows you to manage an entire fleet of devices from one place. This web-based tool allows you to track equipment readiness, manage setup options, update software and receive notifications about potential device issues. Asset is highly configurable with automated alerting capabilities.</p>
           </div>
         </HalfHalf>
@@ -94,8 +94,8 @@ class Lifenet extends PureComponent {
             <Picture src={images['patient-privacy.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Protect Patient Privacy</Title>
-            <p>LIFENET offers multiple security shields and audits to help hospitals and EMS teams protect patient health information and avoid HIPAA exposure.</p>
+            <Title tag="h3" theme="subhead">Protect patient privacy</Title>
+            <p>The LIFENET System offers multiple security shields and audits to help hospitals and EMS teams protect patient health information and avoid HIPAA exposure.</p>
           </div>
         </HalfHalf>
 
@@ -104,7 +104,7 @@ class Lifenet extends PureComponent {
             <Picture src={images['proven-system.jpg']} />
           </div>
           <div>
-            <Title tag="h3" theme="subhead">Trust a Proven System</Title>
+            <Title tag="h3" theme="subhead">Trust a proven system</Title>
             <p>The LIFENET System is backed by a leader in emergency medicine and resuscitation, providing the most comprehensive toolset for team coordination, alerting, data transmission, and device fleet management for multiple devices.</p>
           </div>
         </HalfHalf>
