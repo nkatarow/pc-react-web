@@ -27,10 +27,10 @@ const PrimaryNav = (props) => {
       </div>
     }
       <nav>
-        <NavLink to="/health-ems" onClick={handleClick}>HealthEMS<sup>®</sup></NavLink>
+        <NavLink to="/health-ems" onClick={handleClick}>HealthEMS</NavLink>
         <NavLink to="/lifenet-system" onClick={handleClick}>LIFENET System</NavLink>
         <NavLink to="/code-stat" onClick={handleClick}>CODE-STAT</NavLink>
-        <NavLink to="/homesolutions-net" onClick={handleClick}>HomeSolutions.net<sup>®</sup></NavLink>
+        <NavLink to="/homesolutions-net" onClick={handleClick}>HomeSolutions.net</NavLink>
         <NavLink to="/professional-services" onClick={handleClick}>Professional Services</NavLink>
         <NavLink to="/contact-us" onClick={handleClick}>Contact Us</NavLink>
       </nav>

@@ -74,7 +74,7 @@ class Homesolutions extends PureComponent {
             <Title tag="h3" theme="subhead">
               Dashboard-driven<br />workflow
             </Title>
-            <p>HomeSolutions Manager is the industry-leading data management solution for Home Health and Hospice. The configurable, dashboard-driven approach supports optimized workflow, Quality Assurance and Continuous Quality Improvement.</p>
+            <p>HomeSolutions.net Manager is the industry-leading data management solution for Home Health and Hospice. The configurable, dashboard-driven approach supports optimized workflow, Quality Assurance and Continuous Quality Improvement.</p>
           </div>
           <div>
             <Picture src={images['icon-revenue.svg']} alt="" />
@@ -90,8 +90,8 @@ class Homesolutions extends PureComponent {
             <Picture src={images['homesolutions-mobile.jpg']} />
           </div>
           <div>
-            <Title tag="h2" theme="subhead">HomeSolutions MobileTouch</Title>
-            <p>HomeSolutions MobileTouch is a finger-friendly point-of-care solution that combines the power and secure accessibility of cloud computing with the ease of use of a web browser. HomeSolutions MobileTouch is more than an “app,” and is designed to work on a wide variety of platforms including Android™, iOS™ and Windows® devices. HomeSolutions MobileTouch enables service documentation at the point-of-care without the heavy synchronization or persistent connection challenges typical of traditional point-of-care approaches.</p>
+            <Title tag="h2" theme="subhead">HomeSolutions.net MobileTouch</Title>
+            <p>HomeSolutions.net MobileTouch is a finger-friendly point-of-care solution that combines the power and secure accessibility of cloud computing with the ease of use of a web browser. HomeSolutions.net MobileTouch is more than an “app,” and is designed to work on a wide variety of platforms including Android™, iOS™ and Windows® devices. HomeSolutions.net MobileTouch enables service documentation at the point-of-care without the heavy synchronization or persistent connection challenges typical of traditional point-of-care approaches.</p>
             <ul>
               <li>HTML5 Browser-based, iPad™-optimized</li>
               <li>Online or offline capability</li>
@@ -110,8 +110,8 @@ class Homesolutions extends PureComponent {
             <Picture src={images['manager.jpg']} />
           </div>
           <div>
-            <Title tag="h2" theme="subhead">HomeSolutions Manager</Title>
-            <p>Move away from paper-driven processes and streamline operational workflow across your organization with HomeSolutions Manager. From Intake/Referral to scheduling, coding, orders, visit reconciliation, billing, AR, HR and payroll prep processes, HomeSolutions Manager can help make you more efficient.</p>
+            <Title tag="h2" theme="subhead">HomeSolutions.net Manager</Title>
+            <p>Move away from paper-driven processes and streamline operational workflow across your organization with HomeSolutions.net Manager. From Intake/Referral to scheduling, coding, orders, visit reconciliation, billing, AR, HR and payroll prep processes, HomeSolutions.net Manager can help make you more efficient.</p>
             <ul>
               <li>Intake/Referral Management with built-in PECOS status checks throughout</li>
               <li>Flexible role-based security with personalized dashboards and report views</li>
